@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -28,7 +28,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
   25              		.thumb_func
   27              	HAL_RCCEx_PeriphCLKConfig:
   28              	.LVL0:
-  29              	.LFB132:
+  29              	.LFB319:
    1:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** /**
    2:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   ******************************************************************************
    3:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   * @file    stm32l4xx_hal_rcc_ex.c
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
   27:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** /** @addtogroup STM32L4xx_HAL_Driver
   28:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   * @{
   29:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   */
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 2
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 2
 
 
   30:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
   84:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
   85:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** /* Exported functions --------------------------------------------------------*/
   86:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 3
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 3
 
 
   87:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** /** @defgroup RCCEx_Exported_Functions RCCEx Exported Functions
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  141:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   *            @arg @ref RCC_PERIPHCLK_RNG  RNG peripheral clock
  142:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   *            @arg @ref RCC_PERIPHCLK_SAI1  SAI1 peripheral clock (only for devices with SAI1)
  143:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   @if STM32L486xx
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 4
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 4
 
 
  144:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   *            @arg @ref RCC_PERIPHCLK_SAI2  SAI2 peripheral clock (only for devices with SAI2)
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
   32              		@ args = 0, pretend = 0, frame = 8
   33              		@ frame_needed = 0, uses_anonymous_args = 0
   34              		.loc 1 195 1 is_stmt 0 view .LVU1
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 5
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 5
 
 
   35 0000 F0B5     		push	{r4, r5, r6, r7, lr}
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  235:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****       break;
  236:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
  237:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** #endif /* RCC_PLLSAI2_SUPPORT */
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 6
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 6
 
 
  238:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  292:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
  293:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****     case RCC_SAI2CLKSOURCE_PIN:      /* External clock is used as source of SAI2 clock*/
  294:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** #if defined(STM32L4P5xx) || defined(STM32L4Q5xx) || defined(STM32L4R5xx) || defined(STM32L4R7xx) ||
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 7
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 7
 
 
  295:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****     case RCC_SAI2CLKSOURCE_HSI:      /* HSI is used as source of SAI2 clock*/
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
   69              		.loc 1 329 7 view .LVU15
   70              		.loc 1 329 7 view .LVU16
   71 0018 844B     		ldr	r3, .L32
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 8
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 8
 
 
   72 001a 9A6D     		ldr	r2, [r3, #88]
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  114              		.loc 1 341 25 view .LVU32
  115 004c 401B     		subs	r0, r0, r5
  116              		.loc 1 341 9 view .LVU33
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 9
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 9
 
 
  117 004e 0228     		cmp	r0, #2
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  156 006e 12D0     		beq	.L8
  354:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****       {
  355:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****         /* Store the content of BDCR register before the reset of Backup Domain */
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 10
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 10
 
 
  356:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****         tmpregister = READ_BIT(RCC->BDCR, ~(RCC_BDCR_RTCSEL));
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  185 009c 45B9     		cbnz	r5, .L7
  382:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****       {
  383:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****         /* Apply new RTC clock source selection */
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 11
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 11
 
 
  384:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****         __HAL_RCC_RTC_CONFIG(PeriphClkInit->RTCClockSelection);
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  216              		.loc 1 371 15 is_stmt 0 view .LVU68
  217 00c4 594B     		ldr	r3, .L32
  218 00c6 D3F89030 		ldr	r3, [r3, #144]
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 12
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 12
 
 
  371:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****         {
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  253 00ec 4F4A     		ldr	r2, .L32
  254 00ee D2F88830 		ldr	r3, [r2, #136]
  255 00f2 23F00303 		bic	r3, r3, #3
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 13
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 13
 
 
  256 00f6 6168     		ldr	r1, [r4, #4]
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  288 012e C2F88830 		str	r3, [r2, #136]
  289              	.L14:
  435:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   }
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 14
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 14
 
 
  436:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  475:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   }
  476:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
  477:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   /*-------------------------- LPTIM1 clock source configuration -------------------*/
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 15
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 15
 
 
  478:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   if(((PeriphClkInit->PeriphClockSelection) & RCC_PERIPHCLK_LPTIM1) == (RCC_PERIPHCLK_LPTIM1))
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  341              		.loc 1 495 5 is_stmt 1 view .LVU111
  496:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
  497:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****     /* Configure the I2C1 clock source */
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 16
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 16
 
 
  498:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****     __HAL_RCC_I2C1_CONFIG(PeriphClkInit->I2c1ClockSelection);
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  522:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****     __HAL_RCC_I2C3_CONFIG(PeriphClkInit->I2c3ClockSelection);
  372              		.loc 1 522 5 view .LVU122
  373 01bc 1B4A     		ldr	r2, .L32
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 17
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 17
 
 
  374 01be D2F88830 		ldr	r3, [r2, #136]
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  550:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****       __HAL_RCC_PLLCLKOUT_ENABLE(RCC_PLL_48M1CLK);
  551:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****     }
  552:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****     else
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 18
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 18
 
 
  553:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****     {
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  606:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****     }
  607:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   }
  608:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 19
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 19
 
 
  609:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** #endif /* SDMMC1 */
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  641:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   /*-------------------------- ADC clock source configuration ----------------------*/
  642:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** #if !defined(STM32L412xx) && !defined(STM32L422xx)
  643:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   if(((PeriphClkInit->PeriphClockSelection) & RCC_PERIPHCLK_ADC) == RCC_PERIPHCLK_ADC)
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 20
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 20
 
 
  644:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   {
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  698:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** #if defined(DFSDM1_Filter0)
  699:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
  700:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   /*-------------------------- DFSDM1 clock source configuration -------------------*/
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 21
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 21
 
 
  701:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   if(((PeriphClkInit->PeriphClockSelection) & RCC_PERIPHCLK_DFSDM1) == RCC_PERIPHCLK_DFSDM1)
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  755:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****       ret = RCCEx_PLLSAI2_Config(&(PeriphClkInit->PLLSAI2), DIVIDER_R_UPDATE);
  756:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****     }
  757:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 22
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 22
 
 
  758:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****     if(ret != HAL_OK)
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  812:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
  813:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   return status;
  424              		.loc 1 813 3 view .LVU141
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 23
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 23
 
 
  814:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** }
@@ -1351,7 +1351,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  449 022c 00100240 		.word	1073876992
  450 0230 00700040 		.word	1073770496
  451              		.cfi_endproc
- 452              	.LFE132:
+ 452              	.LFE319:
  454              		.section	.text.HAL_RCCEx_GetPeriphCLKConfig,"ax",%progbits
  455              		.align	1
  456              		.global	HAL_RCCEx_GetPeriphCLKConfig
@@ -1360,7 +1360,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  459              		.thumb_func
  461              	HAL_RCCEx_GetPeriphCLKConfig:
  462              	.LVL26:
- 463              	.LFB133:
+ 463              	.LFB320:
  815:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
  816:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** /**
  817:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   * @brief  Get the RCC_ClkInitStruct according to the internal RCC configuration registers.
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  467              		@ frame_needed = 0, uses_anonymous_args = 0
  468              		@ link register save eliminated.
  826:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   /* Set all possible values for the extended clock type parameter------------*/
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 24
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 24
 
 
  827:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  877:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
  878:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   PeriphClkInit->PeriphClockSelection = RCC_PERIPHCLK_USART1  | RCC_PERIPHCLK_USART2 | RCC_PERIPHCL
  879:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****                                         RCC_PERIPHCLK_LPUART1 | RCC_PERIPHCLK_I2C1   | RCC_PERIPHCL
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 25
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 25
 
 
  880:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****                                         RCC_PERIPHCLK_LPTIM1  | RCC_PERIPHCLK_LPTIM2 | RCC_PERIPHCL
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  934:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   PeriphClkInit->PLLSAI1.PLLSAI1M = (READ_BIT(RCC->PLLCFGR, RCC_PLLCFGR_PLLM) >> RCC_PLLCFGR_PLLM_P
  935:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** #endif /* RCC_PLLSAI1M_DIV_1_16_SUPPORT */
  936:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   PeriphClkInit->PLLSAI1.PLLSAI1N = READ_BIT(RCC->PLLSAI1CFGR, RCC_PLLSAI1CFGR_PLLSAI1N) >> RCC_PLL
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 26
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 26
 
 
  937:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   PeriphClkInit->PLLSAI1.PLLSAI1P = ((READ_BIT(RCC->PLLSAI1CFGR, RCC_PLLSAI1CFGR_PLLSAI1P) >> RCC_P
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  972:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** #if defined(UART4)
  973:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   /* Get the UART4 clock source ----------------------------------------------*/
  974:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   PeriphClkInit->Uart4ClockSelection   = __HAL_RCC_GET_UART4_SOURCE();
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 27
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 27
 
 
  975:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** #endif /* UART4 */
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  518 004c D3F88820 		ldr	r2, [r3, #136]
  519 0050 02F44022 		and	r2, r2, #786432
  520              		.loc 1 1002 40 view .LVU171
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 28
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 28
 
 
  521 0054 0262     		str	r2, [r0, #32]
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
 1032:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
 1033:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** #if !defined(STM32L412xx) && !defined(STM32L422xx)
 1034:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   /* Get the ADC clock source ------------------------------------------------*/
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 29
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 29
 
 
 1035:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   PeriphClkInit->AdcClockSelection     = __HAL_RCC_GET_ADC_SOURCE();
@@ -1722,7 +1722,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  551 0080 E7270600 		.word	403431
  552 0084 00100240 		.word	1073876992
  553              		.cfi_endproc
- 554              	.LFE133:
+ 554              	.LFE320:
  556              		.section	.text.HAL_RCCEx_GetPeriphCLKFreq,"ax",%progbits
  557              		.align	1
  558              		.global	HAL_RCCEx_GetPeriphCLKFreq
@@ -1731,14 +1731,14 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  561              		.thumb_func
  563              	HAL_RCCEx_GetPeriphCLKFreq:
  564              	.LVL27:
- 565              	.LFB134:
+ 565              	.LFB321:
 1068:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
 1069:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** /**
 1070:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   * @brief  Return the peripheral clock frequency for peripherals with clock source from PLLSAIs
 1071:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   * @note   Return 0 if peripheral clock identifier not managed by this API
 1072:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   * @param  PeriphClk  Peripheral clock identifier
 1073:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   *         This parameter can be one of the following values:
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 30
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 30
 
 
 1074:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   *            @arg @ref RCC_PERIPHCLK_RTC  RTC peripheral clock
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
 1128:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   @if STM32L486xx
 1129:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   *            @arg @ref RCC_PERIPHCLK_UART4  UART4 peripheral clock (only for devices with UART4)
 1130:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   *            @arg @ref RCC_PERIPHCLK_UART5  UART5 peripheral clock (only for devices with UART5)
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 31
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 31
 
 
 1131:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   *            @arg @ref RCC_PERIPHCLK_USB  USB peripheral clock (only for devices with USB)
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
 1168:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****     case RCC_RTCCLKSOURCE_LSE:
 1169:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****       /* Check if LSE is ready */
 1170:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****       if(HAL_IS_BIT_SET(RCC->BDCR, RCC_BDCR_LSERDY))
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 32
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 32
 
 
 1171:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****       {
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  598              	.LVL30:
  599              	.L44:
 1210:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****     {
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 33
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 33
 
 
 1211:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****     case RCC_PLLSOURCE_MSI:   /* MSI ? */
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
 1253:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****       frequency = RCCEx_GetSAIxPeriphCLKFreq(RCC_PERIPHCLK_SAI1, pllvco);
 1254:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****       break;
 1255:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 34
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 34
 
 
 1256:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** #endif
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  636              		.loc 1 1164 12 view .LVU204
  637 006c 03F44073 		and	r3, r3, #768
  638              	.LVL34:
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 35
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 35
 
 
 1166:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****     {
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
 1180:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****         {
  680              		.loc 1 1180 11 view .LVU218
  681 00ac 13F0100F 		tst	r3, #16
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 36
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 36
 
 
  682 00b0 00F03182 		beq	.L105
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
 1215:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****       }
  722              		.loc 1 1215 59 discriminator 1 view .LVU233
  723 00e0 C3F30313 		ubfx	r3, r3, #4, #4
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 37
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 37
 
 
  724              	.L46:
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  764              		.loc 1 1235 16 view .LVU247
  765 0110 6A4B     		ldr	r3, .L154+16
  766 0112 84E7     		b	.L44
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 38
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 38
 
 
  767              	.LVL53:
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  818 016c 11D1     		bne	.L141
 1283:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****         {
 1284:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****         case RCC_CCIPR_CLK48SEL:   /* MSI ? */
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 39
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 39
 
 
 1285:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****           if(HAL_IS_BIT_SET(RCC->CR, RCC_CR_MSIRDY))
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
 1339:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
 1340:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** #if defined(SDMMC1) && defined(RCC_CCIPR2_SDMMCSEL)
 1341:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 40
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 40
 
 
 1342:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****     case RCC_PERIPHCLK_SDMMC1:
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
 1396:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****         case RCC_CCIPR_CLK48SEL_0:  /* PLLSAI1 ? */
 1397:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****           if(HAL_IS_BIT_SET(RCC->CR, RCC_CR_PLLSAI1RDY))
 1398:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****           {
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 41
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 41
 
 
 1399:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****             if(HAL_IS_BIT_SET(RCC->PLLSAI1CFGR, RCC_PLLSAI1CFGR_PLLSAI1QEN))
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
 1453:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
 1454:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****         break;
 1455:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****       }
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 42
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 42
 
 
 1456:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
 1510:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****           break;
 1511:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****         case RCC_USART3CLKSOURCE_LSE:
 1512:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****           if(HAL_IS_BIT_SET(RCC->BDCR, RCC_BDCR_LSERDY))
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 43
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 43
 
 
 1513:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****           {
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
 1567:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****       {
 1568:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****         /* Get the current UART5 source */
 1569:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****         srcclk = __HAL_RCC_GET_UART5_SOURCE();
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 44
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 44
 
 
 1570:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
 1624:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****           }
 1625:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****           break;
 1626:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****         default:
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 45
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 45
 
 
 1627:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****           /* No clock source, frequency default init at 0 */
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
 1681:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****           break;
 1682:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****         }
 1683:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 46
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 46
 
 
 1684:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****         break;
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
 1738:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
 1739:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** #endif /* STM32L4R5xx || STM32L4R7xx || STM32L4R9xx || STM32L4S5xx || STM32L4S7xx || STM32L4S9xx */
 1740:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 47
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 47
 
 
 1741:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** #endif /* DFSDM1_Filter0 */
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
 1758:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****           {
 1759:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****             frequency = HSI_VALUE;
 1760:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****           }
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 48
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 48
 
 
 1761:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****           break;
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
 1815:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****           if(HAL_IS_BIT_SET(RCC->CR, RCC_CR_HSIRDY))
 1816:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****           {
 1817:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****             frequency = HSI_VALUE;
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 49
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 49
 
 
 1818:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****           }
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
 1863:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
 1864:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****         switch(srcclk)
  862              		.loc 1 1864 9 is_stmt 1 view .LVU264
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 50
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 50
 
 
  863 01ae B3F5002F 		cmp	r3, #524288
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
 1248:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****     {
  903              		.loc 1 1248 5 view .LVU276
  904 01f4 95E1     		b	.L37
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 51
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 51
 
 
  905              	.LVL70:
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  945              	.LVL76:
  946              	.L62:
 1292:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****           {
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 52
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 52
 
 
  947              		.loc 1 1292 11 is_stmt 1 view .LVU291
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
 1300:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****             }
  985              		.loc 1 1300 40 is_stmt 0 view .LVU308
  986 0254 C868     		ldr	r0, [r1, #12]
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 53
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 53
 
 
 1300:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****             }
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  1027 028a 02       		.byte	(.L71-.L68)/2
  1028 028b 05       		.byte	(.L70-.L68)/2
  1029 028c 08       		.byte	(.L69-.L68)/2
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 54
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 54
 
 
  1030 028d 1D       		.byte	(.L67-.L68)/2
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  1072              		.loc 1 1444 11 is_stmt 1 view .LVU334
 1444:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****           {
  1073              		.loc 1 1444 14 is_stmt 0 view .LVU335
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 55
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 55
 
 
  1074 02c4 9C4B     		ldr	r3, .L156
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  1118 030a 0AE1     		b	.L37
  1119              	.LVL99:
  1120              	.L75:
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 56
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 56
 
 
 1468:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****           break;
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  1160 0338 D3F88830 		ldr	r3, [r3, #136]
 1495:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
  1161              		.loc 1 1495 16 view .LVU361
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 57
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 57
 
 
  1162 033c 03F03003 		and	r3, r3, #48
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
 1500:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****           break;
  1204              		.loc 1 1500 23 is_stmt 0 view .LVU374
  1205 0372 FFF7FEFF 		bl	HAL_RCC_GetPCLK1Freq
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 58
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 58
 
 
  1206              	.LVL111:
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
 1613:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****         case RCC_LPUART1CLKSOURCE_HSI:
  1247              		.loc 1 1613 11 is_stmt 0 view .LVU388
  1248 03a8 0020     		movs	r0, #0
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 59
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 59
 
 
  1249 03aa BAE0     		b	.L37
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  1289 03dc 5748     		ldr	r0, .L156+4
  1290 03de A0E0     		b	.L37
  1291              	.LVL123:
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 60
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 60
 
 
  1292              	.L60:
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  1330              		.loc 1 1757 14 is_stmt 0 view .LVU418
  1331 03fe 4E4B     		ldr	r3, .L156
  1332              	.LVL133:
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 61
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 61
 
 
 1757:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****           {
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
 1783:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****           break;
  1374              		.loc 1 1783 23 is_stmt 0 view .LVU432
  1375 0430 FFF7FEFF 		bl	HAL_RCC_GetSysClockFreq
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 62
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 62
 
 
  1376              	.LVL142:
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  1417              		.loc 1 1809 11 is_stmt 1 view .LVU445
 1809:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****           break;
  1418              		.loc 1 1809 23 is_stmt 0 view .LVU446
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 63
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 63
 
 
  1419 0460 FFF7FEFF 		bl	HAL_RCC_GetPCLK1Freq
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
 1879:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****             {
 1880:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****               frequency = LSI_VALUE;
 1881:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****             }
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 64
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 64
 
 
 1882:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****           }
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  1494              	.LVL168:
 1885:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****           {
  1495              		.loc 1 1885 13 view .LVU472
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 65
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 65
 
 
  1496 04a4 10F48060 		ands	r0, r0, #1024
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  1527 04ce 10F00200 		ands	r0, r0, #2
  1528 04d2 26D0     		beq	.L37
 1916:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****           {
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 66
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 66
 
 
 1917:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** #if defined(RCC_CSR_LSIPREDIV)
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  1561 04f8 4FF40040 		mov	r0, #32768
  1562              	.LVL179:
 1939:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****           }
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 67
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 67
 
 
 1940:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****           break;
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
 1994:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****           }
 1995:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****           break;
 1996:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****         case RCC_OSPICLKSOURCE_PLL:
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 68
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 68
 
 
 1997:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****           if(HAL_IS_BIT_SET(RCC->CR, RCC_CR_PLLRDY))
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  1584              		.loc 1 1930 14 is_stmt 0 view .LVU503
  1585 0508 0B4B     		ldr	r3, .L156
  1586              	.LVL185:
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 69
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 69
 
 
 1930:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****           {
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  1632              	.L131:
 1925:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****             }
  1633              		.loc 1 1925 25 view .LVU516
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 70
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 70
 
 
  1634 0532 4FF4FA40 		mov	r0, #32000
@@ -4149,7 +4149,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  1639 0538 00100240 		.word	1073876992
  1640 053c 0024F400 		.word	16000000
  1641              		.cfi_endproc
- 1642              	.LFE134:
+ 1642              	.LFE321:
  1644              		.section	.text.HAL_RCCEx_WakeUpStopCLKConfig,"ax",%progbits
  1645              		.align	1
  1646              		.global	HAL_RCCEx_WakeUpStopCLKConfig
@@ -4158,7 +4158,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  1649              		.thumb_func
  1651              	HAL_RCCEx_WakeUpStopCLKConfig:
  1652              	.LVL195:
- 1653              	.LFB135:
+ 1653              	.LFB322:
 2026:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
 2027:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** /**
 2028:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   * @}
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
 2062:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   assert_param(IS_RCC_PLLSAI1N_VALUE(PLLSAI1Init->PLLSAI1N));
 2063:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   assert_param(IS_RCC_PLLSAI1P_VALUE(PLLSAI1Init->PLLSAI1P));
 2064:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   assert_param(IS_RCC_PLLSAI1Q_VALUE(PLLSAI1Init->PLLSAI1Q));
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 71
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 71
 
 
 2065:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   assert_param(IS_RCC_PLLSAI1R_VALUE(PLLSAI1Init->PLLSAI1R));
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
 2119:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   * @brief  Disable PLLSAI1.
 2120:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   * @retval HAL status
 2121:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   */
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 72
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 72
 
 
 2122:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** HAL_StatusTypeDef HAL_RCCEx_DisablePLLSAI1(void)
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
 2176:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
 2177:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   /* check for PLLSAI2 Parameters used to output PLLSAI2CLK */
 2178:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   assert_param(IS_RCC_PLLSAI2SOURCE(PLLSAI2Init->PLLSAI2Source));
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 73
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 73
 
 
 2179:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   assert_param(IS_RCC_PLLSAI2M_VALUE(PLLSAI2Init->PLLSAI2M));
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
 2233:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****     while(READ_BIT(RCC->CR, RCC_CR_PLLSAI2RDY) == 0U)
 2234:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****     {
 2235:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****       if((HAL_GetTick() - tickstart) > PLLSAI2_TIMEOUT_VALUE)
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 74
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 74
 
 
 2236:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****       {
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
 2290:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   * @brief  Configure the oscillator clock source for wakeup from Stop and CSS backup clock.
 2291:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   * @param  WakeUpClk  Wakeup clock
 2292:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   *         This parameter can be one of the following values:
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 75
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 75
 
 
 2293:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   *            @arg @ref RCC_STOP_WAKEUPCLOCK_MSI  MSI oscillator selection
@@ -4472,7 +4472,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  1670              	.L159:
  1671 0010 00100240 		.word	1073876992
  1672              		.cfi_endproc
- 1673              	.LFE135:
+ 1673              	.LFE322:
  1675              		.section	.text.HAL_RCCEx_StandbyMSIRangeConfig,"ax",%progbits
  1676              		.align	1
  1677              		.global	HAL_RCCEx_StandbyMSIRangeConfig
@@ -4481,7 +4481,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  1680              		.thumb_func
  1682              	HAL_RCCEx_StandbyMSIRangeConfig:
  1683              	.LVL196:
- 1684              	.LFB136:
+ 1684              	.LFB323:
 2305:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
 2306:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** /**
 2307:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   * @brief  Configure the MSI range after standby mode.
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
 2318:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** {
  1685              		.loc 1 2318 1 is_stmt 1 view -0
  1686              		.cfi_startproc
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 76
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 76
 
 
  1687              		@ args = 0, pretend = 0, frame = 0
@@ -4522,7 +4522,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  1701              	.L162:
  1702 0014 00100240 		.word	1073876992
  1703              		.cfi_endproc
- 1704              	.LFE136:
+ 1704              	.LFE323:
  1706              		.section	.text.HAL_RCCEx_EnableLSECSS,"ax",%progbits
  1707              		.align	1
  1708              		.global	HAL_RCCEx_EnableLSECSS
@@ -4530,7 +4530,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  1710              		.thumb
  1711              		.thumb_func
  1713              	HAL_RCCEx_EnableLSECSS:
- 1714              	.LFB137:
+ 1714              	.LFB324:
 2323:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
 2324:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** /**
 2325:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   * @brief  Enable the LSE Clock Security System.
@@ -4558,12 +4558,12 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  1727              	.L166:
  1728              		.align	2
  1729              	.L165:
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 77
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 77
 
 
  1730 0010 00100240 		.word	1073876992
  1731              		.cfi_endproc
- 1732              	.LFE137:
+ 1732              	.LFE324:
  1734              		.section	.text.HAL_RCCEx_DisableLSECSS,"ax",%progbits
  1735              		.align	1
  1736              		.global	HAL_RCCEx_DisableLSECSS
@@ -4571,7 +4571,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  1738              		.thumb
  1739              		.thumb_func
  1741              	HAL_RCCEx_DisableLSECSS:
- 1742              	.LFB138:
+ 1742              	.LFB325:
 2335:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
 2336:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** /**
 2337:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   * @brief  Disable the LSE Clock Security System.
@@ -4606,7 +4606,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  1761              	.L168:
  1762 0018 00100240 		.word	1073876992
  1763              		.cfi_endproc
- 1764              	.LFE138:
+ 1764              	.LFE325:
  1766              		.section	.text.HAL_RCCEx_EnableLSECSS_IT,"ax",%progbits
  1767              		.align	1
  1768              		.global	HAL_RCCEx_EnableLSECSS_IT
@@ -4614,11 +4614,11 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  1770              		.thumb
  1771              		.thumb_func
  1773              	HAL_RCCEx_EnableLSECSS_IT:
- 1774              	.LFB139:
+ 1774              	.LFB326:
 2348:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
 2349:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** /**
 2350:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   * @brief  Enable the LSE Clock Security System Interrupt & corresponding EXTI line.
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 78
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 78
 
 
 2351:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   * @note   LSE Clock Security System Interrupt is mapped on RTC EXTI line 19
@@ -4666,7 +4666,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  1802              	.L171:
  1803 002c 00100240 		.word	1073876992
  1804              		.cfi_endproc
- 1805              	.LFE139:
+ 1805              	.LFE326:
  1807              		.section	.text.HAL_RCCEx_LSECSS_Callback,"ax",%progbits
  1808              		.align	1
  1809              		.weak	HAL_RCCEx_LSECSS_Callback
@@ -4674,11 +4674,11 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  1811              		.thumb
  1812              		.thumb_func
  1814              	HAL_RCCEx_LSECSS_Callback:
- 1815              	.LFB141:
+ 1815              	.LFB328:
 2366:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
 2367:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** /**
 2368:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   * @brief Handle the RCC LSE Clock Security System interrupt request.
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 79
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 79
 
 
 2369:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   * @retval None
@@ -4714,7 +4714,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  1821              		.loc 1 2393 1 view .LVU539
  1822 0000 7047     		bx	lr
  1823              		.cfi_endproc
- 1824              	.LFE141:
+ 1824              	.LFE328:
  1826              		.section	.text.HAL_RCCEx_LSECSS_IRQHandler,"ax",%progbits
  1827              		.align	1
  1828              		.global	HAL_RCCEx_LSECSS_IRQHandler
@@ -4722,7 +4722,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  1830              		.thumb
  1831              		.thumb_func
  1833              	HAL_RCCEx_LSECSS_IRQHandler:
- 1834              	.LFB140:
+ 1834              	.LFB327:
 2372:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   /* Check RCC LSE CSSF flag  */
  1835              		.loc 1 2372 1 view -0
  1836              		.cfi_startproc
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  1844              		.loc 1 2374 6 is_stmt 0 view .LVU542
  1845 0002 064B     		ldr	r3, .L178
  1846 0004 DB69     		ldr	r3, [r3, #28]
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 80
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 80
 
 
 2374:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   {
@@ -4767,7 +4767,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  1865              	.L178:
  1866 001c 00100240 		.word	1073876992
  1867              		.cfi_endproc
- 1868              	.LFE140:
+ 1868              	.LFE327:
  1870              		.section	.text.HAL_RCCEx_EnableLSCO,"ax",%progbits
  1871              		.align	1
  1872              		.global	HAL_RCCEx_EnableLSCO
@@ -4776,7 +4776,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  1875              		.thumb_func
  1877              	HAL_RCCEx_EnableLSCO:
  1878              	.LVL198:
- 1879              	.LFB142:
+ 1879              	.LFB329:
 2394:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
 2395:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** /**
 2396:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   * @brief  Select the Low Speed clock source to output on LSCO pin (PA2).
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  1887              		.cfi_offset 4, -12
  1888              		.cfi_offset 5, -8
  1889              		.cfi_offset 14, -4
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 81
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 81
 
 
  1890 0002 89B0     		sub	sp, sp, #36
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  1929 0028 0593     		str	r3, [sp, #20]
 2420:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   HAL_GPIO_Init(LSCO_GPIO_PORT, &GPIO_InitStruct);
  1930              		.loc 1 2420 3 is_stmt 1 view .LVU568
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 82
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 82
 
 
  1931 002a 03A9     		add	r1, sp, #12
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
 2430:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****     HAL_PWR_EnableBkUpAccess();
 2431:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****     backupchanged = SET;
 2432:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   }
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 83
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 83
 
 
 2433:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  2013              	.L189:
 2438:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   }
  2014              		.loc 1 2438 5 is_stmt 1 view .LVU595
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 84
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 84
 
 
  2015 0084 FFF7FEFF 		bl	HAL_PWR_DisableBkUpAccess
@@ -5001,7 +5001,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  2030 0098 00100240 		.word	1073876992
  2031 009c 00700040 		.word	1073770496
  2032              		.cfi_endproc
- 2033              	.LFE142:
+ 2033              	.LFE329:
  2035              		.section	.text.HAL_RCCEx_DisableLSCO,"ax",%progbits
  2036              		.align	1
  2037              		.global	HAL_RCCEx_DisableLSCO
@@ -5009,7 +5009,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  2039              		.thumb
  2040              		.thumb_func
  2042              	HAL_RCCEx_DisableLSCO:
- 2043              	.LFB143:
+ 2043              	.LFB330:
 2445:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
 2446:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** /**
 2447:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   * @brief  Disable the Low Speed clock output.
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  2057              		.loc 1 2456 3 view .LVU602
  2058              		.loc 1 2456 6 is_stmt 0 view .LVU603
  2059 0004 174B     		ldr	r3, .L204
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 85
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 85
 
 
  2060 0006 9B6D     		ldr	r3, [r3, #88]
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  2101 003a C2F89030 		str	r3, [r2, #144]
 2469:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
 2470:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   /* Restore previous configuration */
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 86
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 86
 
 
 2471:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   if(backupchanged == SET)
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
 2478:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   }
  2140              		.loc 1 2478 5 is_stmt 1 view .LVU629
  2141 0058 024A     		ldr	r2, .L204
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 87
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 87
 
 
  2142 005a 936D     		ldr	r3, [r2, #88]
@@ -5172,7 +5172,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  2150 0064 00100240 		.word	1073876992
  2151 0068 00700040 		.word	1073770496
  2152              		.cfi_endproc
- 2153              	.LFE143:
+ 2153              	.LFE330:
  2155              		.section	.text.HAL_RCCEx_EnableMSIPLLMode,"ax",%progbits
  2156              		.align	1
  2157              		.global	HAL_RCCEx_EnableMSIPLLMode
@@ -5180,7 +5180,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  2159              		.thumb
  2160              		.thumb_func
  2162              	HAL_RCCEx_EnableMSIPLLMode:
- 2163              	.LFB144:
+ 2163              	.LFB331:
 2481:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
 2482:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** /**
 2483:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   * @brief  Enable the PLL-mode of the MSI.
@@ -5209,7 +5209,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  2178              	.L207:
  2179 000c 00100240 		.word	1073876992
  2180              		.cfi_endproc
- 2181              	.LFE144:
+ 2181              	.LFE331:
  2183              		.section	.text.HAL_RCCEx_DisableMSIPLLMode,"ax",%progbits
  2184              		.align	1
  2185              		.global	HAL_RCCEx_DisableMSIPLLMode
@@ -5217,8 +5217,8 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  2187              		.thumb
  2188              		.thumb_func
  2190              	HAL_RCCEx_DisableMSIPLLMode:
- 2191              	.LFB145:
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 88
+ 2191              	.LFB332:
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 88
 
 
 2492:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
@@ -5248,7 +5248,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  2206              	.L210:
  2207 000c 00100240 		.word	1073876992
  2208              		.cfi_endproc
- 2209              	.LFE145:
+ 2209              	.LFE332:
  2211              		.section	.text.HAL_RCCEx_CRSConfig,"ax",%progbits
  2212              		.align	1
  2213              		.global	HAL_RCCEx_CRSConfig
@@ -5257,7 +5257,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  2216              		.thumb_func
  2218              	HAL_RCCEx_CRSConfig:
  2219              	.LVL221:
- 2220              	.LFB146:
+ 2220              	.LFB333:
 2502:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
 2503:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** #if defined (OCTOSPI1) && defined (OCTOSPI2)
 2504:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** /**
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
 2519:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
 2520:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** /**
 2521:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   * @}
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 89
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 89
 
 
 2522:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   */
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
 2576:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****               (++) Implement CRS status management in the following user callbacks called from
 2577:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****                    HAL_RCCEx_CRS_IRQHandler():
 2578:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****                    (+++) HAL_RCCEx_CRS_SyncOkCallback()
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 90
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 90
 
 
 2579:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****                    (+++) HAL_RCCEx_CRS_SyncWarnCallback()
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
 2612:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
 2613:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   /* Set the SYNCDIV[2:0] bits according to Prescaler value */
 2614:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   /* Set the SYNCSRC[1:0] bits according to Source value */
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 91
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 91
 
 
 2615:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   /* Set the SYNCSPOL bit according to Polarity value */
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  2279 0038 1A68     		ldr	r2, [r3]
  2280 003a 42F06002 		orr	r2, r2, #96
  2281 003e 1A60     		str	r2, [r3]
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 92
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 92
 
 
 2632:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** }
@@ -5470,7 +5470,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  2287 0044 00100240 		.word	1073876992
  2288 0048 00600040 		.word	1073766400
  2289              		.cfi_endproc
- 2290              	.LFE146:
+ 2290              	.LFE333:
  2292              		.section	.text.HAL_RCCEx_CRSSoftwareSynchronizationGenerate,"ax",%progbits
  2293              		.align	1
  2294              		.global	HAL_RCCEx_CRSSoftwareSynchronizationGenerate
@@ -5478,7 +5478,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  2296              		.thumb
  2297              		.thumb_func
  2299              	HAL_RCCEx_CRSSoftwareSynchronizationGenerate:
- 2300              	.LFB147:
+ 2300              	.LFB334:
 2633:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
 2634:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** /**
 2635:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   * @brief  Generate the software synchronization event
@@ -5505,7 +5505,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  2315              	.L216:
  2316 000c 00600040 		.word	1073766400
  2317              		.cfi_endproc
- 2318              	.LFE147:
+ 2318              	.LFE334:
  2320              		.section	.text.HAL_RCCEx_CRSGetSynchronizationInfo,"ax",%progbits
  2321              		.align	1
  2322              		.global	HAL_RCCEx_CRSGetSynchronizationInfo
@@ -5514,11 +5514,11 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  2325              		.thumb_func
  2327              	HAL_RCCEx_CRSGetSynchronizationInfo:
  2328              	.LVL227:
- 2329              	.LFB148:
+ 2329              	.LFB335:
 2642:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
 2643:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** /**
 2644:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   * @brief  Return synchronization info
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 93
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 93
 
 
 2645:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   * @param  pSynchroInfo Pointer on RCC_CRSSynchroInfoTypeDef structure
@@ -5578,13 +5578,13 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  2364 001e 7047     		bx	lr
  2365              	.L220:
  2366              		.align	2
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 94
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 94
 
 
  2367              	.L219:
  2368 0020 00600040 		.word	1073766400
  2369              		.cfi_endproc
- 2370              	.LFE148:
+ 2370              	.LFE335:
  2372              		.section	.text.HAL_RCCEx_CRSWaitSynchronization,"ax",%progbits
  2373              		.align	1
  2374              		.global	HAL_RCCEx_CRSWaitSynchronization
@@ -5593,7 +5593,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  2377              		.thumb_func
  2379              	HAL_RCCEx_CRSWaitSynchronization:
  2380              	.LVL228:
- 2381              	.LFB149:
+ 2381              	.LFB336:
 2665:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
 2666:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** /**
 2667:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** * @brief Wait for CRS Synchronization status.
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  2400              	.LVL230:
  2401              		.loc 1 2687 15 view .LVU690
  2402 0008 0646     		mov	r6, r0
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 95
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 95
 
 
  2403              	.LVL231:
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
 2710:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****     if(__HAL_RCC_CRS_GET_FLAG(RCC_CRS_FLAG_SYNCWARN))
 2711:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****     {
 2712:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****       /* CRS SYNC warning */
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 96
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 96
 
 
 2713:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****       crsstatus |= RCC_CRS_SYNCWARN;
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  2445              	.LVL238:
  2446              	.L229:
 2690:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   {
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 97
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 97
 
 
  2447              		.loc 1 2690 3 view .LVU706
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  2484              		.loc 1 2716 7 is_stmt 1 view .LVU723
 2716:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****     }
  2485              		.loc 1 2716 7 view .LVU724
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 98
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 98
 
 
 2716:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****     }
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
 2736:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****     }
  2523              		.loc 1 2736 7 view .LVU742
 2736:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****     }
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 99
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 99
 
 
  2524              		.loc 1 2736 7 view .LVU743
@@ -5938,7 +5938,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  2561 00a2 2046     		mov	r0, r4
  2562 00a4 70BD     		pop	{r4, r5, r6, pc}
  2563              	.LVL245:
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 100
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 100
 
 
  2564              	.L237:
@@ -5947,7 +5947,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  2567              	.L236:
  2568 00a8 00600040 		.word	1073766400
  2569              		.cfi_endproc
- 2570              	.LFE149:
+ 2570              	.LFE336:
  2572              		.section	.text.HAL_RCCEx_CRS_SyncOkCallback,"ax",%progbits
  2573              		.align	1
  2574              		.weak	HAL_RCCEx_CRS_SyncOkCallback
@@ -5955,7 +5955,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  2576              		.thumb
  2577              		.thumb_func
  2579              	HAL_RCCEx_CRS_SyncOkCallback:
- 2580              	.LFB151:
+ 2580              	.LFB338:
 2759:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
 2760:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** /**
 2761:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   * @brief Handle the Clock Recovery System interrupt request.
@@ -5998,7 +5998,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
 2798:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   /* Check CRS Error flags  */
 2799:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   else
 2800:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   {
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 101
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 101
 
 
 2801:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****     if(((itflags & RCC_CRS_FLAG_ERR) != 0U) && ((itsources & RCC_CRS_IT_ERR) != 0U))
@@ -6043,7 +6043,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  2586              		.loc 1 2834 1 view .LVU762
  2587 0000 7047     		bx	lr
  2588              		.cfi_endproc
- 2589              	.LFE151:
+ 2589              	.LFE338:
  2591              		.section	.text.HAL_RCCEx_CRS_SyncWarnCallback,"ax",%progbits
  2592              		.align	1
  2593              		.weak	HAL_RCCEx_CRS_SyncWarnCallback
@@ -6051,14 +6051,14 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  2595              		.thumb
  2596              		.thumb_func
  2598              	HAL_RCCEx_CRS_SyncWarnCallback:
- 2599              	.LFB152:
+ 2599              	.LFB339:
 2835:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
 2836:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** /**
 2837:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   * @brief  RCCEx Clock Recovery System SYNCWARN interrupt callback.
 2838:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   * @retval none
 2839:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   */
 2840:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** __weak void HAL_RCCEx_CRS_SyncWarnCallback(void)
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 102
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 102
 
 
 2841:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** {
@@ -6074,7 +6074,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  2605              		.loc 1 2845 1 view .LVU764
  2606 0000 7047     		bx	lr
  2607              		.cfi_endproc
- 2608              	.LFE152:
+ 2608              	.LFE339:
  2610              		.section	.text.HAL_RCCEx_CRS_ExpectedSyncCallback,"ax",%progbits
  2611              		.align	1
  2612              		.weak	HAL_RCCEx_CRS_ExpectedSyncCallback
@@ -6082,7 +6082,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  2614              		.thumb
  2615              		.thumb_func
  2617              	HAL_RCCEx_CRS_ExpectedSyncCallback:
- 2618              	.LFB153:
+ 2618              	.LFB340:
 2846:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
 2847:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** /**
 2848:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   * @brief  RCCEx Clock Recovery System Expected SYNC interrupt callback.
@@ -6102,7 +6102,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  2624              		.loc 1 2856 1 view .LVU766
  2625 0000 7047     		bx	lr
  2626              		.cfi_endproc
- 2627              	.LFE153:
+ 2627              	.LFE340:
  2629              		.section	.text.HAL_RCCEx_CRS_ErrorCallback,"ax",%progbits
  2630              		.align	1
  2631              		.weak	HAL_RCCEx_CRS_ErrorCallback
@@ -6111,14 +6111,14 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  2634              		.thumb_func
  2636              	HAL_RCCEx_CRS_ErrorCallback:
  2637              	.LVL246:
- 2638              	.LFB154:
+ 2638              	.LFB341:
 2857:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** 
 2858:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c **** /**
 2859:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   * @brief  RCCEx Clock Recovery System Error interrupt callback.
 2860:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   * @param  Error Combination of Error status.
 2861:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   *         This parameter can be a combination of the following values:
 2862:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   *           @arg @ref RCC_CRS_SYNCERR
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 103
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 103
 
 
 2863:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   *           @arg @ref RCC_CRS_SYNCMISS
@@ -6143,7 +6143,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  2645              		.loc 1 2875 1 is_stmt 0 view .LVU769
  2646 0000 7047     		bx	lr
  2647              		.cfi_endproc
- 2648              	.LFE154:
+ 2648              	.LFE341:
  2650              		.section	.text.HAL_RCCEx_CRS_IRQHandler,"ax",%progbits
  2651              		.align	1
  2652              		.global	HAL_RCCEx_CRS_IRQHandler
@@ -6151,7 +6151,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  2654              		.thumb
  2655              		.thumb_func
  2657              	HAL_RCCEx_CRS_IRQHandler:
- 2658              	.LFB150:
+ 2658              	.LFB337:
 2765:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   uint32_t crserror = RCC_CRS_NONE;
  2659              		.loc 1 2765 1 is_stmt 1 view -0
  2660              		.cfi_startproc
@@ -6178,7 +6178,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  2676 0006 1268     		ldr	r2, [r2]
  2677              	.LVL249:
 2772:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****   {
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 104
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 104
 
 
  2678              		.loc 1 2772 3 is_stmt 1 view .LVU776
@@ -6238,7 +6238,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  2717              		.loc 1 2807 7 is_stmt 1 view .LVU791
 2807:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c ****       {
  2718              		.loc 1 2807 9 is_stmt 0 view .LVU792
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 105
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 105
 
 
  2719 0040 13F4007F 		tst	r3, #512
@@ -6298,7 +6298,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  2758              		.loc 1 2778 5 is_stmt 1 view .LVU807
  2759 0066 FFF7FEFF 		bl	HAL_RCCEx_CRS_SyncOkCallback
  2760              	.LVL259:
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 106
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 106
 
 
  2761              	.L242:
@@ -6346,7 +6346,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  2794              	.L255:
  2795 0084 00600040 		.word	1073766400
  2796              		.cfi_endproc
- 2797              	.LFE150:
+ 2797              	.LFE337:
  2799              		.text
  2800              	.Letext0:
  2801              		.file 2 "c:\\users\\billa\\appdata\\roaming\\code\\user\\globalstorage\\bmd.stm32-for-vscode\\@xpa
@@ -6358,91 +6358,91 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 1
  2807              		.file 8 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h"
  2808              		.file 9 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h"
  2809              		.file 10 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h"
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 107
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 107
 
 
  2810              		.file 11 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h"
  2811              		.file 12 "Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h"
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 108
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 108
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32l4xx_hal_rcc_ex.c
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:21     .text.HAL_RCCEx_PeriphCLKConfig:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:27     .text.HAL_RCCEx_PeriphCLKConfig:0000000000000000 HAL_RCCEx_PeriphCLKConfig
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:449    .text.HAL_RCCEx_PeriphCLKConfig:000000000000022c $d
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:455    .text.HAL_RCCEx_GetPeriphCLKConfig:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:461    .text.HAL_RCCEx_GetPeriphCLKConfig:0000000000000000 HAL_RCCEx_GetPeriphCLKConfig
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:551    .text.HAL_RCCEx_GetPeriphCLKConfig:0000000000000080 $d
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:557    .text.HAL_RCCEx_GetPeriphCLKFreq:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:563    .text.HAL_RCCEx_GetPeriphCLKFreq:0000000000000000 HAL_RCCEx_GetPeriphCLKFreq
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:782    .text.HAL_RCCEx_GetPeriphCLKFreq:000000000000012a $d
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:814    .text.HAL_RCCEx_GetPeriphCLKFreq:000000000000016a $t
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:1027   .text.HAL_RCCEx_GetPeriphCLKFreq:000000000000028a $d
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:1031   .text.HAL_RCCEx_GetPeriphCLKFreq:000000000000028e $t
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:1064   .text.HAL_RCCEx_GetPeriphCLKFreq:00000000000002ac $d
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:1074   .text.HAL_RCCEx_GetPeriphCLKFreq:00000000000002c4 $t
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:1098   .text.HAL_RCCEx_GetPeriphCLKFreq:00000000000002ec $d
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:1111   .text.HAL_RCCEx_GetPeriphCLKFreq:0000000000000306 $t
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:1639   .text.HAL_RCCEx_GetPeriphCLKFreq:0000000000000538 $d
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:1645   .text.HAL_RCCEx_WakeUpStopCLKConfig:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:1651   .text.HAL_RCCEx_WakeUpStopCLKConfig:0000000000000000 HAL_RCCEx_WakeUpStopCLKConfig
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:1671   .text.HAL_RCCEx_WakeUpStopCLKConfig:0000000000000010 $d
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:1676   .text.HAL_RCCEx_StandbyMSIRangeConfig:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:1682   .text.HAL_RCCEx_StandbyMSIRangeConfig:0000000000000000 HAL_RCCEx_StandbyMSIRangeConfig
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:1702   .text.HAL_RCCEx_StandbyMSIRangeConfig:0000000000000014 $d
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:1707   .text.HAL_RCCEx_EnableLSECSS:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:1713   .text.HAL_RCCEx_EnableLSECSS:0000000000000000 HAL_RCCEx_EnableLSECSS
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:1730   .text.HAL_RCCEx_EnableLSECSS:0000000000000010 $d
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:1735   .text.HAL_RCCEx_DisableLSECSS:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:1741   .text.HAL_RCCEx_DisableLSECSS:0000000000000000 HAL_RCCEx_DisableLSECSS
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:1762   .text.HAL_RCCEx_DisableLSECSS:0000000000000018 $d
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:1767   .text.HAL_RCCEx_EnableLSECSS_IT:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:1773   .text.HAL_RCCEx_EnableLSECSS_IT:0000000000000000 HAL_RCCEx_EnableLSECSS_IT
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:1803   .text.HAL_RCCEx_EnableLSECSS_IT:000000000000002c $d
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:1808   .text.HAL_RCCEx_LSECSS_Callback:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:1814   .text.HAL_RCCEx_LSECSS_Callback:0000000000000000 HAL_RCCEx_LSECSS_Callback
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:1827   .text.HAL_RCCEx_LSECSS_IRQHandler:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:1833   .text.HAL_RCCEx_LSECSS_IRQHandler:0000000000000000 HAL_RCCEx_LSECSS_IRQHandler
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:1866   .text.HAL_RCCEx_LSECSS_IRQHandler:000000000000001c $d
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:1871   .text.HAL_RCCEx_EnableLSCO:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:1877   .text.HAL_RCCEx_EnableLSCO:0000000000000000 HAL_RCCEx_EnableLSCO
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:2030   .text.HAL_RCCEx_EnableLSCO:0000000000000098 $d
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:2036   .text.HAL_RCCEx_DisableLSCO:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:2042   .text.HAL_RCCEx_DisableLSCO:0000000000000000 HAL_RCCEx_DisableLSCO
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:2150   .text.HAL_RCCEx_DisableLSCO:0000000000000064 $d
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:2156   .text.HAL_RCCEx_EnableMSIPLLMode:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:2162   .text.HAL_RCCEx_EnableMSIPLLMode:0000000000000000 HAL_RCCEx_EnableMSIPLLMode
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:2179   .text.HAL_RCCEx_EnableMSIPLLMode:000000000000000c $d
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:2184   .text.HAL_RCCEx_DisableMSIPLLMode:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:2190   .text.HAL_RCCEx_DisableMSIPLLMode:0000000000000000 HAL_RCCEx_DisableMSIPLLMode
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:2207   .text.HAL_RCCEx_DisableMSIPLLMode:000000000000000c $d
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:2212   .text.HAL_RCCEx_CRSConfig:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:2218   .text.HAL_RCCEx_CRSConfig:0000000000000000 HAL_RCCEx_CRSConfig
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:2287   .text.HAL_RCCEx_CRSConfig:0000000000000044 $d
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:2293   .text.HAL_RCCEx_CRSSoftwareSynchronizationGenerate:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:2299   .text.HAL_RCCEx_CRSSoftwareSynchronizationGenerate:0000000000000000 HAL_RCCEx_CRSSoftwareSynchronizationGenerate
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:2316   .text.HAL_RCCEx_CRSSoftwareSynchronizationGenerate:000000000000000c $d
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s 			page 109
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:21     .text.HAL_RCCEx_PeriphCLKConfig:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:27     .text.HAL_RCCEx_PeriphCLKConfig:0000000000000000 HAL_RCCEx_PeriphCLKConfig
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:449    .text.HAL_RCCEx_PeriphCLKConfig:000000000000022c $d
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:455    .text.HAL_RCCEx_GetPeriphCLKConfig:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:461    .text.HAL_RCCEx_GetPeriphCLKConfig:0000000000000000 HAL_RCCEx_GetPeriphCLKConfig
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:551    .text.HAL_RCCEx_GetPeriphCLKConfig:0000000000000080 $d
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:557    .text.HAL_RCCEx_GetPeriphCLKFreq:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:563    .text.HAL_RCCEx_GetPeriphCLKFreq:0000000000000000 HAL_RCCEx_GetPeriphCLKFreq
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:782    .text.HAL_RCCEx_GetPeriphCLKFreq:000000000000012a $d
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:814    .text.HAL_RCCEx_GetPeriphCLKFreq:000000000000016a $t
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:1027   .text.HAL_RCCEx_GetPeriphCLKFreq:000000000000028a $d
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:1031   .text.HAL_RCCEx_GetPeriphCLKFreq:000000000000028e $t
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:1064   .text.HAL_RCCEx_GetPeriphCLKFreq:00000000000002ac $d
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:1074   .text.HAL_RCCEx_GetPeriphCLKFreq:00000000000002c4 $t
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:1098   .text.HAL_RCCEx_GetPeriphCLKFreq:00000000000002ec $d
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:1111   .text.HAL_RCCEx_GetPeriphCLKFreq:0000000000000306 $t
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:1639   .text.HAL_RCCEx_GetPeriphCLKFreq:0000000000000538 $d
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:1645   .text.HAL_RCCEx_WakeUpStopCLKConfig:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:1651   .text.HAL_RCCEx_WakeUpStopCLKConfig:0000000000000000 HAL_RCCEx_WakeUpStopCLKConfig
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:1671   .text.HAL_RCCEx_WakeUpStopCLKConfig:0000000000000010 $d
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:1676   .text.HAL_RCCEx_StandbyMSIRangeConfig:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:1682   .text.HAL_RCCEx_StandbyMSIRangeConfig:0000000000000000 HAL_RCCEx_StandbyMSIRangeConfig
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:1702   .text.HAL_RCCEx_StandbyMSIRangeConfig:0000000000000014 $d
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:1707   .text.HAL_RCCEx_EnableLSECSS:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:1713   .text.HAL_RCCEx_EnableLSECSS:0000000000000000 HAL_RCCEx_EnableLSECSS
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:1730   .text.HAL_RCCEx_EnableLSECSS:0000000000000010 $d
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:1735   .text.HAL_RCCEx_DisableLSECSS:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:1741   .text.HAL_RCCEx_DisableLSECSS:0000000000000000 HAL_RCCEx_DisableLSECSS
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:1762   .text.HAL_RCCEx_DisableLSECSS:0000000000000018 $d
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:1767   .text.HAL_RCCEx_EnableLSECSS_IT:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:1773   .text.HAL_RCCEx_EnableLSECSS_IT:0000000000000000 HAL_RCCEx_EnableLSECSS_IT
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:1803   .text.HAL_RCCEx_EnableLSECSS_IT:000000000000002c $d
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:1808   .text.HAL_RCCEx_LSECSS_Callback:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:1814   .text.HAL_RCCEx_LSECSS_Callback:0000000000000000 HAL_RCCEx_LSECSS_Callback
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:1827   .text.HAL_RCCEx_LSECSS_IRQHandler:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:1833   .text.HAL_RCCEx_LSECSS_IRQHandler:0000000000000000 HAL_RCCEx_LSECSS_IRQHandler
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:1866   .text.HAL_RCCEx_LSECSS_IRQHandler:000000000000001c $d
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:1871   .text.HAL_RCCEx_EnableLSCO:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:1877   .text.HAL_RCCEx_EnableLSCO:0000000000000000 HAL_RCCEx_EnableLSCO
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:2030   .text.HAL_RCCEx_EnableLSCO:0000000000000098 $d
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:2036   .text.HAL_RCCEx_DisableLSCO:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:2042   .text.HAL_RCCEx_DisableLSCO:0000000000000000 HAL_RCCEx_DisableLSCO
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:2150   .text.HAL_RCCEx_DisableLSCO:0000000000000064 $d
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:2156   .text.HAL_RCCEx_EnableMSIPLLMode:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:2162   .text.HAL_RCCEx_EnableMSIPLLMode:0000000000000000 HAL_RCCEx_EnableMSIPLLMode
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:2179   .text.HAL_RCCEx_EnableMSIPLLMode:000000000000000c $d
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:2184   .text.HAL_RCCEx_DisableMSIPLLMode:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:2190   .text.HAL_RCCEx_DisableMSIPLLMode:0000000000000000 HAL_RCCEx_DisableMSIPLLMode
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:2207   .text.HAL_RCCEx_DisableMSIPLLMode:000000000000000c $d
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:2212   .text.HAL_RCCEx_CRSConfig:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:2218   .text.HAL_RCCEx_CRSConfig:0000000000000000 HAL_RCCEx_CRSConfig
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:2287   .text.HAL_RCCEx_CRSConfig:0000000000000044 $d
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:2293   .text.HAL_RCCEx_CRSSoftwareSynchronizationGenerate:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:2299   .text.HAL_RCCEx_CRSSoftwareSynchronizationGenerate:0000000000000000 HAL_RCCEx_CRSSoftwareSynchronizationGenerate
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:2316   .text.HAL_RCCEx_CRSSoftwareSynchronizationGenerate:000000000000000c $d
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s 			page 109
 
 
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:2321   .text.HAL_RCCEx_CRSGetSynchronizationInfo:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:2327   .text.HAL_RCCEx_CRSGetSynchronizationInfo:0000000000000000 HAL_RCCEx_CRSGetSynchronizationInfo
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:2368   .text.HAL_RCCEx_CRSGetSynchronizationInfo:0000000000000020 $d
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:2373   .text.HAL_RCCEx_CRSWaitSynchronization:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:2379   .text.HAL_RCCEx_CRSWaitSynchronization:0000000000000000 HAL_RCCEx_CRSWaitSynchronization
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:2568   .text.HAL_RCCEx_CRSWaitSynchronization:00000000000000a8 $d
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:2573   .text.HAL_RCCEx_CRS_SyncOkCallback:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:2579   .text.HAL_RCCEx_CRS_SyncOkCallback:0000000000000000 HAL_RCCEx_CRS_SyncOkCallback
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:2592   .text.HAL_RCCEx_CRS_SyncWarnCallback:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:2598   .text.HAL_RCCEx_CRS_SyncWarnCallback:0000000000000000 HAL_RCCEx_CRS_SyncWarnCallback
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:2611   .text.HAL_RCCEx_CRS_ExpectedSyncCallback:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:2617   .text.HAL_RCCEx_CRS_ExpectedSyncCallback:0000000000000000 HAL_RCCEx_CRS_ExpectedSyncCallback
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:2630   .text.HAL_RCCEx_CRS_ErrorCallback:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:2636   .text.HAL_RCCEx_CRS_ErrorCallback:0000000000000000 HAL_RCCEx_CRS_ErrorCallback
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:2651   .text.HAL_RCCEx_CRS_IRQHandler:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:2657   .text.HAL_RCCEx_CRS_IRQHandler:0000000000000000 HAL_RCCEx_CRS_IRQHandler
-C:\Users\billa\AppData\Local\Temp\ccBzgaSu.s:2795   .text.HAL_RCCEx_CRS_IRQHandler:0000000000000084 $d
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:2321   .text.HAL_RCCEx_CRSGetSynchronizationInfo:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:2327   .text.HAL_RCCEx_CRSGetSynchronizationInfo:0000000000000000 HAL_RCCEx_CRSGetSynchronizationInfo
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:2368   .text.HAL_RCCEx_CRSGetSynchronizationInfo:0000000000000020 $d
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:2373   .text.HAL_RCCEx_CRSWaitSynchronization:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:2379   .text.HAL_RCCEx_CRSWaitSynchronization:0000000000000000 HAL_RCCEx_CRSWaitSynchronization
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:2568   .text.HAL_RCCEx_CRSWaitSynchronization:00000000000000a8 $d
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:2573   .text.HAL_RCCEx_CRS_SyncOkCallback:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:2579   .text.HAL_RCCEx_CRS_SyncOkCallback:0000000000000000 HAL_RCCEx_CRS_SyncOkCallback
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:2592   .text.HAL_RCCEx_CRS_SyncWarnCallback:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:2598   .text.HAL_RCCEx_CRS_SyncWarnCallback:0000000000000000 HAL_RCCEx_CRS_SyncWarnCallback
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:2611   .text.HAL_RCCEx_CRS_ExpectedSyncCallback:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:2617   .text.HAL_RCCEx_CRS_ExpectedSyncCallback:0000000000000000 HAL_RCCEx_CRS_ExpectedSyncCallback
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:2630   .text.HAL_RCCEx_CRS_ErrorCallback:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:2636   .text.HAL_RCCEx_CRS_ErrorCallback:0000000000000000 HAL_RCCEx_CRS_ErrorCallback
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:2651   .text.HAL_RCCEx_CRS_IRQHandler:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:2657   .text.HAL_RCCEx_CRS_IRQHandler:0000000000000000 HAL_RCCEx_CRS_IRQHandler
+C:\Users\billa\AppData\Local\Temp\cc4eh3ZJ.s:2795   .text.HAL_RCCEx_CRS_IRQHandler:0000000000000084 $d
 
 UNDEFINED SYMBOLS
 HAL_GetTick

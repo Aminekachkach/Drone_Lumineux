@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccxoOxVV.s 			page 1
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc34rvoo.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -27,7 +27,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccxoOxVV.s 			page 1
   24              		.thumb
   25              		.thumb_func
   27              	MX_USART2_UART_Init:
-  28              	.LFB132:
+  28              	.LFB319:
    1:Core/Src/usart.c **** /* USER CODE BEGIN Header */
    2:Core/Src/usart.c **** /**
    3:Core/Src/usart.c ****   ******************************************************************************
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccxoOxVV.s 			page 1
   28:Core/Src/usart.c **** 
   29:Core/Src/usart.c **** /* USART2 init function */
   30:Core/Src/usart.c **** 
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccxoOxVV.s 			page 2
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc34rvoo.s 			page 2
 
 
   31:Core/Src/usart.c **** void MX_USART2_UART_Init(void)
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccxoOxVV.s 			page 1
   65 001c C361     		str	r3, [r0, #28]
   49:Core/Src/usart.c ****   huart2.Init.OneBitSampling = UART_ONE_BIT_SAMPLE_DISABLE;
   66              		.loc 1 49 3 is_stmt 1 view .LVU17
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccxoOxVV.s 			page 3
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc34rvoo.s 			page 3
 
 
   67              		.loc 1 49 30 is_stmt 0 view .LVU18
@@ -158,7 +158,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccxoOxVV.s 			page 1
   90 0030 00000000 		.word	huart2
   91 0034 00440040 		.word	1073759232
   92              		.cfi_endproc
-  93              	.LFE132:
+  93              	.LFE319:
   95              		.section	.text.HAL_UART_MspInit,"ax",%progbits
   96              		.align	1
   97              		.global	HAL_UART_MspInit
@@ -167,7 +167,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccxoOxVV.s 			page 1
  100              		.thumb_func
  102              	HAL_UART_MspInit:
  103              	.LVL2:
- 104              	.LFB133:
+ 104              	.LFB320:
   60:Core/Src/usart.c **** 
   61:Core/Src/usart.c **** void HAL_UART_MspInit(UART_HandleTypeDef* uartHandle)
   62:Core/Src/usart.c **** {
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccxoOxVV.s 			page 1
  109              		.loc 1 62 1 is_stmt 0 view .LVU28
  110 0000 70B5     		push	{r4, r5, r6, lr}
  111              		.cfi_def_cfa_offset 16
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccxoOxVV.s 			page 4
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc34rvoo.s 			page 4
 
 
  112              		.cfi_offset 4, -16
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccxoOxVV.s 			page 1
   85:Core/Src/usart.c ****     /**USART2 GPIO Configuration
   86:Core/Src/usart.c ****     PA2     ------> USART2_TX
   87:Core/Src/usart.c ****     PA15 (JTDI)     ------> USART2_RX
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccxoOxVV.s 			page 5
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc34rvoo.s 			page 5
 
 
   88:Core/Src/usart.c ****     */
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccxoOxVV.s 			page 1
   82:Core/Src/usart.c **** 
  170              		.loc 1 82 5 view .LVU46
  171 0034 194B     		ldr	r3, .L13+4
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccxoOxVV.s 			page 6
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc34rvoo.s 			page 6
 
 
  172 0036 9A6D     		ldr	r2, [r3, #88]
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccxoOxVV.s 			page 1
  210              		.loc 1 92 5 is_stmt 1 view .LVU62
   92:Core/Src/usart.c ****     GPIO_InitStruct.Alternate = GPIO_AF7_USART2;
  211              		.loc 1 92 27 is_stmt 0 view .LVU63
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccxoOxVV.s 			page 7
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc34rvoo.s 			page 7
 
 
  212 0066 0324     		movs	r4, #3
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccxoOxVV.s 			page 1
  250              		.loc 1 78 7 is_stmt 1 view .LVU80
  251 0092 FFF7FEFF 		bl	Error_Handler
  252              	.LVL12:
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccxoOxVV.s 			page 8
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc34rvoo.s 			page 8
 
 
  253 0096 CDE7     		b	.L9
@@ -428,7 +428,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccxoOxVV.s 			page 1
  257 0098 00440040 		.word	1073759232
  258 009c 00100240 		.word	1073876992
  259              		.cfi_endproc
- 260              	.LFE133:
+ 260              	.LFE320:
  262              		.section	.text.HAL_UART_MspDeInit,"ax",%progbits
  263              		.align	1
  264              		.global	HAL_UART_MspDeInit
@@ -437,7 +437,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccxoOxVV.s 			page 1
  267              		.thumb_func
  269              	HAL_UART_MspDeInit:
  270              	.LVL13:
- 271              	.LFB134:
+ 271              	.LFB321:
  108:Core/Src/usart.c **** 
  109:Core/Src/usart.c **** void HAL_UART_MspDeInit(UART_HandleTypeDef* uartHandle)
  110:Core/Src/usart.c **** {
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccxoOxVV.s 			page 1
  127:Core/Src/usart.c **** 
  128:Core/Src/usart.c ****   /* USER CODE END USART2_MspDeInit 1 */
  129:Core/Src/usart.c ****   }
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccxoOxVV.s 			page 9
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc34rvoo.s 			page 9
 
 
  130:Core/Src/usart.c **** }
@@ -509,7 +509,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccxoOxVV.s 			page 1
  311 0024 00440040 		.word	1073759232
  312 0028 00100240 		.word	1073876992
  313              		.cfi_endproc
- 314              	.LFE134:
+ 314              	.LFE321:
  316              		.global	huart2
  317              		.section	.bss.huart2,"aw",%nobits
  318              		.align	2
@@ -532,22 +532,22 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccxoOxVV.s 			page 1
  333              		.file 10 "Core/Inc/usart.h"
  334              		.file 11 "Core/Inc/main.h"
  335              		.file 12 "<built-in>"
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccxoOxVV.s 			page 10
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc34rvoo.s 			page 10
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 usart.c
-C:\Users\billa\AppData\Local\Temp\ccxoOxVV.s:21     .text.MX_USART2_UART_Init:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccxoOxVV.s:27     .text.MX_USART2_UART_Init:0000000000000000 MX_USART2_UART_Init
-C:\Users\billa\AppData\Local\Temp\ccxoOxVV.s:90     .text.MX_USART2_UART_Init:0000000000000030 $d
-C:\Users\billa\AppData\Local\Temp\ccxoOxVV.s:321    .bss.huart2:0000000000000000 huart2
-C:\Users\billa\AppData\Local\Temp\ccxoOxVV.s:96     .text.HAL_UART_MspInit:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccxoOxVV.s:102    .text.HAL_UART_MspInit:0000000000000000 HAL_UART_MspInit
-C:\Users\billa\AppData\Local\Temp\ccxoOxVV.s:257    .text.HAL_UART_MspInit:0000000000000098 $d
-C:\Users\billa\AppData\Local\Temp\ccxoOxVV.s:263    .text.HAL_UART_MspDeInit:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccxoOxVV.s:269    .text.HAL_UART_MspDeInit:0000000000000000 HAL_UART_MspDeInit
-C:\Users\billa\AppData\Local\Temp\ccxoOxVV.s:311    .text.HAL_UART_MspDeInit:0000000000000024 $d
-C:\Users\billa\AppData\Local\Temp\ccxoOxVV.s:318    .bss.huart2:0000000000000000 $d
+C:\Users\billa\AppData\Local\Temp\cc34rvoo.s:21     .text.MX_USART2_UART_Init:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc34rvoo.s:27     .text.MX_USART2_UART_Init:0000000000000000 MX_USART2_UART_Init
+C:\Users\billa\AppData\Local\Temp\cc34rvoo.s:90     .text.MX_USART2_UART_Init:0000000000000030 $d
+C:\Users\billa\AppData\Local\Temp\cc34rvoo.s:321    .bss.huart2:0000000000000000 huart2
+C:\Users\billa\AppData\Local\Temp\cc34rvoo.s:96     .text.HAL_UART_MspInit:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc34rvoo.s:102    .text.HAL_UART_MspInit:0000000000000000 HAL_UART_MspInit
+C:\Users\billa\AppData\Local\Temp\cc34rvoo.s:257    .text.HAL_UART_MspInit:0000000000000098 $d
+C:\Users\billa\AppData\Local\Temp\cc34rvoo.s:263    .text.HAL_UART_MspDeInit:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc34rvoo.s:269    .text.HAL_UART_MspDeInit:0000000000000000 HAL_UART_MspDeInit
+C:\Users\billa\AppData\Local\Temp\cc34rvoo.s:311    .text.HAL_UART_MspDeInit:0000000000000024 $d
+C:\Users\billa\AppData\Local\Temp\cc34rvoo.s:318    .bss.huart2:0000000000000000 $d
 
 UNDEFINED SYMBOLS
 HAL_UART_Init

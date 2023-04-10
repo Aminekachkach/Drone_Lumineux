@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccfdyJvC.s 			page 1
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccpmQ7Of.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -27,7 +27,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccfdyJvC.s 			page 1
   24              		.thumb
   25              		.thumb_func
   27              	NMI_Handler:
-  28              	.LFB132:
+  28              	.LFB319:
    1:Core/Src/stm32l4xx_it.c **** /* USER CODE BEGIN Header */
    2:Core/Src/stm32l4xx_it.c **** /**
    3:Core/Src/stm32l4xx_it.c ****   ******************************************************************************
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccfdyJvC.s 			page 1
   28:Core/Src/stm32l4xx_it.c **** /* USER CODE BEGIN TD */
   29:Core/Src/stm32l4xx_it.c **** 
   30:Core/Src/stm32l4xx_it.c **** /* USER CODE END TD */
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccfdyJvC.s 			page 2
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccpmQ7Of.s 			page 2
 
 
   31:Core/Src/stm32l4xx_it.c **** 
@@ -88,7 +88,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccfdyJvC.s 			page 1
   55:Core/Src/stm32l4xx_it.c **** /* USER CODE END 0 */
   56:Core/Src/stm32l4xx_it.c **** 
   57:Core/Src/stm32l4xx_it.c **** /* External variables --------------------------------------------------------*/
-  58:Core/Src/stm32l4xx_it.c **** 
+  58:Core/Src/stm32l4xx_it.c **** extern DMA_HandleTypeDef hdma_tim2_ch1;
   59:Core/Src/stm32l4xx_it.c **** /* USER CODE BEGIN EV */
   60:Core/Src/stm32l4xx_it.c **** 
   61:Core/Src/stm32l4xx_it.c **** /* USER CODE END EV */
@@ -118,13 +118,13 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccfdyJvC.s 			page 1
   77:Core/Src/stm32l4xx_it.c ****   }
   37              		.loc 1 77 3 discriminator 1 view .LVU2
   75:Core/Src/stm32l4xx_it.c ****   {
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccfdyJvC.s 			page 3
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccpmQ7Of.s 			page 3
 
 
   38              		.loc 1 75 9 discriminator 1 view .LVU3
   39 0000 FEE7     		b	.L2
   40              		.cfi_endproc
-  41              	.LFE132:
+  41              	.LFE319:
   43              		.section	.text.HardFault_Handler,"ax",%progbits
   44              		.align	1
   45              		.global	HardFault_Handler
@@ -132,7 +132,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccfdyJvC.s 			page 1
   47              		.thumb
   48              		.thumb_func
   50              	HardFault_Handler:
-  51              	.LFB133:
+  51              	.LFB320:
   78:Core/Src/stm32l4xx_it.c ****   /* USER CODE END NonMaskableInt_IRQn 1 */
   79:Core/Src/stm32l4xx_it.c **** }
   80:Core/Src/stm32l4xx_it.c **** 
@@ -162,7 +162,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccfdyJvC.s 			page 1
   61              		.loc 1 89 9 discriminator 1 view .LVU7
   62 0000 FEE7     		b	.L4
   63              		.cfi_endproc
-  64              	.LFE133:
+  64              	.LFE320:
   66              		.section	.text.MemManage_Handler,"ax",%progbits
   67              		.align	1
   68              		.global	MemManage_Handler
@@ -170,7 +170,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccfdyJvC.s 			page 1
   70              		.thumb
   71              		.thumb_func
   73              	MemManage_Handler:
-  74              	.LFB134:
+  74              	.LFB321:
   94:Core/Src/stm32l4xx_it.c **** }
   95:Core/Src/stm32l4xx_it.c **** 
   96:Core/Src/stm32l4xx_it.c **** /**
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccfdyJvC.s 			page 1
   98:Core/Src/stm32l4xx_it.c ****   */
   99:Core/Src/stm32l4xx_it.c **** void MemManage_Handler(void)
  100:Core/Src/stm32l4xx_it.c **** {
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccfdyJvC.s 			page 4
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccpmQ7Of.s 			page 4
 
 
   75              		.loc 1 100 1 view -0
@@ -202,7 +202,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccfdyJvC.s 			page 1
   84              		.loc 1 104 9 discriminator 1 view .LVU11
   85 0000 FEE7     		b	.L6
   86              		.cfi_endproc
-  87              	.LFE134:
+  87              	.LFE321:
   89              		.section	.text.BusFault_Handler,"ax",%progbits
   90              		.align	1
   91              		.global	BusFault_Handler
@@ -210,7 +210,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccfdyJvC.s 			page 1
   93              		.thumb
   94              		.thumb_func
   96              	BusFault_Handler:
-  97              	.LFB135:
+  97              	.LFB322:
  109:Core/Src/stm32l4xx_it.c **** }
  110:Core/Src/stm32l4xx_it.c **** 
  111:Core/Src/stm32l4xx_it.c **** /**
@@ -238,11 +238,11 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccfdyJvC.s 			page 1
  119:Core/Src/stm32l4xx_it.c ****   {
  107              		.loc 1 119 9 discriminator 1 view .LVU15
  108 0000 FEE7     		b	.L8
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccfdyJvC.s 			page 5
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccpmQ7Of.s 			page 5
 
 
  109              		.cfi_endproc
- 110              	.LFE135:
+ 110              	.LFE322:
  112              		.section	.text.UsageFault_Handler,"ax",%progbits
  113              		.align	1
  114              		.global	UsageFault_Handler
@@ -250,7 +250,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccfdyJvC.s 			page 1
  116              		.thumb
  117              		.thumb_func
  119              	UsageFault_Handler:
- 120              	.LFB136:
+ 120              	.LFB323:
  124:Core/Src/stm32l4xx_it.c **** }
  125:Core/Src/stm32l4xx_it.c **** 
  126:Core/Src/stm32l4xx_it.c **** /**
@@ -279,7 +279,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccfdyJvC.s 			page 1
  130              		.loc 1 134 9 discriminator 1 view .LVU19
  131 0000 FEE7     		b	.L10
  132              		.cfi_endproc
- 133              	.LFE136:
+ 133              	.LFE323:
  135              		.section	.text.SVC_Handler,"ax",%progbits
  136              		.align	1
  137              		.global	SVC_Handler
@@ -287,7 +287,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccfdyJvC.s 			page 1
  139              		.thumb
  140              		.thumb_func
  142              	SVC_Handler:
- 143              	.LFB137:
+ 143              	.LFB324:
  139:Core/Src/stm32l4xx_it.c **** }
  140:Core/Src/stm32l4xx_it.c **** 
  141:Core/Src/stm32l4xx_it.c **** /**
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccfdyJvC.s 			page 1
  144              		.loc 1 145 1 view -0
  145              		.cfi_startproc
  146              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccfdyJvC.s 			page 6
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccpmQ7Of.s 			page 6
 
 
  147              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -313,7 +313,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccfdyJvC.s 			page 1
  149              		.loc 1 152 1 view .LVU21
  150 0000 7047     		bx	lr
  151              		.cfi_endproc
- 152              	.LFE137:
+ 152              	.LFE324:
  154              		.section	.text.DebugMon_Handler,"ax",%progbits
  155              		.align	1
  156              		.global	DebugMon_Handler
@@ -321,7 +321,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccfdyJvC.s 			page 1
  158              		.thumb
  159              		.thumb_func
  161              	DebugMon_Handler:
- 162              	.LFB138:
+ 162              	.LFB325:
  153:Core/Src/stm32l4xx_it.c **** 
  154:Core/Src/stm32l4xx_it.c **** /**
  155:Core/Src/stm32l4xx_it.c ****   * @brief This function handles Debug monitor.
@@ -343,7 +343,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccfdyJvC.s 			page 1
  168              		.loc 1 165 1 view .LVU23
  169 0000 7047     		bx	lr
  170              		.cfi_endproc
- 171              	.LFE138:
+ 171              	.LFE325:
  173              		.section	.text.PendSV_Handler,"ax",%progbits
  174              		.align	1
  175              		.global	PendSV_Handler
@@ -351,14 +351,14 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccfdyJvC.s 			page 1
  177              		.thumb
  178              		.thumb_func
  180              	PendSV_Handler:
- 181              	.LFB139:
+ 181              	.LFB326:
  166:Core/Src/stm32l4xx_it.c **** 
  167:Core/Src/stm32l4xx_it.c **** /**
  168:Core/Src/stm32l4xx_it.c ****   * @brief This function handles Pendable request for system service.
  169:Core/Src/stm32l4xx_it.c ****   */
  170:Core/Src/stm32l4xx_it.c **** void PendSV_Handler(void)
  171:Core/Src/stm32l4xx_it.c **** {
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccfdyJvC.s 			page 7
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccpmQ7Of.s 			page 7
 
 
  182              		.loc 1 171 1 view -0
@@ -376,7 +376,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccfdyJvC.s 			page 1
  187              		.loc 1 178 1 view .LVU25
  188 0000 7047     		bx	lr
  189              		.cfi_endproc
- 190              	.LFE139:
+ 190              	.LFE326:
  192              		.section	.text.SysTick_Handler,"ax",%progbits
  193              		.align	1
  194              		.global	SysTick_Handler
@@ -384,7 +384,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccfdyJvC.s 			page 1
  196              		.thumb
  197              		.thumb_func
  199              	SysTick_Handler:
- 200              	.LFB140:
+ 200              	.LFB327:
  179:Core/Src/stm32l4xx_it.c **** 
  180:Core/Src/stm32l4xx_it.c **** /**
  181:Core/Src/stm32l4xx_it.c ****   * @brief This function handles System tick timer.
@@ -413,33 +413,95 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccfdyJvC.s 			page 1
  212              		.loc 1 192 1 is_stmt 0 view .LVU28
  213 0006 08BD     		pop	{r3, pc}
  214              		.cfi_endproc
- 215              	.LFE140:
- 217              		.text
- 218              	.Letext0:
- 219              		.file 2 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h"
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccfdyJvC.s 			page 8
+ 215              	.LFE327:
+ 217              		.section	.text.DMA1_Channel5_IRQHandler,"ax",%progbits
+ 218              		.align	1
+ 219              		.global	DMA1_Channel5_IRQHandler
+ 220              		.syntax unified
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccpmQ7Of.s 			page 8
+
+
+ 221              		.thumb
+ 222              		.thumb_func
+ 224              	DMA1_Channel5_IRQHandler:
+ 225              	.LFB328:
+ 193:Core/Src/stm32l4xx_it.c **** 
+ 194:Core/Src/stm32l4xx_it.c **** /******************************************************************************/
+ 195:Core/Src/stm32l4xx_it.c **** /* STM32L4xx Peripheral Interrupt Handlers                                    */
+ 196:Core/Src/stm32l4xx_it.c **** /* Add here the Interrupt Handlers for the used peripherals.                  */
+ 197:Core/Src/stm32l4xx_it.c **** /* For the available peripheral interrupt handler names,                      */
+ 198:Core/Src/stm32l4xx_it.c **** /* please refer to the startup file (startup_stm32l4xx.s).                    */
+ 199:Core/Src/stm32l4xx_it.c **** /******************************************************************************/
+ 200:Core/Src/stm32l4xx_it.c **** 
+ 201:Core/Src/stm32l4xx_it.c **** /**
+ 202:Core/Src/stm32l4xx_it.c ****   * @brief This function handles DMA1 channel5 global interrupt.
+ 203:Core/Src/stm32l4xx_it.c ****   */
+ 204:Core/Src/stm32l4xx_it.c **** void DMA1_Channel5_IRQHandler(void)
+ 205:Core/Src/stm32l4xx_it.c **** {
+ 226              		.loc 1 205 1 is_stmt 1 view -0
+ 227              		.cfi_startproc
+ 228              		@ args = 0, pretend = 0, frame = 0
+ 229              		@ frame_needed = 0, uses_anonymous_args = 0
+ 230 0000 08B5     		push	{r3, lr}
+ 231              		.cfi_def_cfa_offset 8
+ 232              		.cfi_offset 3, -8
+ 233              		.cfi_offset 14, -4
+ 206:Core/Src/stm32l4xx_it.c ****   /* USER CODE BEGIN DMA1_Channel5_IRQn 0 */
+ 207:Core/Src/stm32l4xx_it.c **** 
+ 208:Core/Src/stm32l4xx_it.c ****   /* USER CODE END DMA1_Channel5_IRQn 0 */
+ 209:Core/Src/stm32l4xx_it.c ****   HAL_DMA_IRQHandler(&hdma_tim2_ch1);
+ 234              		.loc 1 209 3 view .LVU30
+ 235 0002 0248     		ldr	r0, .L18
+ 236 0004 FFF7FEFF 		bl	HAL_DMA_IRQHandler
+ 237              	.LVL1:
+ 210:Core/Src/stm32l4xx_it.c ****   /* USER CODE BEGIN DMA1_Channel5_IRQn 1 */
+ 211:Core/Src/stm32l4xx_it.c **** 
+ 212:Core/Src/stm32l4xx_it.c ****   /* USER CODE END DMA1_Channel5_IRQn 1 */
+ 213:Core/Src/stm32l4xx_it.c **** }
+ 238              		.loc 1 213 1 is_stmt 0 view .LVU31
+ 239 0008 08BD     		pop	{r3, pc}
+ 240              	.L19:
+ 241 000a 00BF     		.align	2
+ 242              	.L18:
+ 243 000c 00000000 		.word	hdma_tim2_ch1
+ 244              		.cfi_endproc
+ 245              	.LFE328:
+ 247              		.text
+ 248              	.Letext0:
+ 249              		.file 2 "c:\\users\\billa\\appdata\\roaming\\code\\user\\globalstorage\\bmd.stm32-for-vscode\\@xpa
+ 250              		.file 3 "c:\\users\\billa\\appdata\\roaming\\code\\user\\globalstorage\\bmd.stm32-for-vscode\\@xpa
+ 251              		.file 4 "Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l412xx.h"
+ 252              		.file 5 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h"
+ 253              		.file 6 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h"
+ 254              		.file 7 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h"
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccpmQ7Of.s 			page 9
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32l4xx_it.c
-C:\Users\billa\AppData\Local\Temp\ccfdyJvC.s:21     .text.NMI_Handler:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccfdyJvC.s:27     .text.NMI_Handler:0000000000000000 NMI_Handler
-C:\Users\billa\AppData\Local\Temp\ccfdyJvC.s:44     .text.HardFault_Handler:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccfdyJvC.s:50     .text.HardFault_Handler:0000000000000000 HardFault_Handler
-C:\Users\billa\AppData\Local\Temp\ccfdyJvC.s:67     .text.MemManage_Handler:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccfdyJvC.s:73     .text.MemManage_Handler:0000000000000000 MemManage_Handler
-C:\Users\billa\AppData\Local\Temp\ccfdyJvC.s:90     .text.BusFault_Handler:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccfdyJvC.s:96     .text.BusFault_Handler:0000000000000000 BusFault_Handler
-C:\Users\billa\AppData\Local\Temp\ccfdyJvC.s:113    .text.UsageFault_Handler:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccfdyJvC.s:119    .text.UsageFault_Handler:0000000000000000 UsageFault_Handler
-C:\Users\billa\AppData\Local\Temp\ccfdyJvC.s:136    .text.SVC_Handler:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccfdyJvC.s:142    .text.SVC_Handler:0000000000000000 SVC_Handler
-C:\Users\billa\AppData\Local\Temp\ccfdyJvC.s:155    .text.DebugMon_Handler:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccfdyJvC.s:161    .text.DebugMon_Handler:0000000000000000 DebugMon_Handler
-C:\Users\billa\AppData\Local\Temp\ccfdyJvC.s:174    .text.PendSV_Handler:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccfdyJvC.s:180    .text.PendSV_Handler:0000000000000000 PendSV_Handler
-C:\Users\billa\AppData\Local\Temp\ccfdyJvC.s:193    .text.SysTick_Handler:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccfdyJvC.s:199    .text.SysTick_Handler:0000000000000000 SysTick_Handler
+C:\Users\billa\AppData\Local\Temp\ccpmQ7Of.s:21     .text.NMI_Handler:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\ccpmQ7Of.s:27     .text.NMI_Handler:0000000000000000 NMI_Handler
+C:\Users\billa\AppData\Local\Temp\ccpmQ7Of.s:44     .text.HardFault_Handler:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\ccpmQ7Of.s:50     .text.HardFault_Handler:0000000000000000 HardFault_Handler
+C:\Users\billa\AppData\Local\Temp\ccpmQ7Of.s:67     .text.MemManage_Handler:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\ccpmQ7Of.s:73     .text.MemManage_Handler:0000000000000000 MemManage_Handler
+C:\Users\billa\AppData\Local\Temp\ccpmQ7Of.s:90     .text.BusFault_Handler:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\ccpmQ7Of.s:96     .text.BusFault_Handler:0000000000000000 BusFault_Handler
+C:\Users\billa\AppData\Local\Temp\ccpmQ7Of.s:113    .text.UsageFault_Handler:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\ccpmQ7Of.s:119    .text.UsageFault_Handler:0000000000000000 UsageFault_Handler
+C:\Users\billa\AppData\Local\Temp\ccpmQ7Of.s:136    .text.SVC_Handler:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\ccpmQ7Of.s:142    .text.SVC_Handler:0000000000000000 SVC_Handler
+C:\Users\billa\AppData\Local\Temp\ccpmQ7Of.s:155    .text.DebugMon_Handler:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\ccpmQ7Of.s:161    .text.DebugMon_Handler:0000000000000000 DebugMon_Handler
+C:\Users\billa\AppData\Local\Temp\ccpmQ7Of.s:174    .text.PendSV_Handler:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\ccpmQ7Of.s:180    .text.PendSV_Handler:0000000000000000 PendSV_Handler
+C:\Users\billa\AppData\Local\Temp\ccpmQ7Of.s:193    .text.SysTick_Handler:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\ccpmQ7Of.s:199    .text.SysTick_Handler:0000000000000000 SysTick_Handler
+C:\Users\billa\AppData\Local\Temp\ccpmQ7Of.s:218    .text.DMA1_Channel5_IRQHandler:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\ccpmQ7Of.s:224    .text.DMA1_Channel5_IRQHandler:0000000000000000 DMA1_Channel5_IRQHandler
+C:\Users\billa\AppData\Local\Temp\ccpmQ7Of.s:243    .text.DMA1_Channel5_IRQHandler:000000000000000c $d
 
 UNDEFINED SYMBOLS
 HAL_IncTick
+HAL_DMA_IRQHandler
+hdma_tim2_ch1

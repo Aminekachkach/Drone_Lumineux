@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccysp4MQ.s 			page 1
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3E0u0b.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -27,7 +27,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccysp4MQ.s 			page 1
   24              		.thumb
   25              		.thumb_func
   27              	HAL_FLASHEx_EnableRunPowerDown:
-  28              	.LFB132:
+  28              	.LFB319:
    1:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c **** /**
    2:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c ****   ******************************************************************************
    3:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c ****   * @file    stm32l4xx_hal_flash_ramfunc.c
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccysp4MQ.s 			page 1
   28:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c **** 
   29:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c ****     *** GNU Compiler ***
   30:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c ****     --------------------
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccysp4MQ.s 			page 2
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3E0u0b.s 			page 2
 
 
   31:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c ****     [..] RAM functions are defined using a specific toolchain attribute
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccysp4MQ.s 			page 1
   85:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c **** 
   86:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c **** /**
   87:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c ****   * @brief   Enable the Power down in Run Mode
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccysp4MQ.s 			page 3
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3E0u0b.s 			page 3
 
 
   88:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c ****   * @note    This function should be called and executed from SRAM memory
@@ -161,14 +161,14 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccysp4MQ.s 			page 1
   55 001c 37261504 		.word	68494903
   56 0020 FDFCFBFA 		.word	-84148995
   57              		.cfi_endproc
-  58              	.LFE132:
+  58              	.LFE319:
   60              		.align	1
   61              		.global	HAL_FLASHEx_DisableRunPowerDown
   62              		.syntax unified
   63              		.thumb
   64              		.thumb_func
   66              	HAL_FLASHEx_DisableRunPowerDown:
-  67              	.LFB133:
+  67              	.LFB320:
   99:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c **** 
  100:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c **** /**
  101:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c ****   * @brief   Disable the Power down in Run Mode
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccysp4MQ.s 			page 1
  105:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c **** __RAM_FUNC HAL_StatusTypeDef HAL_FLASHEx_DisableRunPowerDown(void)
  106:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c **** {
   68              		.loc 1 106 1 is_stmt 1 view -0
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccysp4MQ.s 			page 4
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3E0u0b.s 			page 4
 
 
   69              		.cfi_startproc
@@ -214,23 +214,23 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccysp4MQ.s 			page 1
   94 0040 37261504 		.word	68494903
   95 0044 FDFCFBFA 		.word	-84148995
   96              		.cfi_endproc
-  97              	.LFE133:
+  97              	.LFE320:
   99              		.text
  100              	.Letext0:
  101              		.file 2 "c:\\users\\billa\\appdata\\roaming\\code\\user\\globalstorage\\bmd.stm32-for-vscode\\@xpa
  102              		.file 3 "c:\\users\\billa\\appdata\\roaming\\code\\user\\globalstorage\\bmd.stm32-for-vscode\\@xpa
  103              		.file 4 "Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l412xx.h"
  104              		.file 5 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h"
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccysp4MQ.s 			page 5
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3E0u0b.s 			page 5
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32l4xx_hal_flash_ramfunc.c
-C:\Users\billa\AppData\Local\Temp\ccysp4MQ.s:21     .RamFunc:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccysp4MQ.s:27     .RamFunc:0000000000000000 HAL_FLASHEx_EnableRunPowerDown
-C:\Users\billa\AppData\Local\Temp\ccysp4MQ.s:54     .RamFunc:0000000000000018 $d
-C:\Users\billa\AppData\Local\Temp\ccysp4MQ.s:60     .RamFunc:0000000000000024 $t
-C:\Users\billa\AppData\Local\Temp\ccysp4MQ.s:66     .RamFunc:0000000000000024 HAL_FLASHEx_DisableRunPowerDown
-C:\Users\billa\AppData\Local\Temp\ccysp4MQ.s:93     .RamFunc:000000000000003c $d
+C:\Users\billa\AppData\Local\Temp\cc3E0u0b.s:21     .RamFunc:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3E0u0b.s:27     .RamFunc:0000000000000000 HAL_FLASHEx_EnableRunPowerDown
+C:\Users\billa\AppData\Local\Temp\cc3E0u0b.s:54     .RamFunc:0000000000000018 $d
+C:\Users\billa\AppData\Local\Temp\cc3E0u0b.s:60     .RamFunc:0000000000000024 $t
+C:\Users\billa\AppData\Local\Temp\cc3E0u0b.s:66     .RamFunc:0000000000000024 HAL_FLASHEx_DisableRunPowerDown
+C:\Users\billa\AppData\Local\Temp\cc3E0u0b.s:93     .RamFunc:000000000000003c $d
 
 NO UNDEFINED SYMBOLS

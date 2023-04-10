@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\billa\AppData\Local\Temp\cclc2pkQ.s 			page 1
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc5T2qai.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -27,7 +27,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\cclc2pkQ.s 			page 1
   24              		.thumb
   25              		.thumb_func
   27              	SystemInit:
-  28              	.LFB132:
+  28              	.LFB319:
    1:Core/Src/system_stm32l4xx.c **** /**
    2:Core/Src/system_stm32l4xx.c ****   ******************************************************************************
    3:Core/Src/system_stm32l4xx.c ****   * @file    system_stm32l4xx.c
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\cclc2pkQ.s 			page 1
   28:Core/Src/system_stm32l4xx.c ****   *        System Clock source                    | MSI
   29:Core/Src/system_stm32l4xx.c ****   *-----------------------------------------------------------------------------
   30:Core/Src/system_stm32l4xx.c ****   *        SYSCLK(Hz)                             | 4000000
-ARM GAS  C:\Users\billa\AppData\Local\Temp\cclc2pkQ.s 			page 2
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc5T2qai.s 			page 2
 
 
   31:Core/Src/system_stm32l4xx.c ****   *-----------------------------------------------------------------------------
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\cclc2pkQ.s 			page 1
   85:Core/Src/system_stm32l4xx.c ****   */
   86:Core/Src/system_stm32l4xx.c **** 
   87:Core/Src/system_stm32l4xx.c **** /** @addtogroup STM32L4xx_System_Private_Includes
-ARM GAS  C:\Users\billa\AppData\Local\Temp\cclc2pkQ.s 			page 3
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc5T2qai.s 			page 3
 
 
   88:Core/Src/system_stm32l4xx.c ****   * @{
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\cclc2pkQ.s 			page 1
  142:Core/Src/system_stm32l4xx.c ****                                                      This value must be a multiple of 0x200. */
  143:Core/Src/system_stm32l4xx.c **** #endif /* VECT_TAB_SRAM */
  144:Core/Src/system_stm32l4xx.c **** #endif /* USER_VECT_TAB_ADDRESS */
-ARM GAS  C:\Users\billa\AppData\Local\Temp\cclc2pkQ.s 			page 4
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc5T2qai.s 			page 4
 
 
  145:Core/Src/system_stm32l4xx.c **** 
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\cclc2pkQ.s 			page 1
   29              		.loc 1 198 1 view -0
   30              		.cfi_startproc
   31              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\billa\AppData\Local\Temp\cclc2pkQ.s 			page 5
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc5T2qai.s 			page 5
 
 
   32              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -267,7 +267,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\cclc2pkQ.s 			page 1
   45              	.L2:
   46 0010 00ED00E0 		.word	-536810240
   47              		.cfi_endproc
-  48              	.LFE132:
+  48              	.LFE319:
   50              		.section	.text.SystemCoreClockUpdate,"ax",%progbits
   51              		.align	1
   52              		.global	SystemCoreClockUpdate
@@ -275,7 +275,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\cclc2pkQ.s 			page 1
   54              		.thumb
   55              		.thumb_func
   57              	SystemCoreClockUpdate:
-  58              	.LFB133:
+  58              	.LFB320:
  209:Core/Src/system_stm32l4xx.c **** 
  210:Core/Src/system_stm32l4xx.c **** /**
  211:Core/Src/system_stm32l4xx.c ****   * @brief  Update SystemCoreClock variable according to Clock Register Values.
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\cclc2pkQ.s 			page 1
  228:Core/Src/system_stm32l4xx.c ****   *           - If SYSCLK source is HSE, SystemCoreClock will contain the HSE_VALUE(***)
  229:Core/Src/system_stm32l4xx.c ****   *
  230:Core/Src/system_stm32l4xx.c ****   *           - If SYSCLK source is PLL, SystemCoreClock will contain the HSE_VALUE(***)
-ARM GAS  C:\Users\billa\AppData\Local\Temp\cclc2pkQ.s 			page 6
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc5T2qai.s 			page 6
 
 
  231:Core/Src/system_stm32l4xx.c ****   *             or HSI_VALUE(*) or MSI_VALUE(*) multiplied/divided by the PLL factors.
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\cclc2pkQ.s 			page 1
  264:Core/Src/system_stm32l4xx.c ****   /*MSI frequency range in HZ*/
  265:Core/Src/system_stm32l4xx.c ****   msirange = MSIRangeTable[msirange];
   80              		.loc 1 265 3 is_stmt 1 view .LVU13
-ARM GAS  C:\Users\billa\AppData\Local\Temp\cclc2pkQ.s 			page 7
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc5T2qai.s 			page 7
 
 
   81              		.loc 1 265 12 is_stmt 0 view .LVU14
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\cclc2pkQ.s 			page 1
  125 0042 214B     		ldr	r3, .L19+8
  126 0044 1A60     		str	r2, [r3]
  272:Core/Src/system_stm32l4xx.c ****       break;
-ARM GAS  C:\Users\billa\AppData\Local\Temp\cclc2pkQ.s 			page 8
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc5T2qai.s 			page 8
 
 
  127              		.loc 1 272 7 is_stmt 1 view .LVU25
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\cclc2pkQ.s 			page 1
  166              	.LVL10:
  288:Core/Src/system_stm32l4xx.c **** 
  289:Core/Src/system_stm32l4xx.c ****       switch (pllsource)
-ARM GAS  C:\Users\billa\AppData\Local\Temp\cclc2pkQ.s 			page 9
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc5T2qai.s 			page 9
 
 
  167              		.loc 1 289 7 is_stmt 1 view .LVU41
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\cclc2pkQ.s 			page 1
  202              		.loc 1 304 20 is_stmt 0 view .LVU55
  203 0088 CA68     		ldr	r2, [r1, #12]
  204              		.loc 1 304 50 view .LVU56
-ARM GAS  C:\Users\billa\AppData\Local\Temp\cclc2pkQ.s 			page 10
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc5T2qai.s 			page 10
 
 
  205 008a C2F34162 		ubfx	r2, r2, #25, #2
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\cclc2pkQ.s 			page 1
  244              		.loc 1 296 18 is_stmt 0 view .LVU72
  245 00b0 074A     		ldr	r2, .L19+16
  246              	.LVL24:
-ARM GAS  C:\Users\billa\AppData\Local\Temp\cclc2pkQ.s 			page 11
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc5T2qai.s 			page 11
 
 
  296:Core/Src/system_stm32l4xx.c ****           break;
@@ -629,7 +629,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\cclc2pkQ.s 			page 1
  267 00d0 00127A00 		.word	8000000
  268 00d4 00000000 		.word	AHBPrescTable
  269              		.cfi_endproc
- 270              	.LFE133:
+ 270              	.LFE320:
  272              		.global	MSIRangeTable
  273              		.section	.rodata.MSIRangeTable,"a"
  274              		.align	2
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\cclc2pkQ.s 			page 1
  302              	AHBPrescTable:
  303 0000 00000000 		.ascii	"\000\000\000\000\000\000\000\000\001\002\003\004\006"
  303      00000000 
-ARM GAS  C:\Users\billa\AppData\Local\Temp\cclc2pkQ.s 			page 12
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc5T2qai.s 			page 12
 
 
  303      01020304 
@@ -676,27 +676,27 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\cclc2pkQ.s 			page 1
  316              		.file 4 "Drivers/CMSIS/Include/core_cm4.h"
  317              		.file 5 "Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h"
  318              		.file 6 "Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l412xx.h"
-ARM GAS  C:\Users\billa\AppData\Local\Temp\cclc2pkQ.s 			page 13
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc5T2qai.s 			page 13
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 system_stm32l4xx.c
-C:\Users\billa\AppData\Local\Temp\cclc2pkQ.s:21     .text.SystemInit:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\cclc2pkQ.s:27     .text.SystemInit:0000000000000000 SystemInit
-C:\Users\billa\AppData\Local\Temp\cclc2pkQ.s:46     .text.SystemInit:0000000000000010 $d
-C:\Users\billa\AppData\Local\Temp\cclc2pkQ.s:51     .text.SystemCoreClockUpdate:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\cclc2pkQ.s:57     .text.SystemCoreClockUpdate:0000000000000000 SystemCoreClockUpdate
-C:\Users\billa\AppData\Local\Temp\cclc2pkQ.s:96     .text.SystemCoreClockUpdate:000000000000002a $d
-C:\Users\billa\AppData\Local\Temp\cclc2pkQ.s:263    .text.SystemCoreClockUpdate:00000000000000c0 $d
-C:\Users\billa\AppData\Local\Temp\cclc2pkQ.s:277    .rodata.MSIRangeTable:0000000000000000 MSIRangeTable
-C:\Users\billa\AppData\Local\Temp\cclc2pkQ.s:310    .data.SystemCoreClock:0000000000000000 SystemCoreClock
-C:\Users\billa\AppData\Local\Temp\cclc2pkQ.s:302    .rodata.AHBPrescTable:0000000000000000 AHBPrescTable
-C:\Users\billa\AppData\Local\Temp\cclc2pkQ.s:274    .rodata.MSIRangeTable:0000000000000000 $d
-C:\Users\billa\AppData\Local\Temp\cclc2pkQ.s:295    .rodata.APBPrescTable:0000000000000000 APBPrescTable
-C:\Users\billa\AppData\Local\Temp\cclc2pkQ.s:292    .rodata.APBPrescTable:0000000000000000 $d
-C:\Users\billa\AppData\Local\Temp\cclc2pkQ.s:299    .rodata.AHBPrescTable:0000000000000000 $d
-C:\Users\billa\AppData\Local\Temp\cclc2pkQ.s:307    .data.SystemCoreClock:0000000000000000 $d
-C:\Users\billa\AppData\Local\Temp\cclc2pkQ.s:110    .text.SystemCoreClockUpdate:0000000000000037 $d
-C:\Users\billa\AppData\Local\Temp\cclc2pkQ.s:110    .text.SystemCoreClockUpdate:0000000000000038 $t
+C:\Users\billa\AppData\Local\Temp\cc5T2qai.s:21     .text.SystemInit:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc5T2qai.s:27     .text.SystemInit:0000000000000000 SystemInit
+C:\Users\billa\AppData\Local\Temp\cc5T2qai.s:46     .text.SystemInit:0000000000000010 $d
+C:\Users\billa\AppData\Local\Temp\cc5T2qai.s:51     .text.SystemCoreClockUpdate:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc5T2qai.s:57     .text.SystemCoreClockUpdate:0000000000000000 SystemCoreClockUpdate
+C:\Users\billa\AppData\Local\Temp\cc5T2qai.s:96     .text.SystemCoreClockUpdate:000000000000002a $d
+C:\Users\billa\AppData\Local\Temp\cc5T2qai.s:263    .text.SystemCoreClockUpdate:00000000000000c0 $d
+C:\Users\billa\AppData\Local\Temp\cc5T2qai.s:277    .rodata.MSIRangeTable:0000000000000000 MSIRangeTable
+C:\Users\billa\AppData\Local\Temp\cc5T2qai.s:310    .data.SystemCoreClock:0000000000000000 SystemCoreClock
+C:\Users\billa\AppData\Local\Temp\cc5T2qai.s:302    .rodata.AHBPrescTable:0000000000000000 AHBPrescTable
+C:\Users\billa\AppData\Local\Temp\cc5T2qai.s:274    .rodata.MSIRangeTable:0000000000000000 $d
+C:\Users\billa\AppData\Local\Temp\cc5T2qai.s:295    .rodata.APBPrescTable:0000000000000000 APBPrescTable
+C:\Users\billa\AppData\Local\Temp\cc5T2qai.s:292    .rodata.APBPrescTable:0000000000000000 $d
+C:\Users\billa\AppData\Local\Temp\cc5T2qai.s:299    .rodata.AHBPrescTable:0000000000000000 $d
+C:\Users\billa\AppData\Local\Temp\cc5T2qai.s:307    .data.SystemCoreClock:0000000000000000 $d
+C:\Users\billa\AppData\Local\Temp\cc5T2qai.s:110    .text.SystemCoreClockUpdate:0000000000000037 $d
+C:\Users\billa\AppData\Local\Temp\cc5T2qai.s:110    .text.SystemCoreClockUpdate:0000000000000038 $t
 
 NO UNDEFINED SYMBOLS
