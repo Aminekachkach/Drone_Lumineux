@@ -177,7 +177,10 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "lib_symbol_issues|635000|520700|43bc5ebc-6350-4bda-8654-bf0faa0290f9|00000000-0000-0000-0000-000000000000|||",
+      "lib_symbol_issues|647700|977900|b3820a1c-3246-4bbc-b639-3c72fe34bdb5|00000000-0000-0000-0000-000000000000|||"
+    ],
     "meta": {
       "version": 0
     },
@@ -426,7 +429,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "./",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
