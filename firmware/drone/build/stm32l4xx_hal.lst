@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 1
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 1
   28:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c ****          (+) Common HAL APIs
   29:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c ****          (+) Services HAL APIs
   30:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c **** 
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 2
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s 			page 2
 
 
   31:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c ****   @endverbatim
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 1
   85:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c **** /* Exported variables --------------------------------------------------------*/
   86:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c **** 
   87:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c **** /** @defgroup HAL_Exported_Variables HAL Exported Variables
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 3
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s 			page 3
 
 
   88:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c ****   * @{
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 1
  142:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c ****   *         the clock configuration.
  143:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c ****   *
  144:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c ****   * @note   In the default implementation the System Timer (Systick) is used as source of time base
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 4
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s 			page 4
 
 
  145:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c ****   *         The Systick configuration is based on MSI clock, as MSI is the clock
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 1
  199:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c ****   __HAL_RCC_APB1_FORCE_RESET();
  200:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c ****   __HAL_RCC_APB1_RELEASE_RESET();
  201:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c **** 
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 5
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s 			page 5
 
 
  202:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c ****   __HAL_RCC_APB2_FORCE_RESET();
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 1
   49              		.cfi_startproc
   50              		@ args = 0, pretend = 0, frame = 0
   51              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 6
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s 			page 6
 
 
   52              		@ link register save eliminated.
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 1
   93 0014 1C64     		str	r4, [r3, #64]
  205:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c ****   __HAL_RCC_AHB1_RELEASE_RESET();
   94              		.loc 1 205 3 view .LVU15
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 7
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s 			page 7
 
 
   95 0016 9A62     		str	r2, [r3, #40]
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 1
  255:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c ****   *       implementation  in user file.
  256:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c ****   * @param TickPriority  Tick interrupt priority.
  257:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c ****   * @retval HAL status
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 8
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s 			page 8
 
 
  258:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c ****   */
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 1
  260:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c ****   HAL_StatusTypeDef  status = HAL_OK;
  149              		.loc 1 260 1 view .LVU32
  150 000a 10B5     		push	{r4, lr}
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 9
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s 			page 9
 
 
  151              		.cfi_def_cfa_offset 8
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 1
  192 0040 0120     		movs	r0, #1
  193              	.L8:
  194              	.LVL7:
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 10
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s 			page 10
 
 
  291:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c **** }
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 1
  188:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c **** }
  243              		.loc 1 188 3 is_stmt 1 view .LVU56
  189:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c **** 
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 11
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s 			page 11
 
 
  244              		.loc 1 189 1 is_stmt 0 view .LVU57
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 1
  324:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c ****   *      implementations in user file.
  325:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c ****   * @retval None
  326:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c ****   */
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 12
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s 			page 12
 
 
  327:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c **** __weak void HAL_IncTick(void)
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 1
  341:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c **** }
  309              		.loc 1 341 1 view .LVU68
  310 0004 7047     		bx	lr
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 13
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s 			page 13
 
 
  311              	.L30:
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 1
  357:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c **** HAL_StatusTypeDef HAL_SetTickFreq(HAL_TickFreqTypeDef Freq)
  358:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c **** {
  354              		.loc 1 358 1 is_stmt 1 view -0
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 14
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s 			page 14
 
 
  355              		.cfi_startproc
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 1
  368:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c **** 
  384              		.loc 1 368 16 is_stmt 0 view .LVU84
  385 000e 1870     		strb	r0, [r3]
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 15
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s 			page 15
 
 
  371:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c ****     if (status != HAL_OK)
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 1
  426              		.loc 1 389 1 is_stmt 0 view .LVU94
  427 0000 014B     		ldr	r3, .L42
  428 0002 1878     		ldrb	r0, [r3]	@ zero_extendqisi2
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 16
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s 			page 16
 
 
  429 0004 7047     		bx	lr
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 1
  408:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c ****   if (wait < HAL_MAX_DELAY)
  467              		.loc 1 408 3 view .LVU101
  468              		.loc 1 408 6 is_stmt 0 view .LVU102
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 17
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s 			page 17
 
 
  469 000a B4F1FF3F 		cmp	r4, #-1
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 1
  421:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c ****   *       used to generate interrupts at regular time intervals. Once HAL_SuspendTick()
  422:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c ****   *       is called, the SysTick interrupt will be disabled and so Tick increment
  423:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c ****   *       is suspended.
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 18
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s 			page 18
 
 
  424:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c ****   * @note This function is declared as __weak to be overwritten in case of other
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 1
  541              		.loc 1 447 10 is_stmt 0 view .LVU120
  542 0000 4FF0E022 		mov	r2, #-536813568
  543 0004 1369     		ldr	r3, [r2, #16]
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 19
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s 			page 19
 
 
  544              		.loc 1 447 18 view .LVU121
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 1
  464:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c **** {
  586              		.loc 1 464 1 is_stmt 1 view -0
  587              		.cfi_startproc
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 20
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s 			page 20
 
 
  588              		@ args = 0, pretend = 0, frame = 0
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 1
  634              		.align	1
  635              		.global	HAL_GetUIDw0
  636              		.syntax unified
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 21
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s 			page 21
 
 
  637              		.thumb
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 1
  676 0002 D3F89405 		ldr	r0, [r3, #1428]
  677 0006 7047     		bx	lr
  678              	.L66:
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 22
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s 			page 22
 
 
  679              		.align	2
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 1
  511:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c **** @verbatim
  512:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c ****  ===============================================================================
  513:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c ****                       ##### HAL Debug functions #####
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 23
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s 			page 23
 
 
  514:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c ****  ===============================================================================
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 1
  751              		@ frame_needed = 0, uses_anonymous_args = 0
  752              		@ link register save eliminated.
  539:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c ****   CLEAR_BIT(DBGMCU->CR, DBGMCU_CR_DBG_SLEEP);
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 24
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s 			page 24
 
 
  753              		.loc 1 539 3 view .LVU147
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 1
  800              		.thumb_func
  802              	HAL_DBGMCU_DisableDBGStopMode:
  803              	.LFB341:
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 25
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s 			page 25
 
 
  550:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c **** 
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 1
  842              		.loc 1 567 1 is_stmt 0 view .LVU157
  843 000a 7047     		bx	lr
  844              	.L84:
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 26
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s 			page 26
 
 
  845              		.align	2
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 1
  583:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c ****  *  @brief    HAL SYSCFG configuration functions
  584:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c ****  *
  585:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c **** @verbatim
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 27
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s 			page 27
 
 
  586:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c ****  ===============================================================================
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 1
  914              		.cfi_endproc
  915              	.LFE344:
  917              		.section	.text.HAL_SYSCFG_EnableMemorySwappingBank,"ax",%progbits
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 28
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s 			page 28
 
 
  918              		.align	1
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 1
  635:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c ****   * @note   The default state : Flash Bank1 mapped at 0x08000000 (and aliased @0x0000 0000)
  636:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c ****   *         and Flash Bank2 mapped at 0x08100000 (and aliased at 0x00100000)
  637:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c ****   *
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 29
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s 			page 29
 
 
  638:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c ****   * @retval None
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 1
  666:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c ****   * @brief Configure the internal voltage reference buffer high impedance mode.
  667:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c ****   * @param Mode  specifies the high impedance mode
  668:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c ****   *          This parameter can be one of the following values:
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 30
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s 			page 30
 
 
  669:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c ****   *            @arg SYSCFG_VREFBUF_HIGH_IMPEDANCE_DISABLE: VREF+ pin is internally connect to VREFI
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 1
  723:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c **** void HAL_SYSCFG_DisableVREFBUF(void)
  724:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c **** {
  725:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c ****   CLEAR_BIT(VREFBUF->CSR, VREFBUF_CSR_ENVR);
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 31
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s 			page 31
 
 
  726:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c **** }
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 1
  1017 0002 5368     		ldr	r3, [r2, #4]
  1018 0004 23F48073 		bic	r3, r3, #256
  1019 0008 5360     		str	r3, [r2, #4]
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 32
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s 			page 32
 
 
  747:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c **** }
@@ -1894,104 +1894,104 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 1
  1056              		.file 7 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h"
  1057              		.file 8 "Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h"
  1058              		.file 9 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h"
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 33
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s 			page 33
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32l4xx_hal.c
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:21     .text.HAL_MspInit:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:27     .text.HAL_MspInit:0000000000000000 HAL_MspInit
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:40     .text.HAL_MspDeInit:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:46     .text.HAL_MspDeInit:0000000000000000 HAL_MspDeInit
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:59     .text.HAL_DeInit:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:65     .text.HAL_DeInit:0000000000000000 HAL_DeInit
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:116    .text.HAL_DeInit:000000000000002c $d
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:121    .text.HAL_InitTick:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:127    .text.HAL_InitTick:0000000000000000 HAL_InitTick
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:203    .text.HAL_InitTick:0000000000000044 $d
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:1033   .data.uwTickFreq:0000000000000000 uwTickFreq
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:1040   .data.uwTickPrio:0000000000000000 uwTickPrio
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:210    .text.HAL_Init:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:216    .text.HAL_Init:0000000000000000 HAL_Init
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:259    .text.HAL_IncTick:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:265    .text.HAL_IncTick:0000000000000000 HAL_IncTick
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:286    .text.HAL_IncTick:0000000000000010 $d
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:1047   .bss.uwTick:0000000000000000 uwTick
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:292    .text.HAL_GetTick:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:298    .text.HAL_GetTick:0000000000000000 HAL_GetTick
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:314    .text.HAL_GetTick:0000000000000008 $d
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:319    .text.HAL_GetTickPrio:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:325    .text.HAL_GetTickPrio:0000000000000000 HAL_GetTickPrio
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:340    .text.HAL_GetTickPrio:0000000000000008 $d
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:345    .text.HAL_SetTickFreq:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:351    .text.HAL_SetTickFreq:0000000000000000 HAL_SetTickFreq
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:406    .text.HAL_SetTickFreq:0000000000000024 $d
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:412    .text.HAL_GetTickFreq:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:418    .text.HAL_GetTickFreq:0000000000000000 HAL_GetTickFreq
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:433    .text.HAL_GetTickFreq:0000000000000008 $d
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:438    .text.HAL_Delay:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:444    .text.HAL_Delay:0000000000000000 HAL_Delay
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:496    .text.HAL_Delay:0000000000000024 $d
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:501    .text.HAL_SuspendTick:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:507    .text.HAL_SuspendTick:0000000000000000 HAL_SuspendTick
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:527    .text.HAL_ResumeTick:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:533    .text.HAL_ResumeTick:0000000000000000 HAL_ResumeTick
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:553    .text.HAL_GetHalVersion:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:559    .text.HAL_GetHalVersion:0000000000000000 HAL_GetHalVersion
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:573    .text.HAL_GetHalVersion:0000000000000004 $d
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:578    .text.HAL_GetREVID:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:584    .text.HAL_GetREVID:0000000000000000 HAL_GetREVID
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:601    .text.HAL_GetREVID:0000000000000008 $d
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:606    .text.HAL_GetDEVID:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:612    .text.HAL_GetDEVID:0000000000000000 HAL_GetDEVID
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:629    .text.HAL_GetDEVID:000000000000000c $d
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:634    .text.HAL_GetUIDw0:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:640    .text.HAL_GetUIDw0:0000000000000000 HAL_GetUIDw0
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:655    .text.HAL_GetUIDw0:0000000000000008 $d
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:660    .text.HAL_GetUIDw1:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:666    .text.HAL_GetUIDw1:0000000000000000 HAL_GetUIDw1
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:681    .text.HAL_GetUIDw1:0000000000000008 $d
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:686    .text.HAL_GetUIDw2:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:692    .text.HAL_GetUIDw2:0000000000000000 HAL_GetUIDw2
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:707    .text.HAL_GetUIDw2:0000000000000008 $d
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s 			page 34
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:21     .text.HAL_MspInit:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:27     .text.HAL_MspInit:0000000000000000 HAL_MspInit
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:40     .text.HAL_MspDeInit:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:46     .text.HAL_MspDeInit:0000000000000000 HAL_MspDeInit
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:59     .text.HAL_DeInit:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:65     .text.HAL_DeInit:0000000000000000 HAL_DeInit
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:116    .text.HAL_DeInit:000000000000002c $d
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:121    .text.HAL_InitTick:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:127    .text.HAL_InitTick:0000000000000000 HAL_InitTick
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:203    .text.HAL_InitTick:0000000000000044 $d
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:1033   .data.uwTickFreq:0000000000000000 uwTickFreq
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:1040   .data.uwTickPrio:0000000000000000 uwTickPrio
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:210    .text.HAL_Init:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:216    .text.HAL_Init:0000000000000000 HAL_Init
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:259    .text.HAL_IncTick:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:265    .text.HAL_IncTick:0000000000000000 HAL_IncTick
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:286    .text.HAL_IncTick:0000000000000010 $d
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:1047   .bss.uwTick:0000000000000000 uwTick
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:292    .text.HAL_GetTick:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:298    .text.HAL_GetTick:0000000000000000 HAL_GetTick
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:314    .text.HAL_GetTick:0000000000000008 $d
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:319    .text.HAL_GetTickPrio:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:325    .text.HAL_GetTickPrio:0000000000000000 HAL_GetTickPrio
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:340    .text.HAL_GetTickPrio:0000000000000008 $d
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:345    .text.HAL_SetTickFreq:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:351    .text.HAL_SetTickFreq:0000000000000000 HAL_SetTickFreq
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:406    .text.HAL_SetTickFreq:0000000000000024 $d
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:412    .text.HAL_GetTickFreq:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:418    .text.HAL_GetTickFreq:0000000000000000 HAL_GetTickFreq
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:433    .text.HAL_GetTickFreq:0000000000000008 $d
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:438    .text.HAL_Delay:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:444    .text.HAL_Delay:0000000000000000 HAL_Delay
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:496    .text.HAL_Delay:0000000000000024 $d
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:501    .text.HAL_SuspendTick:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:507    .text.HAL_SuspendTick:0000000000000000 HAL_SuspendTick
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:527    .text.HAL_ResumeTick:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:533    .text.HAL_ResumeTick:0000000000000000 HAL_ResumeTick
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:553    .text.HAL_GetHalVersion:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:559    .text.HAL_GetHalVersion:0000000000000000 HAL_GetHalVersion
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:573    .text.HAL_GetHalVersion:0000000000000004 $d
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:578    .text.HAL_GetREVID:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:584    .text.HAL_GetREVID:0000000000000000 HAL_GetREVID
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:601    .text.HAL_GetREVID:0000000000000008 $d
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:606    .text.HAL_GetDEVID:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:612    .text.HAL_GetDEVID:0000000000000000 HAL_GetDEVID
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:629    .text.HAL_GetDEVID:000000000000000c $d
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:634    .text.HAL_GetUIDw0:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:640    .text.HAL_GetUIDw0:0000000000000000 HAL_GetUIDw0
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:655    .text.HAL_GetUIDw0:0000000000000008 $d
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:660    .text.HAL_GetUIDw1:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:666    .text.HAL_GetUIDw1:0000000000000000 HAL_GetUIDw1
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:681    .text.HAL_GetUIDw1:0000000000000008 $d
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:686    .text.HAL_GetUIDw2:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:692    .text.HAL_GetUIDw2:0000000000000000 HAL_GetUIDw2
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:707    .text.HAL_GetUIDw2:0000000000000008 $d
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s 			page 34
 
 
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:712    .text.HAL_DBGMCU_EnableDBGSleepMode:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:718    .text.HAL_DBGMCU_EnableDBGSleepMode:0000000000000000 HAL_DBGMCU_EnableDBGSleepMode
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:735    .text.HAL_DBGMCU_EnableDBGSleepMode:000000000000000c $d
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:740    .text.HAL_DBGMCU_DisableDBGSleepMode:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:746    .text.HAL_DBGMCU_DisableDBGSleepMode:0000000000000000 HAL_DBGMCU_DisableDBGSleepMode
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:763    .text.HAL_DBGMCU_DisableDBGSleepMode:000000000000000c $d
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:768    .text.HAL_DBGMCU_EnableDBGStopMode:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:774    .text.HAL_DBGMCU_EnableDBGStopMode:0000000000000000 HAL_DBGMCU_EnableDBGStopMode
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:791    .text.HAL_DBGMCU_EnableDBGStopMode:000000000000000c $d
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:796    .text.HAL_DBGMCU_DisableDBGStopMode:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:802    .text.HAL_DBGMCU_DisableDBGStopMode:0000000000000000 HAL_DBGMCU_DisableDBGStopMode
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:819    .text.HAL_DBGMCU_DisableDBGStopMode:000000000000000c $d
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:824    .text.HAL_DBGMCU_EnableDBGStandbyMode:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:830    .text.HAL_DBGMCU_EnableDBGStandbyMode:0000000000000000 HAL_DBGMCU_EnableDBGStandbyMode
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:847    .text.HAL_DBGMCU_EnableDBGStandbyMode:000000000000000c $d
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:852    .text.HAL_DBGMCU_DisableDBGStandbyMode:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:858    .text.HAL_DBGMCU_DisableDBGStandbyMode:0000000000000000 HAL_DBGMCU_DisableDBGStandbyMode
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:875    .text.HAL_DBGMCU_DisableDBGStandbyMode:000000000000000c $d
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:880    .text.HAL_SYSCFG_SRAM2Erase:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:886    .text.HAL_SYSCFG_SRAM2Erase:0000000000000000 HAL_SYSCFG_SRAM2Erase
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:912    .text.HAL_SYSCFG_SRAM2Erase:0000000000000014 $d
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:918    .text.HAL_SYSCFG_EnableMemorySwappingBank:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:924    .text.HAL_SYSCFG_EnableMemorySwappingBank:0000000000000000 HAL_SYSCFG_EnableMemorySwappingBank
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:941    .text.HAL_SYSCFG_EnableMemorySwappingBank:0000000000000008 $d
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:946    .text.HAL_SYSCFG_DisableMemorySwappingBank:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:952    .text.HAL_SYSCFG_DisableMemorySwappingBank:0000000000000000 HAL_SYSCFG_DisableMemorySwappingBank
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:969    .text.HAL_SYSCFG_DisableMemorySwappingBank:0000000000000008 $d
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:974    .text.HAL_SYSCFG_EnableIOAnalogSwitchBooster:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:980    .text.HAL_SYSCFG_EnableIOAnalogSwitchBooster:0000000000000000 HAL_SYSCFG_EnableIOAnalogSwitchBooster
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:997    .text.HAL_SYSCFG_EnableIOAnalogSwitchBooster:000000000000000c $d
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:1002   .text.HAL_SYSCFG_DisableIOAnalogSwitchBooster:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:1008   .text.HAL_SYSCFG_DisableIOAnalogSwitchBooster:0000000000000000 HAL_SYSCFG_DisableIOAnalogSwitchBooster
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:1025   .text.HAL_SYSCFG_DisableIOAnalogSwitchBooster:000000000000000c $d
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:1037   .data.uwTickPrio:0000000000000000 $d
-C:\Users\billa\AppData\Local\Temp\ccjTbWGu.s:1044   .bss.uwTick:0000000000000000 $d
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:712    .text.HAL_DBGMCU_EnableDBGSleepMode:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:718    .text.HAL_DBGMCU_EnableDBGSleepMode:0000000000000000 HAL_DBGMCU_EnableDBGSleepMode
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:735    .text.HAL_DBGMCU_EnableDBGSleepMode:000000000000000c $d
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:740    .text.HAL_DBGMCU_DisableDBGSleepMode:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:746    .text.HAL_DBGMCU_DisableDBGSleepMode:0000000000000000 HAL_DBGMCU_DisableDBGSleepMode
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:763    .text.HAL_DBGMCU_DisableDBGSleepMode:000000000000000c $d
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:768    .text.HAL_DBGMCU_EnableDBGStopMode:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:774    .text.HAL_DBGMCU_EnableDBGStopMode:0000000000000000 HAL_DBGMCU_EnableDBGStopMode
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:791    .text.HAL_DBGMCU_EnableDBGStopMode:000000000000000c $d
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:796    .text.HAL_DBGMCU_DisableDBGStopMode:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:802    .text.HAL_DBGMCU_DisableDBGStopMode:0000000000000000 HAL_DBGMCU_DisableDBGStopMode
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:819    .text.HAL_DBGMCU_DisableDBGStopMode:000000000000000c $d
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:824    .text.HAL_DBGMCU_EnableDBGStandbyMode:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:830    .text.HAL_DBGMCU_EnableDBGStandbyMode:0000000000000000 HAL_DBGMCU_EnableDBGStandbyMode
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:847    .text.HAL_DBGMCU_EnableDBGStandbyMode:000000000000000c $d
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:852    .text.HAL_DBGMCU_DisableDBGStandbyMode:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:858    .text.HAL_DBGMCU_DisableDBGStandbyMode:0000000000000000 HAL_DBGMCU_DisableDBGStandbyMode
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:875    .text.HAL_DBGMCU_DisableDBGStandbyMode:000000000000000c $d
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:880    .text.HAL_SYSCFG_SRAM2Erase:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:886    .text.HAL_SYSCFG_SRAM2Erase:0000000000000000 HAL_SYSCFG_SRAM2Erase
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:912    .text.HAL_SYSCFG_SRAM2Erase:0000000000000014 $d
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:918    .text.HAL_SYSCFG_EnableMemorySwappingBank:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:924    .text.HAL_SYSCFG_EnableMemorySwappingBank:0000000000000000 HAL_SYSCFG_EnableMemorySwappingBank
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:941    .text.HAL_SYSCFG_EnableMemorySwappingBank:0000000000000008 $d
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:946    .text.HAL_SYSCFG_DisableMemorySwappingBank:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:952    .text.HAL_SYSCFG_DisableMemorySwappingBank:0000000000000000 HAL_SYSCFG_DisableMemorySwappingBank
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:969    .text.HAL_SYSCFG_DisableMemorySwappingBank:0000000000000008 $d
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:974    .text.HAL_SYSCFG_EnableIOAnalogSwitchBooster:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:980    .text.HAL_SYSCFG_EnableIOAnalogSwitchBooster:0000000000000000 HAL_SYSCFG_EnableIOAnalogSwitchBooster
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:997    .text.HAL_SYSCFG_EnableIOAnalogSwitchBooster:000000000000000c $d
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:1002   .text.HAL_SYSCFG_DisableIOAnalogSwitchBooster:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:1008   .text.HAL_SYSCFG_DisableIOAnalogSwitchBooster:0000000000000000 HAL_SYSCFG_DisableIOAnalogSwitchBooster
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:1025   .text.HAL_SYSCFG_DisableIOAnalogSwitchBooster:000000000000000c $d
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:1037   .data.uwTickPrio:0000000000000000 $d
+C:\Users\billa\AppData\Local\Temp\ccP8ASNV.s:1044   .bss.uwTick:0000000000000000 $d
 
 UNDEFINED SYMBOLS
 HAL_SYSTICK_Config

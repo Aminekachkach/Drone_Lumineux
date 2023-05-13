@@ -38,6 +38,13 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
+#define numberofpixels 5
+#define bytesperpixel 3
+//https://cdn-shop.adafruit.com/datasheets/WS2812.pdf
+	//neopixel understands a bit as high when it sees a pwm with 64% duty cycle
+#define bitHightimercount 58 //if our pwm period is 90, 64%(90)=57.6 close to 58
+	//neopixel understands a bit as low when it sees a pwm with 32% duty cycle
+#define bitLowtimercount 29  //if our pwm period is 90, 32%(90)=28.8 close to 29
 
 /* USER CODE END PD */
 
@@ -50,11 +57,62 @@
 
 /* USER CODE BEGIN PV */
 
+//we need 3 neopixel bytes (r g b) to set the colour of every pixel.
+//we need 8 PWM cycles to transmit 1 neopixel byte.
+//we need 1 uint8_t to be loaded in TIM1->CCR1 for every PWM cycle.
+uint8_t rgbw_arr[numberofpixels * bytesperpixel * 8 + 1];//every pixel colour info is 24 bytes long
+
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 /* USER CODE BEGIN PFP */
+void flushArrayPixel(//zeroes the array
+		uint8_t *buffer, //address of our buffer
+		uint8_t bytenumber //number of bytes to erase
+		) {
+	for (uint32_t i = 0; i < bytenumber-1; ++i) {
+		buffer[i] = bitLowtimercount;
+	}
+	buffer[bytenumber] = 0;//needs to be 0 to silent PWM at the end of transaction
+}
+
+uint32_t loadArrayOnePixel(uint8_t R, uint8_t G, uint8_t B,
+		uint8_t *buffer, //address of our buffer
+		uint8_t pixelnumber //pixel index inside buffer
+		) {
+	if(pixelnumber>numberofpixels){return -1;}//in case we mess up
+
+	for (uint32_t i = 0; i < bytesperpixel * 8; ++i) { //we need to store every bit
+
+		if (i < 8) { //this means first byte R
+			if (R & (0x80 >> i)) { //this is a mask for reading every bit inside the byte R
+				buffer[i + pixelnumber * bytesperpixel * 8] = bitHightimercount;
+			} else {
+				buffer[i + pixelnumber * bytesperpixel * 8] = bitLowtimercount;
+			}
+		}
+
+		if ((i >= 8) & (i < 16)) { //this means second byte G
+			if (G & (0x80 >> (i - 8))) {
+				buffer[i + pixelnumber * bytesperpixel * 8] = bitHightimercount;
+			} else {
+				buffer[i + pixelnumber * bytesperpixel * 8] = bitLowtimercount;
+			}
+		}
+
+		if ((i >= 16) & (i < 24)) { //this means third byte B
+			if (B & (0x80 >> (i - 16))) {
+				buffer[i + pixelnumber * bytesperpixel * 8] = bitHightimercount;
+			} else {
+				buffer[i + pixelnumber * bytesperpixel * 8] = bitLowtimercount;
+			}
+		}
+
+	}
+	return 1;
+}
+
 
 /* USER CODE END PFP */
 
@@ -99,6 +157,12 @@ int main(void)
   MX_TIM1_Init();
   MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
+	//flush buffer first
+	flushArrayPixel(&rgbw_arr, sizeof(rgbw_arr));
+
+	//for led effect
+	uint8_t counter=0;
+	uint8_t flag=0;
 
   /* USER CODE END 2 */
 
@@ -106,8 +170,28 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    HAL_Delay(100);
+    	//dont know why exactly yet but DMA needs to be stopped before trigger it again
+		HAL_TIM_PWM_Stop_DMA(&htim2, TIM_CHANNEL_1);
+
+		/////////////////////////////////////////////////////blue soft pulse of every pixel
+		for (uint32_t i = 0; i < numberofpixels; ++i) {
+				loadArrayOnePixel(0,0,counter,&rgbw_arr,i);
+		}
+
+		HAL_TIM_PWM_Start_DMA(&htim2, TIM_CHANNEL_1, &rgbw_arr,sizeof(rgbw_arr));
+
+		if(counter==0xFF){flag=0;}
+
+		if(counter==0x00){flag=1;}
+
+		if(flag){
+			counter++;
+		}else{
+			counter--;
+		}
+
     HAL_GPIO_TogglePin(LD3_GPIO_Port,LD3_Pin);
+    HAL_Delay(1000);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
