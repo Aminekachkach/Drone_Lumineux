@@ -59,12 +59,20 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define PWM_Neopixel_Pin GPIO_PIN_0
 #define PWM_Neopixel_GPIO_Port GPIOA
+#define SCK_NRF_Pin GPIO_PIN_1
+#define SCK_NRF_GPIO_Port GPIOA
 #define VCP_TX_Pin GPIO_PIN_2
 #define VCP_TX_GPIO_Port GPIOA
-#define Battery_set_Pin GPIO_PIN_4
-#define Battery_set_GPIO_Port GPIOA
+#define LED_RED_Pin GPIO_PIN_3
+#define LED_RED_GPIO_Port GPIOA
+#define LED_GREEN_Pin GPIO_PIN_4
+#define LED_GREEN_GPIO_Port GPIOA
 #define Battery_ADC_Pin GPIO_PIN_5
 #define Battery_ADC_GPIO_Port GPIOA
+#define MISO_NRF_Pin GPIO_PIN_6
+#define MISO_NRF_GPIO_Port GPIOA
+#define I2C_SCL_MPU_Pin GPIO_PIN_7
+#define I2C_SCL_MPU_GPIO_Port GPIOA
 #define CSN_NRF_Pin GPIO_PIN_0
 #define CSN_NRF_GPIO_Port GPIOB
 #define CE_NRF_Pin GPIO_PIN_1
@@ -77,6 +85,8 @@ void Error_Handler(void);
 #define TIM_PWM3_GPIO_Port GPIOA
 #define TIM_PWM4_Pin GPIO_PIN_11
 #define TIM_PWM4_GPIO_Port GPIOA
+#define MOSI_NRF_Pin GPIO_PIN_12
+#define MOSI_NRF_GPIO_Port GPIOA
 #define SWDIO_Pin GPIO_PIN_13
 #define SWDIO_GPIO_Port GPIOA
 #define SWCLK_Pin GPIO_PIN_14

@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccK72476.s 			page 1
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccXbwmcc.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccK72476.s 			page 1
   28:Core/Src/adc.c **** 
   29:Core/Src/adc.c **** /* ADC1 init function */
   30:Core/Src/adc.c **** void MX_ADC1_Init(void)
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccK72476.s 			page 2
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccXbwmcc.s 			page 2
 
 
   31:Core/Src/adc.c **** {
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccK72476.s 			page 1
   64              		.loc 1 49 24 is_stmt 0 view .LVU12
   65 0022 C360     		str	r3, [r0, #12]
   50:Core/Src/adc.c ****   hadc1.Init.ScanConvMode = ADC_SCAN_DISABLE;
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccK72476.s 			page 3
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccXbwmcc.s 			page 3
 
 
   66              		.loc 1 50 3 is_stmt 1 view .LVU13
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccK72476.s 			page 1
   63:Core/Src/adc.c ****     Error_Handler();
   64:Core/Src/adc.c ****   }
   65:Core/Src/adc.c **** 
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccK72476.s 			page 4
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccXbwmcc.s 			page 4
 
 
   66:Core/Src/adc.c ****   /** Configure the ADC multi-mode
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccK72476.s 			page 1
  145              		.loc 1 82 7 is_stmt 0 view .LVU56
  146 006e 0DEB0201 		add	r1, sp, r2
  147 0072 0848     		ldr	r0, .L9
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccK72476.s 			page 5
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccXbwmcc.s 			page 5
 
 
  148 0074 FFF7FEFF 		bl	HAL_ADC_ConfigChannel
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccK72476.s 			page 1
  193              	.LVL6:
  194              	.LFB320:
   91:Core/Src/adc.c **** 
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccK72476.s 			page 6
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccXbwmcc.s 			page 6
 
 
   92:Core/Src/adc.c **** void HAL_ADC_MspInit(ADC_HandleTypeDef* adcHandle)
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccK72476.s 			page 1
  223 0018 09B0     		add	sp, sp, #36
  224              		.cfi_remember_state
  225              		.cfi_def_cfa_offset 4
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccK72476.s 			page 7
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccXbwmcc.s 			page 7
 
 
  226              		@ sp needed
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccK72476.s 			page 1
  266 004c 0393     		str	r3, [sp, #12]
  109:Core/Src/adc.c ****     GPIO_InitStruct.Pull = GPIO_NOPULL;
  267              		.loc 1 109 5 is_stmt 1 view .LVU85
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccK72476.s 			page 8
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccXbwmcc.s 			page 8
 
 
  109:Core/Src/adc.c ****     GPIO_InitStruct.Pull = GPIO_NOPULL;
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccK72476.s 			page 1
  315              	.L17:
  123:Core/Src/adc.c ****   {
  124:Core/Src/adc.c ****   /* USER CODE BEGIN ADC1_MspDeInit 0 */
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccK72476.s 			page 9
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccXbwmcc.s 			page 9
 
 
  125:Core/Src/adc.c **** 
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccK72476.s 			page 1
  351              		.file 2 "c:\\users\\billa\\appdata\\roaming\\code\\user\\globalstorage\\bmd.stm32-for-vscode\\@xpa
  352              		.file 3 "c:\\users\\billa\\appdata\\roaming\\code\\user\\globalstorage\\bmd.stm32-for-vscode\\@xpa
  353              		.file 4 "Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l412xx.h"
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccK72476.s 			page 10
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccXbwmcc.s 			page 10
 
 
  354              		.file 5 "Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h"
@@ -549,22 +549,22 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccK72476.s 			page 1
  359              		.file 10 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_adc_ex.h"
  360              		.file 11 "Core/Inc/adc.h"
  361              		.file 12 "Core/Inc/main.h"
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccK72476.s 			page 11
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccXbwmcc.s 			page 11
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 adc.c
-C:\Users\billa\AppData\Local\Temp\ccK72476.s:21     .text.MX_ADC1_Init:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccK72476.s:27     .text.MX_ADC1_Init:0000000000000000 MX_ADC1_Init
-C:\Users\billa\AppData\Local\Temp\ccK72476.s:179    .text.MX_ADC1_Init:0000000000000094 $d
-C:\Users\billa\AppData\Local\Temp\ccK72476.s:347    .bss.hadc1:0000000000000000 hadc1
-C:\Users\billa\AppData\Local\Temp\ccK72476.s:186    .text.HAL_ADC_MspInit:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccK72476.s:192    .text.HAL_ADC_MspInit:0000000000000000 HAL_ADC_MspInit
-C:\Users\billa\AppData\Local\Temp\ccK72476.s:284    .text.HAL_ADC_MspInit:0000000000000060 $d
-C:\Users\billa\AppData\Local\Temp\ccK72476.s:289    .text.HAL_ADC_MspDeInit:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccK72476.s:295    .text.HAL_ADC_MspDeInit:0000000000000000 HAL_ADC_MspDeInit
-C:\Users\billa\AppData\Local\Temp\ccK72476.s:337    .text.HAL_ADC_MspDeInit:0000000000000024 $d
-C:\Users\billa\AppData\Local\Temp\ccK72476.s:344    .bss.hadc1:0000000000000000 $d
+C:\Users\billa\AppData\Local\Temp\ccXbwmcc.s:21     .text.MX_ADC1_Init:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\ccXbwmcc.s:27     .text.MX_ADC1_Init:0000000000000000 MX_ADC1_Init
+C:\Users\billa\AppData\Local\Temp\ccXbwmcc.s:179    .text.MX_ADC1_Init:0000000000000094 $d
+C:\Users\billa\AppData\Local\Temp\ccXbwmcc.s:347    .bss.hadc1:0000000000000000 hadc1
+C:\Users\billa\AppData\Local\Temp\ccXbwmcc.s:186    .text.HAL_ADC_MspInit:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\ccXbwmcc.s:192    .text.HAL_ADC_MspInit:0000000000000000 HAL_ADC_MspInit
+C:\Users\billa\AppData\Local\Temp\ccXbwmcc.s:284    .text.HAL_ADC_MspInit:0000000000000060 $d
+C:\Users\billa\AppData\Local\Temp\ccXbwmcc.s:289    .text.HAL_ADC_MspDeInit:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\ccXbwmcc.s:295    .text.HAL_ADC_MspDeInit:0000000000000000 HAL_ADC_MspDeInit
+C:\Users\billa\AppData\Local\Temp\ccXbwmcc.s:337    .text.HAL_ADC_MspDeInit:0000000000000024 $d
+C:\Users\billa\AppData\Local\Temp\ccXbwmcc.s:344    .bss.hadc1:0000000000000000 $d
 
 UNDEFINED SYMBOLS
 HAL_ADC_Init

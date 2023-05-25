@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\billa\AppData\Local\Temp\cc0x2oyb.s 			page 1
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccPHygfg.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\cc0x2oyb.s 			page 1
   28:Core/Src/gpio.c **** /*----------------------------------------------------------------------------*/
   29:Core/Src/gpio.c **** /* Configure GPIO                                                             */
   30:Core/Src/gpio.c **** /*----------------------------------------------------------------------------*/
-ARM GAS  C:\Users\billa\AppData\Local\Temp\cc0x2oyb.s 			page 2
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccPHygfg.s 			page 2
 
 
   31:Core/Src/gpio.c **** /* USER CODE BEGIN 1 */
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\cc0x2oyb.s 			page 1
   49:Core/Src/gpio.c ****   __HAL_RCC_GPIOA_CLK_ENABLE();
   65              		.loc 1 49 3 view .LVU9
   66              	.LBB3:
-ARM GAS  C:\Users\billa\AppData\Local\Temp\cc0x2oyb.s 			page 3
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccPHygfg.s 			page 3
 
 
   67              		.loc 1 49 3 view .LVU10
@@ -152,10 +152,10 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\cc0x2oyb.s 			page 1
   94              		.loc 1 50 3 view .LVU20
   51:Core/Src/gpio.c **** 
   52:Core/Src/gpio.c ****   /*Configure GPIO pin Output Level */
-  53:Core/Src/gpio.c ****   HAL_GPIO_WritePin(Battery_set_GPIO_Port, Battery_set_Pin, GPIO_PIN_RESET);
+  53:Core/Src/gpio.c ****   HAL_GPIO_WritePin(GPIOA, LED_RED_Pin|LED_GREEN_Pin, GPIO_PIN_RESET);
   95              		.loc 1 53 3 view .LVU21
   96 0048 2246     		mov	r2, r4
-  97 004a 1021     		movs	r1, #16
+  97 004a 1821     		movs	r1, #24
   98 004c 4FF09040 		mov	r0, #1207959552
   99 0050 FFF7FEFF 		bl	HAL_GPIO_WritePin
  100              	.LVL0:
@@ -170,15 +170,15 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\cc0x2oyb.s 			page 1
  106 005c FFF7FEFF 		bl	HAL_GPIO_WritePin
  107              	.LVL1:
   57:Core/Src/gpio.c **** 
-  58:Core/Src/gpio.c ****   /*Configure GPIO pin : PtPin */
-  59:Core/Src/gpio.c ****   GPIO_InitStruct.Pin = Battery_set_Pin;
+  58:Core/Src/gpio.c ****   /*Configure GPIO pins : PAPin PAPin */
+  59:Core/Src/gpio.c ****   GPIO_InitStruct.Pin = LED_RED_Pin|LED_GREEN_Pin;
  108              		.loc 1 59 3 view .LVU23
  109              		.loc 1 59 23 is_stmt 0 view .LVU24
- 110 0060 1023     		movs	r3, #16
+ 110 0060 1823     		movs	r3, #24
  111 0062 0393     		str	r3, [sp, #12]
   60:Core/Src/gpio.c ****   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
  112              		.loc 1 60 3 is_stmt 1 view .LVU25
-ARM GAS  C:\Users\billa\AppData\Local\Temp\cc0x2oyb.s 			page 4
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccPHygfg.s 			page 4
 
 
  113              		.loc 1 60 24 is_stmt 0 view .LVU26
@@ -192,7 +192,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\cc0x2oyb.s 			page 1
  119              		.loc 1 62 3 is_stmt 1 view .LVU29
  120              		.loc 1 62 25 is_stmt 0 view .LVU30
  121 006a 0694     		str	r4, [sp, #24]
-  63:Core/Src/gpio.c ****   HAL_GPIO_Init(Battery_set_GPIO_Port, &GPIO_InitStruct);
+  63:Core/Src/gpio.c ****   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
  122              		.loc 1 63 3 is_stmt 1 view .LVU31
  123 006c 03A9     		add	r1, sp, #12
  124 006e 4FF09040 		mov	r0, #1207959552
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\cc0x2oyb.s 			page 1
   75:Core/Src/gpio.c ****   GPIO_InitStruct.Pull = GPIO_NOPULL;
  153              		.loc 1 75 3 is_stmt 1 view .LVU45
  154              		.loc 1 75 24 is_stmt 0 view .LVU46
-ARM GAS  C:\Users\billa\AppData\Local\Temp\cc0x2oyb.s 			page 5
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccPHygfg.s 			page 5
 
 
  155 0092 0594     		str	r4, [sp, #20]
@@ -268,14 +268,14 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\cc0x2oyb.s 			page 1
  177              		.file 3 "c:\\users\\billa\\appdata\\roaming\\code\\user\\globalstorage\\bmd.stm32-for-vscode\\@xpa
  178              		.file 4 "Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l412xx.h"
  179              		.file 5 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h"
-ARM GAS  C:\Users\billa\AppData\Local\Temp\cc0x2oyb.s 			page 6
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccPHygfg.s 			page 6
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 gpio.c
-C:\Users\billa\AppData\Local\Temp\cc0x2oyb.s:21     .text.MX_GPIO_Init:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\cc0x2oyb.s:27     .text.MX_GPIO_Init:0000000000000000 MX_GPIO_Init
-C:\Users\billa\AppData\Local\Temp\cc0x2oyb.s:169    .text.MX_GPIO_Init:00000000000000a0 $d
+C:\Users\billa\AppData\Local\Temp\ccPHygfg.s:21     .text.MX_GPIO_Init:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\ccPHygfg.s:27     .text.MX_GPIO_Init:0000000000000000 MX_GPIO_Init
+C:\Users\billa\AppData\Local\Temp\ccPHygfg.s:169    .text.MX_GPIO_Init:00000000000000a0 $d
 
 UNDEFINED SYMBOLS
 HAL_GPIO_WritePin
