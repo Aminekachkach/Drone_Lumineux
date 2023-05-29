@@ -38,8 +38,8 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-#define Servo_Angle_Min 1000
-#define Servo_Angle_Max (2000)
+#define RPM_Min 1000
+#define RPM_Max 2000
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -100,31 +100,33 @@ int main(void)
   MX_TIM1_Init();
   MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
+
   HAL_TIM_PWM_Start(&htim1,TIM_CHANNEL_1);
-  int it = Servo_Angle_Min;
-  int sign = 0;
+
+  //Initialisation du moteur
+  __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1, RPM_Min);
+  HAL_Delay(20); // Attente de 20 ms
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    //HAL_Delay(100);
-    //HAL_GPIO_TogglePin(LD3_GPIO_Port,LD3_Pin);
+    for(int i = RPM_Min; i <= RPM_Max; i++){
+	      __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1, i);
+		    HAL_Delay(20); // Attente 20 ms entre chaque étape de progression
+	  }
 
-    if (it == Servo_Angle_Max)
-    {
-      sign = -1;
-    }
-    if (it == Servo_Angle_Min)
-    {
-      sign = 1;
-    }
-    it += sign;
+	  HAL_Delay(5000); // Maintien en vol pendant 5 secondes
 
-    __HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_1,it);
+	  for(int i = RPM_Max; i >= RPM_Min; i--){
+	      __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1, i);
+		    HAL_Delay(20); // Attente 20 ms entre chaque étape de progression
+	  }
 
-    HAL_Delay(1);
+    // Arrête la génération du signal PWM
+	  HAL_TIM_PWM_Stop(&htim1, TIM_CHANNEL_1);
 
     /* USER CODE END WHILE */
 
