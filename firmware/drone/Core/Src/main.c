@@ -39,7 +39,8 @@
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
 #define RPM_Min 1000
-#define RPM_Max 2000
+#define RPM_Max 1050
+
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -113,18 +114,23 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    for(int i = RPM_Min; i <= RPM_Max; i++){
-	      __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1, i);
-		    HAL_Delay(20); // Attente 20 ms entre chaque étape de progression
-	  }
+    // for(int i = RPM_Min; i <= RPM_Max; i++){
+	  //     __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1, i);
+		//     HAL_Delay(20); // Attente 20 ms entre chaque étape de progression
+	  // }
 
-	  HAL_Delay(5000); // Maintien en vol pendant 5 secondes
+	  // HAL_Delay(50); // Maintien en vol pendant 5 secondes
 
-	  for(int i = RPM_Max; i >= RPM_Min; i--){
-	      __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1, i);
-		    HAL_Delay(20); // Attente 20 ms entre chaque étape de progression
-	  }
+	  // for(int i = RPM_Max ; i >= RPM_Min; i--){
+	  //     __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1, i);
+		//     HAL_Delay(20); // Attente 20 ms entre chaque étape de progression
+	  // }
+  for(int i = RPM_Min; i <= 1070; i++){
+   __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1, i);
+   HAL_Delay(20); // Attente 20 ms entre chaque étape de progression
 
+  }
+    HAL_Delay(2000); 
     // Arrête la génération du signal PWM
 	  HAL_TIM_PWM_Stop(&htim1, TIM_CHANNEL_1);
 

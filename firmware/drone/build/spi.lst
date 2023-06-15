@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccDjQFgo.s 			page 1
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccrrw9BW.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccDjQFgo.s 			page 1
   28:Core/Src/spi.c **** 
   29:Core/Src/spi.c **** /* SPI1 init function */
   30:Core/Src/spi.c **** void MX_SPI1_Init(void)
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccDjQFgo.s 			page 2
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccrrw9BW.s 			page 2
 
 
   31:Core/Src/spi.c **** {
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccDjQFgo.s 			page 1
   66 0022 C361     		str	r3, [r0, #28]
   48:Core/Src/spi.c ****   hspi1.Init.FirstBit = SPI_FIRSTBIT_MSB;
   67              		.loc 1 48 3 is_stmt 1 view .LVU17
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccDjQFgo.s 			page 3
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccrrw9BW.s 			page 3
 
 
   68              		.loc 1 48 23 is_stmt 0 view .LVU18
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccDjQFgo.s 			page 1
  107              		.cfi_endproc
  108              	.LFE319:
  110              		.section	.text.HAL_SPI_MspInit,"ax",%progbits
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccDjQFgo.s 			page 4
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccrrw9BW.s 			page 4
 
 
  111              		.align	1
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccDjQFgo.s 			page 1
   82:Core/Src/spi.c ****     GPIO_InitStruct.Pin = SCK_NRF_Pin|MISO_NRF_Pin|MOSI_NRF_Pin;
   83:Core/Src/spi.c ****     GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
   84:Core/Src/spi.c ****     GPIO_InitStruct.Pull = GPIO_NOPULL;
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccDjQFgo.s 			page 5
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccrrw9BW.s 			page 5
 
 
   85:Core/Src/spi.c ****     GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccDjQFgo.s 			page 1
  182 0042 0293     		str	r3, [sp, #8]
   76:Core/Src/spi.c ****     /**SPI1 GPIO Configuration
  183              		.loc 1 76 5 view .LVU53
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccDjQFgo.s 			page 6
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccrrw9BW.s 			page 6
 
 
  184 0044 029B     		ldr	r3, [sp, #8]
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccDjQFgo.s 			page 1
  228              	.LVL7:
  229              	.LFB321:
   94:Core/Src/spi.c **** 
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccDjQFgo.s 			page 7
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccrrw9BW.s 			page 7
 
 
   95:Core/Src/spi.c **** void HAL_SPI_MspDeInit(SPI_HandleTypeDef* spiHandle)
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccDjQFgo.s 			page 1
  259 001a 4FF09040 		mov	r0, #1207959552
  260              	.LVL10:
  111:Core/Src/spi.c **** 
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccDjQFgo.s 			page 8
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccrrw9BW.s 			page 8
 
 
  261              		.loc 1 111 5 is_stmt 0 view .LVU75
@@ -453,22 +453,22 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccDjQFgo.s 			page 1
  289              		.file 8 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h"
  290              		.file 9 "Core/Inc/spi.h"
  291              		.file 10 "Core/Inc/main.h"
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccDjQFgo.s 			page 9
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccrrw9BW.s 			page 9
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 spi.c
-C:\Users\billa\AppData\Local\Temp\ccDjQFgo.s:21     .text.MX_SPI1_Init:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccDjQFgo.s:27     .text.MX_SPI1_Init:0000000000000000 MX_SPI1_Init
-C:\Users\billa\AppData\Local\Temp\ccDjQFgo.s:105    .text.MX_SPI1_Init:0000000000000044 $d
-C:\Users\billa\AppData\Local\Temp\ccDjQFgo.s:279    .bss.hspi1:0000000000000000 hspi1
-C:\Users\billa\AppData\Local\Temp\ccDjQFgo.s:111    .text.HAL_SPI_MspInit:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccDjQFgo.s:117    .text.HAL_SPI_MspInit:0000000000000000 HAL_SPI_MspInit
-C:\Users\billa\AppData\Local\Temp\ccDjQFgo.s:216    .text.HAL_SPI_MspInit:0000000000000064 $d
-C:\Users\billa\AppData\Local\Temp\ccDjQFgo.s:221    .text.HAL_SPI_MspDeInit:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccDjQFgo.s:227    .text.HAL_SPI_MspDeInit:0000000000000000 HAL_SPI_MspDeInit
-C:\Users\billa\AppData\Local\Temp\ccDjQFgo.s:269    .text.HAL_SPI_MspDeInit:0000000000000024 $d
-C:\Users\billa\AppData\Local\Temp\ccDjQFgo.s:276    .bss.hspi1:0000000000000000 $d
+C:\Users\billa\AppData\Local\Temp\ccrrw9BW.s:21     .text.MX_SPI1_Init:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\ccrrw9BW.s:27     .text.MX_SPI1_Init:0000000000000000 MX_SPI1_Init
+C:\Users\billa\AppData\Local\Temp\ccrrw9BW.s:105    .text.MX_SPI1_Init:0000000000000044 $d
+C:\Users\billa\AppData\Local\Temp\ccrrw9BW.s:279    .bss.hspi1:0000000000000000 hspi1
+C:\Users\billa\AppData\Local\Temp\ccrrw9BW.s:111    .text.HAL_SPI_MspInit:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\ccrrw9BW.s:117    .text.HAL_SPI_MspInit:0000000000000000 HAL_SPI_MspInit
+C:\Users\billa\AppData\Local\Temp\ccrrw9BW.s:216    .text.HAL_SPI_MspInit:0000000000000064 $d
+C:\Users\billa\AppData\Local\Temp\ccrrw9BW.s:221    .text.HAL_SPI_MspDeInit:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\ccrrw9BW.s:227    .text.HAL_SPI_MspDeInit:0000000000000000 HAL_SPI_MspDeInit
+C:\Users\billa\AppData\Local\Temp\ccrrw9BW.s:269    .text.HAL_SPI_MspDeInit:0000000000000024 $d
+C:\Users\billa\AppData\Local\Temp\ccrrw9BW.s:276    .bss.hspi1:0000000000000000 $d
 
 UNDEFINED SYMBOLS
 HAL_SPI_Init

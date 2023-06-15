@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
   28:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       The SPI HAL driver can be used as follows:
   29:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
   30:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       (#) Declare a SPI_HandleTypeDef handle structure, for example:
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 2
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 2
 
 
   31:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****           SPI_HandleTypeDef  hspi;
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
   85:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****             (++) AbortCpltCallback     : SPI Abort callback
   86:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****             (++) MspInitCallback       : SPI Msp Init callback
   87:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****             (++) MspDeInitCallback     : SPI Msp DeInit callback
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 3
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 3
 
 
   88:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****           This function takes as parameters the HAL peripheral handle, the Callback ID
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  142:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****        +-------------------------------------------------------------------------------------------
  143:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****        |         |                | 2Lines Fullduplex   |     2Lines RxOnly    |         1Line     
  144:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****        | Process | Transfer mode  |---------------------|----------------------|-------------------
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 4
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 4
 
 
  145:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****        |         |                |  Master  |  Slave   |  Master   |  Slave   |  Master   |  Slave
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  199:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** /* Includes ------------------------------------------------------------------*/
  200:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** #include "stm32l4xx_hal.h"
  201:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 5
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 5
 
 
  202:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** /** @addtogroup STM32L4xx_HAL_Driver
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  256:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** static void SPI_AbortRx_ISR(SPI_HandleTypeDef *hspi);
  257:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** static void SPI_AbortTx_ISR(SPI_HandleTypeDef *hspi);
  258:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** static void SPI_CloseRxTx_ISR(SPI_HandleTypeDef *hspi);
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 6
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 6
 
 
  259:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** static void SPI_CloseRx_ISR(SPI_HandleTypeDef *hspi);
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  313:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   */
  314:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** HAL_StatusTypeDef HAL_SPI_Init(SPI_HandleTypeDef *hspi)
  315:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** {
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 7
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 7
 
 
  316:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   uint32_t frxth;
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  370:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     /* Allocate lock resource and initialize it */
  371:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     hspi->Lock = HAL_UNLOCKED;
  372:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 8
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 8
 
 
  373:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** #if (USE_HAL_SPI_REGISTER_CALLBACKS == 1U)
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  427:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****                                   (hspi->Init.BaudRatePrescaler & SPI_CR1_BR_Msk) |
  428:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****                                   (hspi->Init.FirstBit  & SPI_CR1_LSBFIRST) |
  429:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****                                   (hspi->Init.CRCCalculation & SPI_CR1_CRCEN)));
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 9
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 9
 
 
  430:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** #if (USE_SPI_CRC != 0U)
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  484:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   * @brief  De-Initialize the SPI peripheral.
  485:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   * @param  hspi pointer to a SPI_HandleTypeDef structure that contains
  486:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   *               the configuration information for SPI module.
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 10
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 10
 
 
  487:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   * @retval HAL status
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  541:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** }
  542:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  543:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** /**
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 11
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 11
 
 
  544:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   * @brief  De-Initialize the SPI MSP.
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  598:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         break;
  599:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  600:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       case HAL_SPI_TX_HALF_COMPLETE_CB_ID :
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 12
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 12
 
 
  601:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         hspi->TxHalfCpltCallback = pCallback;
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  655:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         break;
  656:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     }
  657:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   }
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 13
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 13
 
 
  658:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   else
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  712:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         hspi->TxRxHalfCpltCallback = HAL_SPI_TxRxHalfCpltCallback; /* Legacy weak TxRxHalfCpltCallb
  713:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         break;
  714:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 14
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 14
 
 
  715:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       case HAL_SPI_ERROR_CB_ID :
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  769:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  770:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   /* Release Lock */
  771:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   __HAL_UNLOCK(hspi);
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 15
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 15
 
 
  772:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   return status;
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  826:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  827:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   /* Check Direction parameter */
  828:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   assert_param(IS_SPI_DIRECTION_2LINES_OR_1LINE(hspi->Init.Direction));
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 16
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 16
 
 
  829:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  883:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     __HAL_SPI_ENABLE(hspi);
  884:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   }
  885:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 17
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 17
 
 
  886:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   /* Transmit data in 16 Bit mode */
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  940:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         if (hspi->TxXferCount > 1U)
  941:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         {
  942:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****           /* write on the data register in packing mode */
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 18
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 18
 
 
  943:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****           hspi->Instance->DR = *((uint16_t *)hspi->pTxBuffPtr);
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  997:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** /**
  998:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   * @brief  Receive an amount of data in blocking mode.
  999:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   * @param  hspi pointer to a SPI_HandleTypeDef structure that contains
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 19
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 19
 
 
 1000:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   *               the configuration information for SPI module.
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 1054:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
 1055:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** #if (USE_SPI_CRC != 0U)
 1056:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   /* Reset CRC Calculation */
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 20
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 20
 
 
 1057:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   if (hspi->Init.CRCCalculation == SPI_CRCCALCULATION_ENABLE)
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 1111:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****           errorcode = HAL_TIMEOUT;
 1112:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****           goto error;
 1113:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         }
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 21
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 21
 
 
 1114:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       }
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 1168:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     if (SPI_WaitFlagStateUntilTimeout(hspi, SPI_FLAG_RXNE, SET, Timeout, tickstart) != HAL_OK)
 1169:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     {
 1170:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       SET_BIT(hspi->ErrorCode, HAL_SPI_ERROR_CRC);
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 22
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 22
 
 
 1171:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       errorcode = HAL_TIMEOUT;
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 1225:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   if (hspi->ErrorCode != HAL_SPI_ERROR_NONE)
 1226:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
 1227:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     errorcode = HAL_ERROR;
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 23
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 23
 
 
 1228:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   }
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 1282:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   spi_cr2             = READ_REG(hspi->Instance->CR2);
 1283:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** #endif /* USE_SPI_CRC */
 1284:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 24
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 24
 
 
 1285:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   if (!((tmp_state == HAL_SPI_STATE_READY) || \
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 1339:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
 1340:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     /* Enable SPI peripheral */
 1341:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     __HAL_SPI_ENABLE(hspi);
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 25
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 25
 
 
 1342:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   }
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 1396:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
 1397:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     if ((hspi->Init.Mode == SPI_MODE_SLAVE) || (initial_TxXferCount == 0x01U))
 1398:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     {
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 26
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 26
 
 
 1399:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       if (hspi->TxXferCount > 1U)
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 1453:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****           hspi->RxXferCount -= 2U;
 1454:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****           if (hspi->RxXferCount <= 1U)
 1455:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****           {
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 27
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 27
 
 
 1456:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****             /* Set RX Fifo threshold before to switch on 8 bit data size */
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 1510:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****           /* Error on the CRC reception */
 1511:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****           SET_BIT(hspi->ErrorCode, HAL_SPI_ERROR_CRC);
 1512:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****           errorcode = HAL_TIMEOUT;
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 28
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 28
 
 
 1513:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****           goto error;
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 1567:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     errorcode = HAL_ERROR;
 1568:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     goto error;
 1569:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   }
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 29
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 29
 
 
 1570:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 1624:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     __HAL_SPI_ENABLE(hspi);
 1625:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   }
 1626:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 30
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 30
 
 
 1627:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** error :
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 1681:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
 1682:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     /* Set RX Fifo threshold according the reception data length: 16 bit */
 1683:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     CLEAR_BIT(hspi->Instance->CR2, SPI_RXFIFO_THRESHOLD);
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 31
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 31
 
 
 1684:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     hspi->RxISR = SPI_RxISR_16BIT;
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 1738:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** /**
 1739:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   * @brief  Transmit and Receive an amount of data in non-blocking mode with Interrupt.
 1740:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   * @param  hspi pointer to a SPI_HandleTypeDef structure that contains
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 32
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 32
 
 
 1741:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   *               the configuration information for SPI module.
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 1795:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     hspi->TxISR     = SPI_2linesTxISR_16BIT;
 1796:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   }
 1797:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   else
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 33
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 33
 
 
 1798:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 1852:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   * @param  pData pointer to data buffer
 1853:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   * @param  Size amount of data to be sent
 1854:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   * @retval HAL status
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 34
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 34
 
 
 1855:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   */
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 1909:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** #endif /* USE_SPI_CRC */
 1910:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
 1911:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   /* Set the SPI TxDMA Half transfer complete callback */
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 35
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 35
 
 
 1912:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->hdmatx->XferHalfCpltCallback = SPI_DMAHalfTransmitCplt;
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 1966:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   /* Process Unlocked */
 1967:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   __HAL_UNLOCK(hspi);
 1968:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   return errorcode;
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 36
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 36
 
 
 1969:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** }
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 2023:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->TxISR       = NULL;
 2024:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->TxXferSize  = 0U;
 2025:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->TxXferCount = 0U;
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 37
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 37
 
 
 2026:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 2080:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->hdmarx->XferErrorCallback = SPI_DMAError;
 2081:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
 2082:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   /* Set the DMA AbortCpltCallback */
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 38
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 38
 
 
 2083:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->hdmarx->XferAbortCallback = NULL;
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 2137:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   /* Check Direction parameter */
 2138:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   assert_param(IS_SPI_DIRECTION_2LINES(hspi->Init.Direction));
 2139:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 39
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 39
 
 
 2140:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   /* Process locked */
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 2194:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     CLEAR_BIT(hspi->Instance->CR2, SPI_RXFIFO_THRESHOLD);
 2195:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   }
 2196:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   else
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 40
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 40
 
 
 2197:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 2251:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->hdmarx->XferAbortCallback = NULL;
 2252:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
 2253:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   /* Enable the Rx DMA Stream/Channel  */
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 41
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 41
 
 
 2254:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   if (HAL_OK != HAL_DMA_Start_IT(hspi->hdmarx, (uint32_t)&hspi->Instance->DR, (uint32_t)hspi->pRxBu
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 2308:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   * @note   This procedure could be used for aborting any ongoing transfer (Tx and Rx),
 2309:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   *         started in Interrupt or DMA mode.
 2310:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   *         This procedure performs following operations :
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 42
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 42
 
 
 2311:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   *           - Disable SPI Interrupts (depending of transfer direction)
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 2365:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   }
 2366:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
 2367:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   /* Disable the SPI DMA Tx request if enabled */
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 43
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 43
 
 
 2368:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   if (HAL_IS_BIT_SET(hspi->Instance->CR2, SPI_CR2_TXDMAEN))
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 2422:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       if (SPI_WaitFlagStateUntilTimeout(hspi, SPI_FLAG_BSY, RESET, SPI_DEFAULT_TIMEOUT, HAL_GetTick
 2423:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       {
 2424:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         hspi->ErrorCode = HAL_SPI_ERROR_ABORT;
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 44
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 44
 
 
 2425:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       }
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 2479:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** {
 2480:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   HAL_StatusTypeDef errorcode;
 2481:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   uint32_t abortcplt ;
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 45
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 45
 
 
 2482:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   __IO uint32_t count;
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 2536:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     if (HAL_IS_BIT_SET(hspi->Instance->CR2, SPI_CR2_TXDMAEN))
 2537:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     {
 2538:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       hspi->hdmatx->XferAbortCallback = SPI_DMATxAbortCallback;
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 46
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 46
 
 
 2539:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     }
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 2593:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       }
 2594:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     }
 2595:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   }
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 47
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 47
 
 
 2596:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 2650:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   return HAL_OK;
 2651:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** }
 2652:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 48
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 48
 
 
 2653:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** /**
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 2707:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   /* Disable the SPI DMA Tx & Rx requests */
 2708:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   CLEAR_BIT(hspi->Instance->CR2, SPI_CR2_TXDMAEN | SPI_CR2_RXDMAEN);
 2709:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->State = HAL_SPI_STATE_READY;
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 49
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 49
 
 
 2710:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   return errorcode;
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 2764:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
 2765:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     /* SPI Frame error interrupt occurred ------------------------------------*/
 2766:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     if (SPI_CHECK_FLAG(itflag, SPI_FLAG_FRE) != RESET)
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 50
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 50
 
 
 2767:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     {
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 2821:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   * @brief  Tx Transfer completed callback.
 2822:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   * @param  hspi pointer to a SPI_HandleTypeDef structure that contains
 2823:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   *               the configuration information for SPI module.
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 51
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 51
 
 
 2824:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   * @retval None
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 2878:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
 2879:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   /* NOTE : This function should not be modified, when the callback is needed,
 2880:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****             the HAL_SPI_TxHalfCpltCallback should be implemented in the user file
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 52
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 52
 
 
 2881:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****    */
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 2935:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** /**
 2936:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   * @brief  SPI Abort Complete callback.
 2937:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   * @param  hspi SPI handle.
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 53
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 53
 
 
 2938:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   * @retval None
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 2992:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
 2993:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** /**
 2994:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   * @}
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 54
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 54
 
 
 2995:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   */
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 3049:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** #else
 3050:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       HAL_SPI_ErrorCallback(hspi);
 3051:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** #endif /* USE_HAL_SPI_REGISTER_CALLBACKS */
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 55
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 55
 
 
 3052:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       return;
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 3106:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       else
 3107:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       {
 3108:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         /* Initialize the 8bit temporary pointer */
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 56
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 56
 
 
 3109:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         ptmpreg8 = (__IO uint8_t *)&hspi->Instance->DR;
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 3163:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       /* Call user error callback */
 3164:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** #if (USE_HAL_SPI_REGISTER_CALLBACKS == 1U)
 3165:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       hspi->ErrorCallback(hspi);
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 57
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 57
 
 
 3166:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** #else
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 3220:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         tmpreg8 = *ptmpreg8;
 3221:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         /* To avoid GCC warning */
 3222:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         UNUSED(tmpreg8);
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 58
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 58
 
 
 3223:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       }
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 3277:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** #endif /* USE_HAL_SPI_REGISTER_CALLBACKS */
 3278:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** }
 3279:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 59
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 59
 
 
 3280:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** /**
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 3334:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** /**
 3335:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   * @brief  DMA SPI communication error callback.
 3336:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   * @param  hdma pointer to a DMA_HandleTypeDef structure that contains
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 60
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 60
 
 
 3337:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   *               the configuration information for the specified DMA module.
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 3391:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   /* Disable Tx DMA Request */
 3392:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   CLEAR_BIT(hspi->Instance->CR2, SPI_CR2_TXDMAEN);
 3393:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 61
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 61
 
 
 3394:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   if (SPI_EndRxTxTransaction(hspi, SPI_DEFAULT_TIMEOUT, HAL_GetTick()) != HAL_OK)
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 3448:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   * @param  hdma DMA handle.
 3449:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   * @retval None
 3450:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   */
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 62
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 62
 
 
 3451:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** static void SPI_DMARxAbortCallback(DMA_HandleTypeDef *hdma)
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 3505:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** #else
 3506:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   HAL_SPI_AbortCpltCallback(hspi);
 3507:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** #endif /* USE_HAL_SPI_REGISTER_CALLBACKS */
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 63
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 63
 
 
 3508:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** }
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 3562:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   * @brief  Rx 8-bit handler for Transmit and Receive in Interrupt mode.
 3563:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   * @param  hspi pointer to a SPI_HandleTypeDef structure that contains
 3564:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   *               the configuration information for SPI module.
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 64
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 64
 
 
 3565:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   * @retval None
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 3619:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   if (hspi->TxXferCount == 0U)
 3620:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
 3621:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** #if (USE_SPI_CRC != 0U)
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 65
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 65
 
 
 3622:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     if (hspi->Init.CRCCalculation == SPI_CRCCALCULATION_ENABLE)
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 3676:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** /**
 3677:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   * @brief  Manage the CRC 16-bit receive for Transmit and Receive in Interrupt mode.
 3678:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   * @param  hspi pointer to a SPI_HandleTypeDef structure that contains
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 66
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 66
 
 
 3679:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   *               the configuration information for SPI module.
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 3733:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** }
 3734:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
 3735:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** #if (USE_SPI_CRC != 0U)
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 67
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 67
 
 
 3736:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** /**
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 3790:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     }
 3791:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** #endif /* USE_SPI_CRC */
 3792:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     SPI_CloseRx_ISR(hspi);
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 68
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 68
 
 
 3793:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   }
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 3847:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** #endif /* USE_SPI_CRC */
 3848:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     SPI_CloseRx_ISR(hspi);
 3849:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   }
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 69
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 69
 
 
 3850:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** }
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 3904:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   * @brief  Handle SPI Communication Timeout.
 3905:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   * @param  hspi pointer to a SPI_HandleTypeDef structure that contains
 3906:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   *              the configuration information for SPI module.
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 70
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 70
 
 
 3907:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   * @param  Flag SPI flag to check
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
   67 001e 8246     		mov	r10, r0
   68              	.LVL4:
 3923:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 71
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 71
 
 
 3924:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   /* Calculate Timeout based on a software loop to avoid blocking issue if Systick is disabled */
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 3940:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         if ((hspi->Init.Mode == SPI_MODE_MASTER) && ((hspi->Init.Direction == SPI_DIRECTION_1LINE)
 3941:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****                                                      || (hspi->Init.Direction == SPI_DIRECTION_2LIN
 3942:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         {
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 72
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 72
 
 
 3943:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****           /* Disable SPI peripheral */
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  134 0072 0BD0     		beq	.L14
  135              	.L5:
 3948:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         {
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 73
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 73
 
 
  136              		.loc 1 3948 9 is_stmt 1 view .LVU36
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 3950:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         }
  175              		.loc 1 3950 11 view .LVU52
  176 00a6 2A68     		ldr	r2, [r5]
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 74
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 74
 
 
  177 00a8 1368     		ldr	r3, [r2]
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  213              		.loc 1 3984 1 is_stmt 1 view -0
  214              		.cfi_startproc
  215              		@ args = 4, pretend = 0, frame = 8
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 75
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 75
 
 
  216              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 3995:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   /* Initialize the 8bit temporary pointer */
 3996:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   ptmpreg8 = (__IO uint8_t *)&hspi->Instance->DR;
  260              		.loc 1 3996 3 is_stmt 1 view .LVU72
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 76
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 76
 
 
  261              		.loc 1 3996 35 is_stmt 0 view .LVU73
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  295 0050 47D0     		beq	.L31
 4003:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     {
  296              		.loc 1 4003 5 is_stmt 1 view .LVU88
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 77
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 77
 
 
 4003:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     {
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 4035:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         hspi->State = HAL_SPI_STATE_READY;
 4036:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
 4037:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         /* Process Unlocked */
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 78
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 78
 
 
 4038:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         __HAL_UNLOCK(hspi);
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  358              		.loc 1 4032 11 is_stmt 1 discriminator 1 view .LVU111
 4035:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  359              		.loc 1 4035 9 discriminator 1 view .LVU112
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 79
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 79
 
 
 4035:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  401              	.L31:
 4048:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     }
 4049:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   }
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 80
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 80
 
 
 4050:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 4080:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
 4081:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     /* Empty the FRLVL fifo */
 4082:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     if (SPI_WaitFifoStateUntilTimeout(hspi, SPI_FLAG_FRLVL, SPI_FRLVL_EMPTY, Timeout, Tickstart) !=
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 81
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 81
 
 
 4083:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     {
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 4107:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   /* Control the BSY flag */
 4108:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   if (SPI_WaitFlagStateUntilTimeout(hspi, SPI_FLAG_BSY, RESET, Timeout, Tickstart) != HAL_OK)
  458              		.loc 1 4108 3 is_stmt 1 view .LVU136
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 82
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 82
 
 
  459              		.loc 1 4108 7 is_stmt 0 view .LVU137
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 4122:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** }
  497              		.loc 1 4122 1 view .LVU148
  498 0052 02B0     		add	sp, sp, #8
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 83
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 83
 
 
  499              		.cfi_remember_state
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  547 0010 0DD0     		beq	.L51
  548              	.LVL30:
  549              	.L45:
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 84
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 84
 
 
 4072:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  591 003c 2268     		ldr	r2, [r4]
  592              	.LVL35:
 4068:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   }
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 85
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 85
 
 
  593              		.loc 1 4068 5 is_stmt 0 view .LVU170
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  635              		.loc 1 4085 14 is_stmt 0 view .LVU182
  636 007e 0320     		movs	r0, #3
  637 0080 D3E7     		b	.L48
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 86
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 86
 
 
  638              		.cfi_endproc
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 4167:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         hspi->State = HAL_SPI_STATE_READY;
 4168:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         /* Call user Rx complete callback */
 4169:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** #if (USE_HAL_SPI_REGISTER_CALLBACKS == 1U)
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 87
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 87
 
 
 4170:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         hspi->RxCpltCallback(hspi);
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 4224:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     __HAL_SPI_CLEAR_CRCERRFLAG(hspi);
 4225:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     /* Call user error callback */
 4226:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** #if (USE_HAL_SPI_REGISTER_CALLBACKS == 1U)
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 88
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 88
 
 
 4227:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     hspi->ErrorCallback(hspi);
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 4281:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   if (hspi->Init.Direction == SPI_DIRECTION_2LINES)
 4282:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
 4283:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     __HAL_SPI_CLEAR_OVRFLAG(hspi);
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 89
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 89
 
 
 4284:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   }
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 4320:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   count = SPI_DEFAULT_TIMEOUT * (SystemCoreClock / 24U / 1000U);
  668              		.loc 1 4320 3 view .LVU187
  669              		.loc 1 4320 56 is_stmt 0 view .LVU188
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 90
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 90
 
 
  670 0010 1D4B     		ldr	r3, .L62
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  708              		.loc 1 4331 7 view .LVU200
  709              	.L56:
 4335:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 91
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 91
 
 
 4336:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   /* Control the BSY flag */
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 4349:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** }
  751              		.loc 1 4349 1 view .LVU214
  752 0084 04B0     		add	sp, sp, #16
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 92
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 92
 
 
  753              		.cfi_def_cfa_offset 8
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  797 0014 02FB03F3 		mul	r3, r2, r3
  798              		.loc 1 4361 9 view .LVU222
  799 0018 0393     		str	r3, [sp, #12]
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 93
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 93
 
 
 4362:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  836 0048 6421     		movs	r1, #100
  837 004a 2046     		mov	r0, r4
  838 004c FFF7FEFF 		bl	SPI_EndRxTxTransaction
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 94
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 94
 
 
  839              	.LVL46:
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 4394:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     /* Disable RXNEIE interrupt */
 4395:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     CLEAR_BIT(hspi->Instance->CR2, (SPI_CR2_RXNEIE));
  877              		.loc 1 4395 5 is_stmt 1 view .LVU248
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 95
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 95
 
 
  878 0084 5A68     		ldr	r2, [r3, #4]
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  916              	.LVL50:
  917              		.loc 1 4409 8 view .LVU260
  918 00bc 08B1     		cbz	r0, .L74
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 96
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 96
 
 
 4410:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     {
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  962              		.align	1
  963              		.weak	HAL_SPI_MspInit
  964              		.syntax unified
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 97
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 97
 
 
  965              		.thumb
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  1010              		.loc 1 328 3 view .LVU283
  329:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   assert_param(IS_SPI_NSSP(hspi->Init.NSSPMode));
  1011              		.loc 1 329 3 view .LVU284
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 98
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 98
 
 
  330:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   assert_param(IS_SPI_BAUDRATE_PRESCALER(hspi->Init.BaudRatePrescaler));
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  1045              		.loc 1 365 29 is_stmt 0 view .LVU305
  1046 0020 0023     		movs	r3, #0
  1047 0022 A362     		str	r3, [r4, #40]
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 99
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 99
 
 
  368:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
@@ -5938,7 +5938,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  422:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****                                   (hspi->Init.Direction & (SPI_CR1_RXONLY | SPI_CR1_BIDIMODE)) |
  1087              		.loc 1 422 3 is_stmt 1 view .LVU321
  1088 0056 6368     		ldr	r3, [r4, #4]
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 100
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 100
 
 
  1089 0058 03F48273 		and	r3, r3, #260
@@ -5998,7 +5998,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  1137 00c2 84F85D30 		strb	r3, [r4, #93]
  480:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** }
  1138              		.loc 1 480 3 is_stmt 1 view .LVU328
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 101
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 101
 
 
  481:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
@@ -6058,7 +6058,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  1185              		.loc 1 552 3 view .LVU338
  557:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  1186              		.loc 1 557 1 is_stmt 0 view .LVU339
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 102
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 102
 
 
  1187 0000 7047     		bx	lr
@@ -6118,7 +6118,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  1231              		.loc 1 519 3 is_stmt 1 view .LVU351
  519:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  1232              		.loc 1 519 15 is_stmt 0 view .LVU352
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 103
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 103
 
 
  1233 001e 84F85D00 		strb	r0, [r4, #93]
@@ -6178,7 +6178,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  1280 0006 1D46     		mov	r5, r3
  823:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   HAL_StatusTypeDef errorcode = HAL_OK;
  1281              		.loc 1 823 3 is_stmt 1 view .LVU362
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 104
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 104
 
 
  824:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   uint16_t initial_TxXferCount;
@@ -6238,7 +6238,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  843:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
  1319              		.loc 1 843 23 discriminator 1 view .LVU380
  1320 0038 B9F1000F 		cmp	r9, #0
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 105
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 105
 
 
  1321 003c 00F0CD80 		beq	.L105
@@ -6298,7 +6298,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  1354              		.loc 1 864 3 is_stmt 1 view .LVU401
  864:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
  1355              		.loc 1 864 17 is_stmt 0 view .LVU402
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 106
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 106
 
 
  1356 0064 A368     		ldr	r3, [r4, #8]
@@ -6358,7 +6358,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  891:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       hspi->pTxBuffPtr += sizeof(uint16_t);
  1394              		.loc 1 891 28 view .LVU419
  1395 0094 1288     		ldrh	r2, [r2]
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 107
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 107
 
 
  891:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       hspi->pTxBuffPtr += sizeof(uint16_t);
@@ -6418,7 +6418,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  1436              		.loc 1 908 56 discriminator 1 view .LVU433
  1437 00ca B5F1FF3F 		cmp	r5, #-1
  1438 00ce 40F08E80 		bne	.L130
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 108
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 108
 
 
  1439              	.L114:
@@ -6478,7 +6478,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  1476 00fe 0CF1FF3C 		add	ip, ip, #-1
  1477 0102 1FFA8CFC 		uxth	ip, ip
  1478 0106 A4F83EC0 		strh	ip, [r4, #62]	@ movhi
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 109
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 109
 
 
  1479 010a E5E7     		b	.L111
@@ -6538,7 +6538,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  1516 012e 9BB2     		uxth	r3, r3
  926:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       }
  1517              		.loc 1 926 27 view .LVU468
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 110
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 110
 
 
  1518 0130 023B     		subs	r3, r3, #2
@@ -6598,7 +6598,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  1556              		.loc 1 950 11 is_stmt 1 view .LVU484
  950:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****           hspi->TxXferCount--;
  1557              		.loc 1 950 15 is_stmt 0 view .LVU485
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 111
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 111
 
 
  1558 0158 A36B     		ldr	r3, [r4, #56]
@@ -6658,7 +6658,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  1597 0184 2268     		ldr	r2, [r4]
  1598 0186 9368     		ldr	r3, [r2, #8]
  938:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       {
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 112
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 112
 
 
  1599              		.loc 1 938 10 view .LVU501
@@ -6718,7 +6718,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  1638              	.LVL79:
  974:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
  1639              		.loc 1 974 6 view .LVU517
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 113
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 113
 
 
  1640 01b8 08B1     		cbz	r0, .L126
@@ -6778,7 +6778,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  1678 01d8 0226     		movs	r6, #2
  1679              	.LVL81:
  1680              	.L105:
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 114
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 114
 
 
  991:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   /* Process Unlocked */
@@ -6838,7 +6838,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  1726              		.global	HAL_SPI_TransmitReceive
  1727              		.syntax unified
  1728              		.thumb
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 115
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 115
 
 
  1729              		.thumb_func
@@ -6898,7 +6898,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  1770              		.loc 1 1270 3 is_stmt 1 discriminator 2 view .LVU557
  1771 0018 0123     		movs	r3, #1
  1772 001a 80F85C30 		strb	r3, [r0, #92]
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 116
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 116
 
 
 1270:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
@@ -6958,7 +6958,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 1292:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
  1810              		.loc 1 1292 6 is_stmt 0 view .LVU575
  1811 0046 B8F1000F 		cmp	r8, #0
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 117
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 117
 
 
  1812 004a 00F03A81 		beq	.L167
@@ -7018,7 +7018,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  1848 007c C4F83880 		str	r8, [r4, #56]
 1310:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->TxXferSize  = Size;
  1849              		.loc 1 1310 3 is_stmt 1 view .LVU594
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 118
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 118
 
 
 1310:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->TxXferSize  = Size;
@@ -7078,7 +7078,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  1887 00a8 1A68     		ldr	r2, [r3]
  1888 00aa 42F04002 		orr	r2, r2, #64
  1889 00ae 1A60     		str	r2, [r3]
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 119
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 119
 
 
  1890              	.L144:
@@ -7138,7 +7138,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  1926 00d2 013B     		subs	r3, r3, #1
  1927 00d4 9BB2     		uxth	r3, r3
  1928 00d6 E387     		strh	r3, [r4, #62]	@ movhi
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 120
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 120
 
 
  1929              	.L147:
@@ -7198,7 +7198,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  1968              		.loc 1 1362 9 is_stmt 1 view .LVU644
  1969              	.LVL99:
 1362:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 121
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 121
 
 
  1970              		.loc 1 1362 19 is_stmt 0 view .LVU645
@@ -7258,7 +7258,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  2008              	.LVL101:
 1385:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       }
  2009              		.loc 1 1385 19 is_stmt 0 view .LVU662
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 122
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 122
 
 
  2010 012c 0127     		movs	r7, #1
@@ -7318,7 +7318,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 1356:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       {
  2050              		.loc 1 1356 52 discriminator 1 view .LVU677
  2051 0160 002A     		cmp	r2, #0
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 123
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 123
 
 
  2052 0162 CDD0     		beq	.L149
@@ -7378,7 +7378,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 1403:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       }
  2090              		.loc 1 1403 9 is_stmt 1 view .LVU694
 1403:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       }
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 124
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 124
 
 
  2091              		.loc 1 1403 13 is_stmt 0 view .LVU695
@@ -7438,7 +7438,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  2131              	.L177:
 1417:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         {
  2132              		.loc 1 1417 9 is_stmt 1 view .LVU710
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 125
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 125
 
 
 1417:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         {
@@ -7498,7 +7498,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  2170              		.loc 1 1425 51 view .LVU727
  2171 01d4 1278     		ldrb	r2, [r2]	@ zero_extendqisi2
 1425:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****           hspi->pTxBuffPtr++;
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 126
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 126
 
 
  2172              		.loc 1 1425 48 view .LVU728
@@ -7558,7 +7558,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 1462:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****           hspi->pRxBuffPtr++;
  2212              		.loc 1 1462 42 view .LVU743
  2213 01fe 1370     		strb	r3, [r2]
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 127
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 127
 
 
 1463:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****           hspi->RxXferCount--;
@@ -7618,7 +7618,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  2253 022c 9BB2     		uxth	r3, r3
 1412:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     {
  2254              		.loc 1 1412 37 view .LVU759
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 128
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 128
 
 
  2255 022e 23B9     		cbnz	r3, .L162
@@ -7678,7 +7678,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  2294              		.loc 1 1449 17 is_stmt 0 view .LVU774
  2295 0262 B4F84620 		ldrh	r2, [r4, #70]
  2296 0266 92B2     		uxth	r2, r2
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 129
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 129
 
 
 1449:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         {
@@ -7738,7 +7738,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 1535:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
  2335              		.loc 1 1535 3 is_stmt 1 view .LVU791
 1535:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 130
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 130
 
 
  2336              		.loc 1 1535 7 is_stmt 0 view .LVU792
@@ -7798,7 +7798,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  2376 02ba 0220     		movs	r0, #2
  2377              	.LVL127:
 1288:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     goto error;
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 131
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 131
 
 
  2378              		.loc 1 1288 15 view .LVU807
@@ -7858,7 +7858,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 1270:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  2422              		.loc 1 1270 3 view .LVU818
  2423 02da 0220     		movs	r0, #2
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 132
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 132
 
 
  2424              	.LVL138:
@@ -7918,7 +7918,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 1024:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  2472              		.loc 1 1024 3 is_stmt 1 view .LVU827
 1024:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 133
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 133
 
 
  2473              		.loc 1 1024 3 view .LVU828
@@ -7978,7 +7978,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 1044:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->RxXferSize  = Size;
  2511              		.loc 1 1044 21 is_stmt 0 view .LVU845
  2512 0052 C4F84080 		str	r8, [r4, #64]
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 134
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 134
 
 
 1045:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->RxXferCount = Size;
@@ -8038,7 +8038,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  2547              		.loc 1 1078 17 is_stmt 0 view .LVU865
  2548 007a A368     		ldr	r3, [r4, #8]
 1078:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 135
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 135
 
 
  2549              		.loc 1 1078 6 view .LVU866
@@ -8098,7 +8098,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  2589 00ae 0A46     		mov	r2, r1
  2590              	.LVL147:
 1020:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   }
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 136
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 136
 
 
  2591              		.loc 1 1020 12 view .LVU881
@@ -8158,7 +8158,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  2635 00ee 54D0     		beq	.L202
  2636              	.L187:
 1096:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     {
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 137
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 137
 
 
  2637              		.loc 1 1096 30 is_stmt 1 view .LVU892
@@ -8218,7 +8218,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 1132:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         {
  2675              		.loc 1 1132 16 is_stmt 0 view .LVU909
  2676 0120 FFF7FEFF 		bl	HAL_GetTick
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 138
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 138
 
 
  2677              	.LVL152:
@@ -8278,7 +8278,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  2714              		.loc 1 1126 26 view .LVU926
  2715 014e 0233     		adds	r3, r3, #2
  2716 0150 2364     		str	r3, [r4, #64]
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 139
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 139
 
 
 1127:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       }
@@ -8338,7 +8338,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  2756              		.loc 1 1231 15 is_stmt 0 view .LVU941
  2757 0182 0123     		movs	r3, #1
  2758 0184 84F85D30 		strb	r3, [r4, #93]
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 140
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 140
 
 
 1232:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   return errorcode;
@@ -8398,7 +8398,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  2807              	.LFB326:
 1556:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   HAL_StatusTypeDef errorcode = HAL_OK;
  2808              		.loc 1 1556 1 is_stmt 1 view -0
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 141
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 141
 
 
  2809              		.cfi_startproc
@@ -8458,7 +8458,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 1579:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->pTxBuffPtr  = (uint8_t *)pData;
  2847              		.loc 1 1579 3 is_stmt 1 view .LVU967
 1579:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->pTxBuffPtr  = (uint8_t *)pData;
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 142
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 142
 
 
  2848              		.loc 1 1579 21 is_stmt 0 view .LVU968
@@ -8518,7 +8518,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  2883              	.L212:
 1601:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
  2884              		.loc 1 1601 3 is_stmt 1 view .LVU988
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 143
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 143
 
 
 1601:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
@@ -8578,7 +8578,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  2926 0080 0A60     		str	r2, [r1]
  2927              	.LVL166:
 1605:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   }
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 144
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 144
 
 
  2928              		.loc 1 1605 5 is_stmt 1 view .LVU1002
@@ -8638,7 +8638,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  2972              		.cfi_endproc
  2973              	.LFE326:
  2975              		.section	.text.HAL_SPI_TransmitReceive_IT,"ax",%progbits
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 145
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 145
 
 
  2976              		.align	1
@@ -8698,7 +8698,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 1761:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  3017              		.loc 1 1761 3 is_stmt 1 discriminator 2 view .LVU1027
 1761:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 146
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 146
 
 
  3018              		.loc 1 1761 23 is_stmt 0 discriminator 2 view .LVU1028
@@ -8758,7 +8758,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  3057              		.loc 1 1779 5 is_stmt 1 view .LVU1043
 1779:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   }
  3058              		.loc 1 1779 17 is_stmt 0 view .LVU1044
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 147
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 147
 
 
  3059 0048 0520     		movs	r0, #5
@@ -8818,7 +8818,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  3094              	.LVL180:
 1794:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     hspi->TxISR     = SPI_2linesTxISR_16BIT;
  3095              		.loc 1 1794 21 view .LVU1064
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 148
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 148
 
 
  3096 0078 CCF84C10 		str	r1, [ip, #76]
@@ -8878,7 +8878,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  3136              		.loc 1 1751 24 is_stmt 0 view .LVU1078
  3137 00b8 0020     		movs	r0, #0
  3138 00ba 0EE0     		b	.L225
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 149
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 149
 
 
  3139              	.LVL183:
@@ -8938,7 +8938,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  3179              		.cfi_def_cfa_offset 0
  3180 00e4 7047     		bx	lr
  3181              	.LVL189:
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 150
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 150
 
 
  3182              	.L234:
@@ -8998,7 +8998,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  3225              		.cfi_restore 4
 1757:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  3226              		.loc 1 1757 3 view .LVU1104
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 151
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 151
 
 
  3227 00fe 0220     		movs	r0, #2
@@ -9058,7 +9058,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  3273              		.loc 1 1652 3 is_stmt 1 view .LVU1114
 1652:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  3274              		.loc 1 1652 3 view .LVU1115
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 152
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 152
 
 
  3275 0010 9CF85C30 		ldrb	r3, [ip, #92]	@ zero_extendqisi2
@@ -9118,7 +9118,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 1671:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  3312              		.loc 1 1671 3 is_stmt 1 view .LVU1133
 1671:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 153
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 153
 
 
  3313              		.loc 1 1671 21 is_stmt 0 view .LVU1134
@@ -9178,7 +9178,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  3349              		.loc 1 1694 6 view .LVU1152
  3350 0078 B3F5004F 		cmp	r3, #32768
  3351 007c 23D0     		beq	.L258
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 154
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 154
 
 
  3352              	.L252:
@@ -9238,7 +9238,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  3392 00b2 DCF80020 		ldr	r2, [ip]
  3393              	.LVL210:
 1689:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     hspi->RxISR = SPI_RxISR_8BIT;
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 155
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 155
 
 
  3394              		.loc 1 1689 5 is_stmt 0 view .LVU1167
@@ -9298,7 +9298,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  3437              	.LVL216:
  3438              	.L253:
 1652:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 156
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 156
 
 
  3439              		.loc 1 1652 3 view .LVU1179
@@ -9358,7 +9358,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 1867:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  3486              		.loc 1 1867 3 discriminator 2 view .LVU1189
 1869:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 157
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 157
 
 
  3487              		.loc 1 1869 3 discriminator 2 view .LVU1190
@@ -9418,7 +9418,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  3522              		.loc 1 1890 21 is_stmt 0 view .LVU1209
  3523 0038 0365     		str	r3, [r0, #80]
 1891:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->RxXferSize  = 0U;
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 158
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 158
 
 
  3524              		.loc 1 1891 3 is_stmt 1 view .LVU1210
@@ -9478,7 +9478,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 1921:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  3560              		.loc 1 1921 7 is_stmt 0 view .LVU1229
  3561 005e 636D     		ldr	r3, [r4, #84]
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 159
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 159
 
 
 1921:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
@@ -9538,7 +9538,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  3601 0090 0146     		mov	r1, r0
  3602 0092 0028     		cmp	r0, #0
  3603 0094 38D1     		bne	.L274
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 160
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 160
 
 
 1953:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
@@ -9598,7 +9598,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 1928:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     {
  3647              		.loc 1 1928 5 view .LVU1256
 1928:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     {
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 161
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 161
 
 
  3648              		.loc 1 1928 14 is_stmt 0 view .LVU1257
@@ -9658,7 +9658,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 1948:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     goto error;
  3689              		.loc 1 1948 17 is_stmt 0 view .LVU1271
  3690 0110 0123     		movs	r3, #1
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 162
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 162
 
 
  3691 0112 84F85D30 		strb	r3, [r4, #93]
@@ -9718,7 +9718,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  3738              		@ frame_needed = 0, uses_anonymous_args = 0
 2128:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   uint32_t             tmp_mode;
  3739              		.loc 1 2128 1 is_stmt 0 view .LVU1281
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 163
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 163
 
 
  3740 0000 38B5     		push	{r3, r4, r5, lr}
@@ -9778,7 +9778,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  3777 001e 0AD0     		beq	.L279
 2147:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         ((tmp_mode == SPI_MODE_MASTER) && (hspi->Init.Direction == SPI_DIRECTION_2LINES) && (tmp_st
  3778              		.loc 1 2147 7 discriminator 1 view .LVU1299
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 164
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 164
 
 
  3779 0020 B5F5827F 		cmp	r5, #260
@@ -9838,7 +9838,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  3818 005a 2066     		str	r0, [r4, #96]
 2168:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->TxXferSize  = Size;
  3819              		.loc 1 2168 3 is_stmt 1 view .LVU1315
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 165
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 165
 
 
 2168:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->TxXferSize  = Size;
@@ -9898,7 +9898,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  3854              		.loc 1 2191 17 is_stmt 0 view .LVU1335
  3855 007a E368     		ldr	r3, [r4, #12]
 2191:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 166
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 166
 
 
  3856              		.loc 1 2191 6 view .LVU1336
@@ -9958,7 +9958,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  3894              		.loc 1 2251 35 view .LVU1352
  3895 00aa 0022     		movs	r2, #0
  3896 00ac 9A63     		str	r2, [r3, #56]
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 167
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 167
 
 
 2254:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****                                  hspi->RxXferCount))
@@ -10018,7 +10018,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 2201:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     {
  3937              		.loc 1 2201 8 view .LVU1367
  3938 00e2 B3F5806F 		cmp	r3, #1024
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 168
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 168
 
 
  3939 00e6 1AD0     		beq	.L301
@@ -10078,7 +10078,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  3978 0124 09D1     		bne	.L285
 2205:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         hspi->TxXferCount = hspi->TxXferCount >> 1U;
  3979              		.loc 1 2205 9 is_stmt 1 view .LVU1383
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 169
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 169
 
 
  3980 0126 2268     		ldr	r2, [r4]
@@ -10138,7 +10138,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  4021              	.L300:
 2237:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     hspi->hdmarx->XferCpltCallback     = SPI_DMAReceiveCplt;
  4022              		.loc 1 2237 5 is_stmt 1 view .LVU1397
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 170
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 170
 
 
 2237:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     hspi->hdmarx->XferCpltCallback     = SPI_DMAReceiveCplt;
@@ -10198,7 +10198,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  4060 0190 626D     		ldr	r2, [r4, #84]
 2273:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  4061              		.loc 1 2273 38 view .LVU1415
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 171
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 171
 
 
  4062 0192 9363     		str	r3, [r2, #56]
@@ -10258,7 +10258,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  4103 01ce 236E     		ldr	r3, [r4, #96]
  4104 01d0 43F01003 		orr	r3, r3, #16
  4105 01d4 2366     		str	r3, [r4, #96]
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 172
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 172
 
 
 2281:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
@@ -10318,7 +10318,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 2156:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     goto error;
  4146              		.loc 1 2156 15 view .LVU1443
  4147 01f0 0120     		movs	r0, #1
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 173
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 173
 
 
  4148              	.LVL258:
@@ -10378,7 +10378,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  4196 0000 38B5     		push	{r3, r4, r5, lr}
  4197              		.cfi_def_cfa_offset 16
  4198              		.cfi_offset 3, -16
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 174
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 174
 
 
  4199              		.cfi_offset 4, -12
@@ -10438,7 +10438,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  4237 002e 00F09A80 		beq	.L308
 2008:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
  4238              		.loc 1 2008 23 discriminator 1 view .LVU1468
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 175
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 175
 
 
  4239 0032 002A     		cmp	r2, #0
@@ -10498,7 +10498,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  4273 0058 44D0     		beq	.L319
  4274              	.LVL267:
  4275              	.L309:
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 176
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 176
 
 
 2044:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   if (hspi->Init.DataSize > SPI_DATASIZE_8BIT)
@@ -10558,7 +10558,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 2083:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  4314              		.loc 1 2083 35 view .LVU1505
  4315 008a 0022     		movs	r2, #0
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 177
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 177
 
 
  4316 008c 9A63     		str	r2, [r3, #56]
@@ -10618,7 +10618,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  4357              		.loc 1 1983 21 is_stmt 0 view .LVU1518
  4358 00cc 0D46     		mov	r5, r1
  4359 00ce 4AE0     		b	.L308
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 178
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 178
 
 
  4360              	.LVL270:
@@ -10678,7 +10678,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 2055:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     {
  4402              		.loc 1 2055 13 is_stmt 0 view .LVU1531
  4403 0104 A36D     		ldr	r3, [r4, #88]
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 179
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 179
 
 
 2055:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     {
@@ -10738,7 +10738,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 2068:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       }
  4444              		.loc 1 2068 27 view .LVU1546
  4445 014e A4F84630 		strh	r3, [r4, #70]	@ movhi
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 180
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 180
 
 
  4446 0152 90E7     		b	.L311
@@ -10798,7 +10798,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  4488 017c 00000000 		.word	SPI_DMAError
  4489              		.cfi_endproc
  4490              	.LFE330:
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 181
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 181
 
 
  4492              		.section	.text.HAL_SPI_Abort,"ax",%progbits
@@ -10858,7 +10858,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 2330:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  4535              		.loc 1 2330 3 is_stmt 1 view .LVU1571
  4536 001e 0268     		ldr	r2, [r0]
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 182
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 182
 
 
  4537 0020 5368     		ldr	r3, [r2, #4]
@@ -10918,7 +10918,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 2342:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       }
  4576              		.loc 1 2342 9 view .LVU1587
  4577              	.L326:
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 183
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 183
 
 
 2347:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   }
@@ -10978,7 +10978,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  4615 007a 236E     		ldr	r3, [r4, #96]
  4616 007c 43F04003 		orr	r3, r3, #64
  4617 0080 2366     		str	r3, [r4, #96]
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 184
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 184
 
 
 2359:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       }
@@ -11038,7 +11038,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  4654              		.loc 1 2384 7 is_stmt 1 view .LVU1622
  4655 00a2 2268     		ldr	r2, [r4]
  4656 00a4 5368     		ldr	r3, [r2, #4]
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 185
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 185
 
 
  4657 00a6 23F00203 		bic	r3, r3, #2
@@ -11098,7 +11098,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 2403:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
  4699              		.loc 1 2403 7 is_stmt 0 view .LVU1635
  4700 00e4 2368     		ldr	r3, [r4]
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 186
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 186
 
 
  4701 00e6 5B68     		ldr	r3, [r3, #4]
@@ -11158,7 +11158,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  4741              	.LVL292:
 2422:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       {
  4742              		.loc 1 2422 10 view .LVU1650
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 187
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 187
 
 
  4743 011e 08B1     		cbz	r0, .L337
@@ -11218,7 +11218,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 2442:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
  4783              		.loc 1 2442 6 view .LVU1665
  4784 0152 402B     		cmp	r3, #64
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 188
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 188
 
 
  4785 0154 12D0     		beq	.L340
@@ -11278,7 +11278,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  4823              		.loc 1 2460 3 is_stmt 1 view .LVU1681
 2461:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  4824              		.loc 1 2461 1 is_stmt 0 view .LVU1682
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 189
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 189
 
 
  4825 0178 06B0     		add	sp, sp, #24
@@ -11338,7 +11338,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  4874 0016 5360     		str	r3, [r2, #4]
 2648:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  4875              		.loc 1 2648 3 discriminator 2 view .LVU1690
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 190
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 190
 
 
 2648:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
@@ -11398,7 +11398,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 2665:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  4920              		.loc 1 2665 3 discriminator 2 view .LVU1703
  4921 000e 0268     		ldr	r2, [r0]
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 191
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 191
 
 
  4922 0010 5368     		ldr	r3, [r2, #4]
@@ -11458,7 +11458,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 2681:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   /* The Lock is not implemented on this API to allow the user application
  4968              		.loc 1 2681 3 is_stmt 1 view .LVU1714
  4969              	.LVL306:
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 192
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 192
 
 
 2689:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
@@ -11518,7 +11518,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  5008 0026 20B1     		cbz	r0, .L354
 2702:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       errorcode = HAL_ERROR;
  5009              		.loc 1 2702 7 is_stmt 1 view .LVU1731
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 193
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 193
 
 
  5010 0028 236E     		ldr	r3, [r4, #96]
@@ -11578,7 +11578,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  5055              	.LFE338:
  5057              		.section	.text.HAL_SPI_RxCpltCallback,"ax",%progbits
  5058              		.align	1
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 194
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 194
 
 
  5059              		.weak	HAL_SPI_RxCpltCallback
@@ -11638,7 +11638,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  5111              		@ args = 0, pretend = 0, frame = 0
  5112              		@ frame_needed = 0, uses_anonymous_args = 0
  5113              		@ link register save eliminated.
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 195
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 195
 
 
 2877:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
@@ -11698,7 +11698,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  5163              		@ args = 0, pretend = 0, frame = 0
  5164              		@ frame_needed = 0, uses_anonymous_args = 0
  5165              		@ link register save eliminated.
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 196
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 196
 
 
 2893:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
@@ -11758,7 +11758,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  5215              		@ args = 0, pretend = 0, frame = 0
  5216              		@ frame_needed = 0, uses_anonymous_args = 0
  5217              		@ link register save eliminated.
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 197
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 197
 
 
 2909:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
@@ -11818,7 +11818,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  5267              		@ args = 0, pretend = 0, frame = 0
  5268              		@ frame_needed = 0, uses_anonymous_args = 0
  5269              		@ link register save eliminated.
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 198
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 198
 
 
 2925:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
@@ -11878,7 +11878,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 4275:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
  5315              		.loc 1 4275 7 view .LVU1788
  5316 001a FFF7FEFF 		bl	SPI_EndRxTxTransaction
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 199
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 199
 
 
  5317              	.LVL338:
@@ -11938,7 +11938,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 4293:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** #endif /* USE_HAL_SPI_REGISTER_CALLBACKS */
  5355              		.loc 1 4293 5 is_stmt 1 view .LVU1805
  5356 0044 2046     		mov	r0, r4
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 200
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 200
 
 
  5357 0046 FFF7FEFF 		bl	HAL_SPI_ErrorCallback
@@ -11998,7 +11998,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  5403              		.loc 1 3860 40 view .LVU1815
  5404 0008 1A73     		strb	r2, [r3, #12]
 3861:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->TxXferCount--;
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 201
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 201
 
 
  5405              		.loc 1 3861 3 is_stmt 1 view .LVU1816
@@ -12058,7 +12058,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  5449              		.cfi_startproc
  5450              		@ args = 0, pretend = 0, frame = 0
  5451              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 202
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 202
 
 
 3884:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   /* Transmit data in 16 Bit mode */
@@ -12118,7 +12118,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  5490              	.LVL348:
  5491              	.L383:
 3899:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   }
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 203
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 203
 
 
  5492              		.loc 1 3899 5 is_stmt 1 view .LVU1845
@@ -12178,7 +12178,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  5539 0024 2366     		str	r3, [r4, #96]
  5540              	.L385:
 4217:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 204
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 204
 
 
  5541              		.loc 1 4217 3 view .LVU1855
@@ -12238,7 +12238,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  5586              		.loc 1 3771 3 is_stmt 1 view .LVU1866
 3771:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->pRxBuffPtr++;
  5587              		.loc 1 3771 46 is_stmt 0 view .LVU1867
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 205
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 205
 
 
  5588 0002 0268     		ldr	r2, [r0]
@@ -12298,7 +12298,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  5627              	.LFE362:
  5629              		.section	.text.SPI_RxISR_16BIT,"ax",%progbits
  5630              		.align	1
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 206
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 206
 
 
  5631              		.syntax unified
@@ -12358,7 +12358,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  5671              		.loc 1 3839 11 is_stmt 0 view .LVU1897
  5672 001e B0F84630 		ldrh	r3, [r0, #70]
  5673 0022 9BB2     		uxth	r3, r3
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 207
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 207
 
 
 3839:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
@@ -12418,7 +12418,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  5719 000c 4B68     		ldr	r3, [r1, #4]
  5720 000e 23F02003 		bic	r3, r3, #32
  5721 0012 4B60     		str	r3, [r1, #4]
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 208
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 208
 
 
 4141:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
@@ -12478,7 +12478,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  5761              	.L403:
 4167:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         /* Call user Rx complete callback */
  5762              		.loc 1 4167 9 is_stmt 1 view .LVU1924
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 209
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 209
 
 
 4167:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         /* Call user Rx complete callback */
@@ -12538,7 +12538,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  5808 0006 012B     		cmp	r3, #1
  5809 0008 18D9     		bls	.L405
 3606:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     hspi->pTxBuffPtr += sizeof(uint16_t);
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 210
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 210
 
 
  5810              		.loc 1 3606 5 is_stmt 1 view .LVU1936
@@ -12598,7 +12598,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  5848 0036 9BB2     		uxth	r3, r3
 3635:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     {
  5849              		.loc 1 3635 8 view .LVU1953
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 211
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 211
 
 
  5850 0038 6BB1     		cbz	r3, .L409
@@ -12658,7 +12658,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  5891              		.align	1
  5892              		.syntax unified
  5893              		.thumb
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 212
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 212
 
 
  5894              		.thumb_func
@@ -12718,7 +12718,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 3523:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     if (hspi->RxXferCount == 1U)
  5934              		.loc 1 3523 23 view .LVU1983
  5935 0020 023B     		subs	r3, r3, #2
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 213
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 213
 
 
  5936 0022 9BB2     		uxth	r3, r3
@@ -12778,7 +12778,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  5975              	.L412:
 3539:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
  5976              		.loc 1 3539 3 is_stmt 1 view .LVU1999
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 214
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 214
 
 
 3539:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
@@ -12838,7 +12838,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  6022              		.cfi_def_cfa_offset 8
  6023              		.cfi_offset 3, -8
  6024              		.cfi_offset 14, -4
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 215
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 215
 
 
 3707:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->pTxBuffPtr += sizeof(uint16_t);
@@ -12898,7 +12898,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  6062 002e 9BB2     		uxth	r3, r3
 3728:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     {
  6063              		.loc 1 3728 8 view .LVU2028
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 216
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 216
 
 
  6064 0030 03B1     		cbz	r3, .L419
@@ -12958,7 +12958,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  6108 000a 036C     		ldr	r3, [r0, #64]
 3652:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->RxXferCount--;
  6109              		.loc 1 3652 20 view .LVU2041
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 217
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 217
 
 
  6110 000c 0233     		adds	r3, r3, #2
@@ -13018,7 +13018,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  6152              		.align	1
  6153              		.syntax unified
  6154              		.thumb
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 218
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 218
 
 
  6155              		.thumb_func
@@ -13078,7 +13078,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  6202              	.LFB348:
 3013:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   SPI_HandleTypeDef *hspi = (SPI_HandleTypeDef *)(((DMA_HandleTypeDef *)hdma)->Parent); /* Derogati
  6203              		.loc 1 3013 1 is_stmt 1 view -0
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 219
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 219
 
 
  6204              		.cfi_startproc
@@ -13138,7 +13138,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 3030:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     {
  6245              		.loc 1 3030 9 is_stmt 0 view .LVU2079
  6246 002c 6421     		movs	r1, #100
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 220
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 220
 
 
  6247 002e 2046     		mov	r0, r4
@@ -13198,7 +13198,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  6285              		.loc 1 3042 17 is_stmt 0 discriminator 1 view .LVU2095
  6286 0054 0123     		movs	r3, #1
  6287 0056 84F85D30 		strb	r3, [r4, #93]
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 221
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 221
 
 
 3044:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     {
@@ -13258,7 +13258,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  6335              		.cfi_offset 5, -8
  6336              		.cfi_offset 14, -4
  6337 0002 0546     		mov	r5, r0
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 222
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 222
 
 
 3071:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   uint32_t tickstart;
@@ -13318,7 +13318,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  6376 0034 4B60     		str	r3, [r1, #4]
  6377              	.L436:
 3144:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     {
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 223
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 223
 
 
  6378              		.loc 1 3144 5 view .LVU2121
@@ -13378,7 +13378,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  6417 005c 2168     		ldr	r1, [r4]
  6418 005e 4B68     		ldr	r3, [r1, #4]
  6419 0060 23F00303 		bic	r3, r3, #3
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 224
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 224
 
 
  6420 0064 4B60     		str	r3, [r1, #4]
@@ -13438,7 +13438,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  6465 000a 2B68     		ldr	r3, [r5]
 3200:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
  6466              		.loc 1 3200 22 view .LVU2148
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 225
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 225
 
 
  6467 000c 1B68     		ldr	r3, [r3]
@@ -13498,7 +13498,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  6507 0046 84F85D30 		strb	r3, [r4, #93]
 3261:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     {
  6508              		.loc 1 3261 5 is_stmt 1 view .LVU2163
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 226
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 226
 
 
 3261:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     {
@@ -13558,7 +13558,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  6555              		.loc 1 2721 27 is_stmt 0 view .LVU2173
  6556 0006 0268     		ldr	r2, [r0]
 2721:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   uint32_t itflag   = hspi->Instance->SR;
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 227
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 227
 
 
  6557              		.loc 1 2721 12 view .LVU2174
@@ -13618,7 +13618,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  6595              		.loc 1 2746 10 view .LVU2190
  6596 0038 0328     		cmp	r0, #3
  6597 003a 5FD0     		beq	.L453
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 228
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 228
 
 
 2748:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         __HAL_SPI_CLEAR_OVRFLAG(hspi);
@@ -13678,7 +13678,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 2762:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     }
  6638              		.loc 1 2762 7 view .LVU2205
  6639 0070 029A     		ldr	r2, [sp, #8]
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 229
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 229
 
 
  6640              	.L454:
@@ -13738,7 +13738,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  6678 0096 23F0E003 		bic	r3, r3, #224
  6679 009a 5360     		str	r3, [r2, #4]
 2777:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       /* Disable the SPI DMA requests if enabled */
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 230
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 230
 
 
  6680              		.loc 1 2777 7 view .LVU2222
@@ -13798,7 +13798,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  6718 00cc A3B1     		cbz	r3, .L448
 2799:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****           if (HAL_OK != HAL_DMA_Abort_IT(hspi->hdmatx))
  6719              		.loc 1 2799 11 is_stmt 1 view .LVU2239
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 231
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 231
 
 
 2799:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****           if (HAL_OK != HAL_DMA_Abort_IT(hspi->hdmatx))
@@ -13858,7 +13858,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  6760              		.loc 1 2736 5 is_stmt 1 view .LVU2253
  6761              	.L448:
 2818:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 232
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 232
 
 
  6762              		.loc 1 2818 1 is_stmt 0 view .LVU2254
@@ -13918,7 +13918,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  6807              		.thumb
  6808              		.thumb_func
  6810              	SPI_DMAAbortOnError:
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 233
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 233
 
 
  6811              	.LVL433:
@@ -13978,7 +13978,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 2943:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  6856              		.loc 1 2943 3 view .LVU2276
 2948:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 234
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 234
 
 
  6857              		.loc 1 2948 1 is_stmt 0 view .LVU2277
@@ -14038,7 +14038,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  6902 0014 02FB03F3 		mul	r3, r2, r3
 2488:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   count = resetcount;
  6903              		.loc 1 2488 14 view .LVU2289
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 235
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 235
 
 
  6904 0018 0293     		str	r3, [sp, #8]
@@ -14098,7 +14098,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  6941              		.loc 1 2507 26 view .LVU2306
  6942 0046 072B     		cmp	r3, #7
  6943 0048 F5D1     		bne	.L471
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 236
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 236
 
 
  6944 004a 03E0     		b	.L470
@@ -14158,7 +14158,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  6981 006e 94F85D30 		ldrb	r3, [r4, #93]	@ zero_extendqisi2
  6982 0072 DBB2     		uxtb	r3, r3
 2524:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     /* Reset Timeout Counter */
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 237
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 237
 
 
  6983              		.loc 1 2524 26 view .LVU2324
@@ -14218,7 +14218,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 2550:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     {
  7021              		.loc 1 2550 9 is_stmt 0 view .LVU2341
  7022 009a 2268     		ldr	r2, [r4]
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 238
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 238
 
 
  7023 009c 5268     		ldr	r2, [r2, #4]
@@ -14278,7 +14278,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  7060 00c4 2366     		str	r3, [r4, #96]
 2487:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   resetcount = SPI_DEFAULT_TIMEOUT * (SystemCoreClock / 24U / 1000U);
  7061              		.loc 1 2487 13 view .LVU2359
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 239
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 239
 
 
  7062 00c6 0126     		movs	r6, #1
@@ -14338,7 +14338,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  7101              		.loc 1 2587 9 is_stmt 1 view .LVU2374
 2587:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         hspi->ErrorCode = HAL_SPI_ERROR_ABORT;
  7102              		.loc 1 2587 13 is_stmt 0 view .LVU2375
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 240
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 240
 
 
  7103 00ee A36D     		ldr	r3, [r4, #88]
@@ -14398,7 +14398,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 2601:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  7144              		.loc 1 2601 23 is_stmt 0 view .LVU2389
  7145 0110 E387     		strh	r3, [r4, #62]	@ movhi
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 241
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 241
 
 
 2604:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     {
@@ -14458,7 +14458,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  7184              		.loc 1 2617 5 view .LVU2405
 2620:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  7185              		.loc 1 2620 5 view .LVU2406
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 242
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 242
 
 
 2620:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
@@ -14518,7 +14518,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  7235              	.LVL451:
 3456:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  7236              		.loc 1 3456 3 is_stmt 1 view .LVU2414
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 243
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 243
 
 
  7237 0006 2268     		ldr	r2, [r4]
@@ -14578,7 +14578,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  7279 0046 2046     		mov	r0, r4
  7280 0048 FFF7FEFF 		bl	SPI_WaitFifoStateUntilTimeout
  7281              	.LVL455:
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 244
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 244
 
 
 3470:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
@@ -14638,7 +14638,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 3496:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   __HAL_SPI_CLEAR_FREFLAG(hspi);
  7318              		.loc 1 3496 3 is_stmt 1 view .LVU2445
  7319              	.LBB13:
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 245
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 245
 
 
 3496:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   __HAL_SPI_CLEAR_FREFLAG(hspi);
@@ -14698,7 +14698,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  7359              		.loc 1 3508 1 view .LVU2460
  7360              		.cfi_endproc
  7361              	.LFE357:
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 246
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 246
 
 
  7363              		.section	.text.SPI_DMATxAbortCallback,"ax",%progbits
@@ -14758,7 +14758,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  7407              	.LVL460:
 3394:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
  7408              		.loc 1 3394 6 view .LVU2472
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 247
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 247
 
 
  7409 0024 08B1     		cbz	r0, .L503
@@ -14818,7 +14818,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
 3418:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->TxXferCount = 0U;
  7449              		.loc 1 3418 3 is_stmt 1 view .LVU2487
 3418:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->TxXferCount = 0U;
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 248
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 248
 
 
  7450              		.loc 1 3418 21 is_stmt 0 view .LVU2488
@@ -14878,7 +14878,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  7488 007a 9B68     		ldr	r3, [r3, #8]
  7489 007c 0393     		str	r3, [sp, #12]
 3430:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 249
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 249
 
 
  7490              		.loc 1 3430 3 view .LVU2505
@@ -14938,7 +14938,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  7537              		.align	1
  7538              		.global	HAL_SPI_GetError
  7539              		.syntax unified
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 250
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 250
 
 
  7540              		.thumb
@@ -14974,142 +14974,142 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 1
  7568              		.file 8 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h"
  7569              		.file 9 "Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h"
  7570              		.file 10 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h"
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 251
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 251
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32l4xx_hal_spi.c
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:21     .text.SPI_WaitFlagStateUntilTimeout:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:26     .text.SPI_WaitFlagStateUntilTimeout:0000000000000000 SPI_WaitFlagStateUntilTimeout
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:200    .text.SPI_WaitFlagStateUntilTimeout:00000000000000c4 $d
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:205    .text.SPI_WaitFifoStateUntilTimeout:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:210    .text.SPI_WaitFifoStateUntilTimeout:0000000000000000 SPI_WaitFifoStateUntilTimeout
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:415    .text.SPI_WaitFifoStateUntilTimeout:00000000000000ec $d
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:420    .text.SPI_EndRxTxTransaction:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:425    .text.SPI_EndRxTxTransaction:0000000000000000 SPI_EndRxTxTransaction
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:518    .text.SPI_EndRxTransaction:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:523    .text.SPI_EndRxTransaction:0000000000000000 SPI_EndRxTransaction
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:642    .text.SPI_AbortRx_ISR:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:647    .text.SPI_AbortRx_ISR:0000000000000000 SPI_AbortRx_ISR
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:761    .text.SPI_AbortRx_ISR:0000000000000088 $d
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:767    .text.SPI_AbortTx_ISR:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:772    .text.SPI_AbortTx_ISR:0000000000000000 SPI_AbortTx_ISR
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:956    .text.SPI_AbortTx_ISR:00000000000000e8 $d
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:962    .text.HAL_SPI_MspInit:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:968    .text.HAL_SPI_MspInit:0000000000000000 HAL_SPI_MspInit
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:983    .text.HAL_SPI_Init:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:989    .text.HAL_SPI_Init:0000000000000000 HAL_SPI_Init
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:1171   .text.HAL_SPI_MspDeInit:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:1177   .text.HAL_SPI_MspDeInit:0000000000000000 HAL_SPI_MspDeInit
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:1192   .text.HAL_SPI_DeInit:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:1198   .text.HAL_SPI_DeInit:0000000000000000 HAL_SPI_DeInit
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:1255   .text.HAL_SPI_Transmit:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:1261   .text.HAL_SPI_Transmit:0000000000000000 HAL_SPI_Transmit
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:1725   .text.HAL_SPI_TransmitReceive:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:1731   .text.HAL_SPI_TransmitReceive:0000000000000000 HAL_SPI_TransmitReceive
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:2431   .text.HAL_SPI_Receive:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:2437   .text.HAL_SPI_Receive:0000000000000000 HAL_SPI_Receive
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:2799   .text.HAL_SPI_Transmit_IT:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:2805   .text.HAL_SPI_Transmit_IT:0000000000000000 HAL_SPI_Transmit_IT
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:2970   .text.HAL_SPI_Transmit_IT:00000000000000a8 $d
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:5445   .text.SPI_TxISR_16BIT:0000000000000000 SPI_TxISR_16BIT
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:5384   .text.SPI_TxISR_8BIT:0000000000000000 SPI_TxISR_8BIT
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:2976   .text.HAL_SPI_TransmitReceive_IT:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:2982   .text.HAL_SPI_TransmitReceive_IT:0000000000000000 HAL_SPI_TransmitReceive_IT
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:3233   .text.HAL_SPI_TransmitReceive_IT:0000000000000104 $d
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:6085   .text.SPI_2linesRxISR_16BIT:0000000000000000 SPI_2linesRxISR_16BIT
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:6013   .text.SPI_2linesTxISR_16BIT:0000000000000000 SPI_2linesTxISR_16BIT
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:5896   .text.SPI_2linesRxISR_8BIT:0000000000000000 SPI_2linesRxISR_8BIT
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:5791   .text.SPI_2linesTxISR_8BIT:0000000000000000 SPI_2linesTxISR_8BIT
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:3241   .text.HAL_SPI_Receive_IT:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:3247   .text.HAL_SPI_Receive_IT:0000000000000000 HAL_SPI_Receive_IT
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:3447   .text.HAL_SPI_Receive_IT:00000000000000f4 $d
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:5635   .text.SPI_RxISR_16BIT:0000000000000000 SPI_RxISR_16BIT
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:5574   .text.SPI_RxISR_8BIT:0000000000000000 SPI_RxISR_8BIT
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:3453   .text.HAL_SPI_Transmit_DMA:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:3459   .text.HAL_SPI_Transmit_DMA:0000000000000000 HAL_SPI_Transmit_DMA
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:3719   .text.HAL_SPI_Transmit_DMA:0000000000000128 $d
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:5126   .text.SPI_DMAHalfTransmitCplt:0000000000000000 SPI_DMAHalfTransmitCplt
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:6200   .text.SPI_DMATransmitCplt:0000000000000000 SPI_DMATransmitCplt
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:6157   .text.SPI_DMAError:0000000000000000 SPI_DMAError
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:3726   .text.HAL_SPI_TransmitReceive_DMA:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:3732   .text.HAL_SPI_TransmitReceive_DMA:0000000000000000 HAL_SPI_TransmitReceive_DMA
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 252
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:21     .text.SPI_WaitFlagStateUntilTimeout:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:26     .text.SPI_WaitFlagStateUntilTimeout:0000000000000000 SPI_WaitFlagStateUntilTimeout
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:200    .text.SPI_WaitFlagStateUntilTimeout:00000000000000c4 $d
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:205    .text.SPI_WaitFifoStateUntilTimeout:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:210    .text.SPI_WaitFifoStateUntilTimeout:0000000000000000 SPI_WaitFifoStateUntilTimeout
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:415    .text.SPI_WaitFifoStateUntilTimeout:00000000000000ec $d
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:420    .text.SPI_EndRxTxTransaction:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:425    .text.SPI_EndRxTxTransaction:0000000000000000 SPI_EndRxTxTransaction
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:518    .text.SPI_EndRxTransaction:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:523    .text.SPI_EndRxTransaction:0000000000000000 SPI_EndRxTransaction
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:642    .text.SPI_AbortRx_ISR:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:647    .text.SPI_AbortRx_ISR:0000000000000000 SPI_AbortRx_ISR
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:761    .text.SPI_AbortRx_ISR:0000000000000088 $d
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:767    .text.SPI_AbortTx_ISR:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:772    .text.SPI_AbortTx_ISR:0000000000000000 SPI_AbortTx_ISR
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:956    .text.SPI_AbortTx_ISR:00000000000000e8 $d
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:962    .text.HAL_SPI_MspInit:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:968    .text.HAL_SPI_MspInit:0000000000000000 HAL_SPI_MspInit
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:983    .text.HAL_SPI_Init:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:989    .text.HAL_SPI_Init:0000000000000000 HAL_SPI_Init
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:1171   .text.HAL_SPI_MspDeInit:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:1177   .text.HAL_SPI_MspDeInit:0000000000000000 HAL_SPI_MspDeInit
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:1192   .text.HAL_SPI_DeInit:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:1198   .text.HAL_SPI_DeInit:0000000000000000 HAL_SPI_DeInit
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:1255   .text.HAL_SPI_Transmit:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:1261   .text.HAL_SPI_Transmit:0000000000000000 HAL_SPI_Transmit
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:1725   .text.HAL_SPI_TransmitReceive:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:1731   .text.HAL_SPI_TransmitReceive:0000000000000000 HAL_SPI_TransmitReceive
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:2431   .text.HAL_SPI_Receive:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:2437   .text.HAL_SPI_Receive:0000000000000000 HAL_SPI_Receive
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:2799   .text.HAL_SPI_Transmit_IT:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:2805   .text.HAL_SPI_Transmit_IT:0000000000000000 HAL_SPI_Transmit_IT
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:2970   .text.HAL_SPI_Transmit_IT:00000000000000a8 $d
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:5445   .text.SPI_TxISR_16BIT:0000000000000000 SPI_TxISR_16BIT
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:5384   .text.SPI_TxISR_8BIT:0000000000000000 SPI_TxISR_8BIT
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:2976   .text.HAL_SPI_TransmitReceive_IT:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:2982   .text.HAL_SPI_TransmitReceive_IT:0000000000000000 HAL_SPI_TransmitReceive_IT
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:3233   .text.HAL_SPI_TransmitReceive_IT:0000000000000104 $d
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:6085   .text.SPI_2linesRxISR_16BIT:0000000000000000 SPI_2linesRxISR_16BIT
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:6013   .text.SPI_2linesTxISR_16BIT:0000000000000000 SPI_2linesTxISR_16BIT
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:5896   .text.SPI_2linesRxISR_8BIT:0000000000000000 SPI_2linesRxISR_8BIT
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:5791   .text.SPI_2linesTxISR_8BIT:0000000000000000 SPI_2linesTxISR_8BIT
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:3241   .text.HAL_SPI_Receive_IT:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:3247   .text.HAL_SPI_Receive_IT:0000000000000000 HAL_SPI_Receive_IT
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:3447   .text.HAL_SPI_Receive_IT:00000000000000f4 $d
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:5635   .text.SPI_RxISR_16BIT:0000000000000000 SPI_RxISR_16BIT
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:5574   .text.SPI_RxISR_8BIT:0000000000000000 SPI_RxISR_8BIT
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:3453   .text.HAL_SPI_Transmit_DMA:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:3459   .text.HAL_SPI_Transmit_DMA:0000000000000000 HAL_SPI_Transmit_DMA
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:3719   .text.HAL_SPI_Transmit_DMA:0000000000000128 $d
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:5126   .text.SPI_DMAHalfTransmitCplt:0000000000000000 SPI_DMAHalfTransmitCplt
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:6200   .text.SPI_DMATransmitCplt:0000000000000000 SPI_DMATransmitCplt
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:6157   .text.SPI_DMAError:0000000000000000 SPI_DMAError
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:3726   .text.HAL_SPI_TransmitReceive_DMA:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:3732   .text.HAL_SPI_TransmitReceive_DMA:0000000000000000 HAL_SPI_TransmitReceive_DMA
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 252
 
 
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:4173   .text.HAL_SPI_TransmitReceive_DMA:0000000000000200 $d
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:5230   .text.SPI_DMAHalfTransmitReceiveCplt:0000000000000000 SPI_DMAHalfTransmitReceiveCplt
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:6439   .text.SPI_DMATransmitReceiveCplt:0000000000000000 SPI_DMATransmitReceiveCplt
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:5178   .text.SPI_DMAHalfReceiveCplt:0000000000000000 SPI_DMAHalfReceiveCplt
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:6323   .text.SPI_DMAReceiveCplt:0000000000000000 SPI_DMAReceiveCplt
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:4182   .text.HAL_SPI_Receive_DMA:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:4188   .text.HAL_SPI_Receive_DMA:0000000000000000 HAL_SPI_Receive_DMA
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:4486   .text.HAL_SPI_Receive_DMA:0000000000000174 $d
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:4493   .text.HAL_SPI_Abort:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:4499   .text.HAL_SPI_Abort:0000000000000000 HAL_SPI_Abort
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:4839   .text.HAL_SPI_Abort:0000000000000180 $d
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:4847   .text.HAL_SPI_DMAPause:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:4853   .text.HAL_SPI_DMAPause:0000000000000000 HAL_SPI_DMAPause
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:4897   .text.HAL_SPI_DMAResume:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:4903   .text.HAL_SPI_DMAResume:0000000000000000 HAL_SPI_DMAResume
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:4947   .text.HAL_SPI_DMAStop:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:4953   .text.HAL_SPI_DMAStop:0000000000000000 HAL_SPI_DMAStop
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:5037   .text.HAL_SPI_TxCpltCallback:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:5043   .text.HAL_SPI_TxCpltCallback:0000000000000000 HAL_SPI_TxCpltCallback
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:5058   .text.HAL_SPI_RxCpltCallback:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:5064   .text.HAL_SPI_RxCpltCallback:0000000000000000 HAL_SPI_RxCpltCallback
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:5079   .text.HAL_SPI_TxRxCpltCallback:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:5085   .text.HAL_SPI_TxRxCpltCallback:0000000000000000 HAL_SPI_TxRxCpltCallback
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:5100   .text.HAL_SPI_TxHalfCpltCallback:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:5106   .text.HAL_SPI_TxHalfCpltCallback:0000000000000000 HAL_SPI_TxHalfCpltCallback
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:5121   .text.SPI_DMAHalfTransmitCplt:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:5152   .text.HAL_SPI_RxHalfCpltCallback:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:5158   .text.HAL_SPI_RxHalfCpltCallback:0000000000000000 HAL_SPI_RxHalfCpltCallback
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:5173   .text.SPI_DMAHalfReceiveCplt:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:5204   .text.HAL_SPI_TxRxHalfCpltCallback:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:5210   .text.HAL_SPI_TxRxHalfCpltCallback:0000000000000000 HAL_SPI_TxRxHalfCpltCallback
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:5225   .text.SPI_DMAHalfTransmitReceiveCplt:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:5256   .text.HAL_SPI_ErrorCallback:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:5262   .text.HAL_SPI_ErrorCallback:0000000000000000 HAL_SPI_ErrorCallback
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:5277   .text.SPI_CloseTx_ISR:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:5282   .text.SPI_CloseTx_ISR:0000000000000000 SPI_CloseTx_ISR
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:5379   .text.SPI_TxISR_8BIT:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:5440   .text.SPI_TxISR_16BIT:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:5501   .text.SPI_CloseRx_ISR:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:5506   .text.SPI_CloseRx_ISR:0000000000000000 SPI_CloseRx_ISR
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:5569   .text.SPI_RxISR_8BIT:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:5630   .text.SPI_RxISR_16BIT:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:5691   .text.SPI_CloseRxTx_ISR:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:5696   .text.SPI_CloseRxTx_ISR:0000000000000000 SPI_CloseRxTx_ISR
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:5786   .text.SPI_2linesTxISR_8BIT:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:5891   .text.SPI_2linesRxISR_8BIT:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:6008   .text.SPI_2linesTxISR_16BIT:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:6080   .text.SPI_2linesRxISR_16BIT:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:6152   .text.SPI_DMAError:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:6195   .text.SPI_DMATransmitCplt:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:6318   .text.SPI_DMAReceiveCplt:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:6434   .text.SPI_DMATransmitReceiveCplt:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:6533   .text.HAL_SPI_IRQHandler:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:6539   .text.HAL_SPI_IRQHandler:0000000000000000 HAL_SPI_IRQHandler
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:6800   .text.HAL_SPI_IRQHandler:0000000000000114 $d
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:6810   .text.SPI_DMAAbortOnError:0000000000000000 SPI_DMAAbortOnError
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:6805   .text.SPI_DMAAbortOnError:0000000000000000 $t
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s 			page 253
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:4173   .text.HAL_SPI_TransmitReceive_DMA:0000000000000200 $d
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:5230   .text.SPI_DMAHalfTransmitReceiveCplt:0000000000000000 SPI_DMAHalfTransmitReceiveCplt
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:6439   .text.SPI_DMATransmitReceiveCplt:0000000000000000 SPI_DMATransmitReceiveCplt
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:5178   .text.SPI_DMAHalfReceiveCplt:0000000000000000 SPI_DMAHalfReceiveCplt
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:6323   .text.SPI_DMAReceiveCplt:0000000000000000 SPI_DMAReceiveCplt
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:4182   .text.HAL_SPI_Receive_DMA:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:4188   .text.HAL_SPI_Receive_DMA:0000000000000000 HAL_SPI_Receive_DMA
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:4486   .text.HAL_SPI_Receive_DMA:0000000000000174 $d
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:4493   .text.HAL_SPI_Abort:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:4499   .text.HAL_SPI_Abort:0000000000000000 HAL_SPI_Abort
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:4839   .text.HAL_SPI_Abort:0000000000000180 $d
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:4847   .text.HAL_SPI_DMAPause:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:4853   .text.HAL_SPI_DMAPause:0000000000000000 HAL_SPI_DMAPause
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:4897   .text.HAL_SPI_DMAResume:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:4903   .text.HAL_SPI_DMAResume:0000000000000000 HAL_SPI_DMAResume
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:4947   .text.HAL_SPI_DMAStop:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:4953   .text.HAL_SPI_DMAStop:0000000000000000 HAL_SPI_DMAStop
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:5037   .text.HAL_SPI_TxCpltCallback:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:5043   .text.HAL_SPI_TxCpltCallback:0000000000000000 HAL_SPI_TxCpltCallback
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:5058   .text.HAL_SPI_RxCpltCallback:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:5064   .text.HAL_SPI_RxCpltCallback:0000000000000000 HAL_SPI_RxCpltCallback
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:5079   .text.HAL_SPI_TxRxCpltCallback:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:5085   .text.HAL_SPI_TxRxCpltCallback:0000000000000000 HAL_SPI_TxRxCpltCallback
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:5100   .text.HAL_SPI_TxHalfCpltCallback:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:5106   .text.HAL_SPI_TxHalfCpltCallback:0000000000000000 HAL_SPI_TxHalfCpltCallback
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:5121   .text.SPI_DMAHalfTransmitCplt:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:5152   .text.HAL_SPI_RxHalfCpltCallback:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:5158   .text.HAL_SPI_RxHalfCpltCallback:0000000000000000 HAL_SPI_RxHalfCpltCallback
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:5173   .text.SPI_DMAHalfReceiveCplt:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:5204   .text.HAL_SPI_TxRxHalfCpltCallback:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:5210   .text.HAL_SPI_TxRxHalfCpltCallback:0000000000000000 HAL_SPI_TxRxHalfCpltCallback
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:5225   .text.SPI_DMAHalfTransmitReceiveCplt:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:5256   .text.HAL_SPI_ErrorCallback:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:5262   .text.HAL_SPI_ErrorCallback:0000000000000000 HAL_SPI_ErrorCallback
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:5277   .text.SPI_CloseTx_ISR:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:5282   .text.SPI_CloseTx_ISR:0000000000000000 SPI_CloseTx_ISR
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:5379   .text.SPI_TxISR_8BIT:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:5440   .text.SPI_TxISR_16BIT:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:5501   .text.SPI_CloseRx_ISR:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:5506   .text.SPI_CloseRx_ISR:0000000000000000 SPI_CloseRx_ISR
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:5569   .text.SPI_RxISR_8BIT:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:5630   .text.SPI_RxISR_16BIT:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:5691   .text.SPI_CloseRxTx_ISR:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:5696   .text.SPI_CloseRxTx_ISR:0000000000000000 SPI_CloseRxTx_ISR
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:5786   .text.SPI_2linesTxISR_8BIT:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:5891   .text.SPI_2linesRxISR_8BIT:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:6008   .text.SPI_2linesTxISR_16BIT:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:6080   .text.SPI_2linesRxISR_16BIT:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:6152   .text.SPI_DMAError:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:6195   .text.SPI_DMATransmitCplt:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:6318   .text.SPI_DMAReceiveCplt:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:6434   .text.SPI_DMATransmitReceiveCplt:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:6533   .text.HAL_SPI_IRQHandler:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:6539   .text.HAL_SPI_IRQHandler:0000000000000000 HAL_SPI_IRQHandler
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:6800   .text.HAL_SPI_IRQHandler:0000000000000114 $d
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:6810   .text.SPI_DMAAbortOnError:0000000000000000 SPI_DMAAbortOnError
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:6805   .text.SPI_DMAAbortOnError:0000000000000000 $t
+ARM GAS  C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s 			page 253
 
 
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:6842   .text.HAL_SPI_AbortCpltCallback:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:6848   .text.HAL_SPI_AbortCpltCallback:0000000000000000 HAL_SPI_AbortCpltCallback
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:6863   .text.HAL_SPI_Abort_IT:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:6869   .text.HAL_SPI_Abort_IT:0000000000000000 HAL_SPI_Abort_IT
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:7202   .text.HAL_SPI_Abort_IT:0000000000000148 $d
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:7369   .text.SPI_DMATxAbortCallback:0000000000000000 SPI_DMATxAbortCallback
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:7217   .text.SPI_DMARxAbortCallback:0000000000000000 SPI_DMARxAbortCallback
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:7212   .text.SPI_DMARxAbortCallback:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:7364   .text.SPI_DMATxAbortCallback:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:7513   .text.HAL_SPI_GetState:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:7519   .text.HAL_SPI_GetState:0000000000000000 HAL_SPI_GetState
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:7537   .text.HAL_SPI_GetError:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccBBSUWU.s:7543   .text.HAL_SPI_GetError:0000000000000000 HAL_SPI_GetError
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:6842   .text.HAL_SPI_AbortCpltCallback:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:6848   .text.HAL_SPI_AbortCpltCallback:0000000000000000 HAL_SPI_AbortCpltCallback
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:6863   .text.HAL_SPI_Abort_IT:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:6869   .text.HAL_SPI_Abort_IT:0000000000000000 HAL_SPI_Abort_IT
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:7202   .text.HAL_SPI_Abort_IT:0000000000000148 $d
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:7369   .text.SPI_DMATxAbortCallback:0000000000000000 SPI_DMATxAbortCallback
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:7217   .text.SPI_DMARxAbortCallback:0000000000000000 SPI_DMARxAbortCallback
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:7212   .text.SPI_DMARxAbortCallback:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:7364   .text.SPI_DMATxAbortCallback:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:7513   .text.HAL_SPI_GetState:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:7519   .text.HAL_SPI_GetState:0000000000000000 HAL_SPI_GetState
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:7537   .text.HAL_SPI_GetError:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\cc3FsJhL.s:7543   .text.HAL_SPI_GetError:0000000000000000 HAL_SPI_GetError
 
 UNDEFINED SYMBOLS
 HAL_GetTick

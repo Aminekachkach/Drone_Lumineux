@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccPHygfg.s 			page 1
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccxWBy6I.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccPHygfg.s 			page 1
   28:Core/Src/gpio.c **** /*----------------------------------------------------------------------------*/
   29:Core/Src/gpio.c **** /* Configure GPIO                                                             */
   30:Core/Src/gpio.c **** /*----------------------------------------------------------------------------*/
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccPHygfg.s 			page 2
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccxWBy6I.s 			page 2
 
 
   31:Core/Src/gpio.c **** /* USER CODE BEGIN 1 */
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccPHygfg.s 			page 1
   49:Core/Src/gpio.c ****   __HAL_RCC_GPIOA_CLK_ENABLE();
   65              		.loc 1 49 3 view .LVU9
   66              	.LBB3:
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccPHygfg.s 			page 3
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccxWBy6I.s 			page 3
 
 
   67              		.loc 1 49 3 view .LVU10
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccPHygfg.s 			page 1
  111 0062 0393     		str	r3, [sp, #12]
   60:Core/Src/gpio.c ****   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
  112              		.loc 1 60 3 is_stmt 1 view .LVU25
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccPHygfg.s 			page 4
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccxWBy6I.s 			page 4
 
 
  113              		.loc 1 60 24 is_stmt 0 view .LVU26
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccPHygfg.s 			page 1
   75:Core/Src/gpio.c ****   GPIO_InitStruct.Pull = GPIO_NOPULL;
  153              		.loc 1 75 3 is_stmt 1 view .LVU45
  154              		.loc 1 75 24 is_stmt 0 view .LVU46
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccPHygfg.s 			page 5
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccxWBy6I.s 			page 5
 
 
  155 0092 0594     		str	r4, [sp, #20]
@@ -268,14 +268,14 @@ ARM GAS  C:\Users\billa\AppData\Local\Temp\ccPHygfg.s 			page 1
  177              		.file 3 "c:\\users\\billa\\appdata\\roaming\\code\\user\\globalstorage\\bmd.stm32-for-vscode\\@xpa
  178              		.file 4 "Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l412xx.h"
  179              		.file 5 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h"
-ARM GAS  C:\Users\billa\AppData\Local\Temp\ccPHygfg.s 			page 6
+ARM GAS  C:\Users\billa\AppData\Local\Temp\ccxWBy6I.s 			page 6
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 gpio.c
-C:\Users\billa\AppData\Local\Temp\ccPHygfg.s:21     .text.MX_GPIO_Init:0000000000000000 $t
-C:\Users\billa\AppData\Local\Temp\ccPHygfg.s:27     .text.MX_GPIO_Init:0000000000000000 MX_GPIO_Init
-C:\Users\billa\AppData\Local\Temp\ccPHygfg.s:169    .text.MX_GPIO_Init:00000000000000a0 $d
+C:\Users\billa\AppData\Local\Temp\ccxWBy6I.s:21     .text.MX_GPIO_Init:0000000000000000 $t
+C:\Users\billa\AppData\Local\Temp\ccxWBy6I.s:27     .text.MX_GPIO_Init:0000000000000000 MX_GPIO_Init
+C:\Users\billa\AppData\Local\Temp\ccxWBy6I.s:169    .text.MX_GPIO_Init:00000000000000a0 $d
 
 UNDEFINED SYMBOLS
 HAL_GPIO_WritePin
