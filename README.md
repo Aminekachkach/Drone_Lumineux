@@ -53,7 +53,7 @@
 ## Built With
 
 * [![C][C.js]][C-url]
-* [![STM32Cube][STM32Cube.js]][STM32Cube-url]
+* [![STM32Cube][STM32Cube.js]Cube-url]]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -77,6 +77,5 @@
 [product-screenshot]: images/screenshot.png
 [C.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [C-url]: https://nextjs.org/
-[STM32Cube.js] : 
-[STM32Cube-url] : 
+[Cube-url] : https://www.st.com/en/ecosystems/stm32cube.html/
 
