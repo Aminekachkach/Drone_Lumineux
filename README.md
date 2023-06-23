@@ -24,7 +24,7 @@
     <li>
       <a href="#Introduction">Introduction</a>
       <ul>
-        <li><a href="#Organigramme des tâches du projet">Organigramme des tâches du projet</a </li>
+        <li><a href="#Organigramme_des_tâches_du_projet">Organigramme des tâches du projet</a </li>
       </ul>
     </li>
     <li>
@@ -45,23 +45,9 @@
 </details>
 
 
-# Drone Lumineux
-
 ## Introduction 
 
-## Organigramme des tâches du projet
-
-## Architecture générale
-
-## Carte électronique
-
-## ESC
-
-## MPU6050
-
-## Neopixel 
-
-
+### Organigramme des tâches du projet
 
 ### Built With
 
@@ -75,6 +61,10 @@
 * [![JQuery][JQuery.com]][JQuery-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+
 
 
 ## Introduction 
