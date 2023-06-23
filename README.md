@@ -53,7 +53,7 @@
 ## Built With
 
 * [![C][C.js]][C-url]
-* [![STM32Cube][STM32Cube.js]Cube-url]]
+* [![Cube][C.js][Cube-url]]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
