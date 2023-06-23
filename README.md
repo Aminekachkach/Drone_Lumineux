@@ -61,6 +61,7 @@ En utilisant le modèle, nous avons identifié et défini les tâches qui corres
 ### Architecture générale
 
 Nous avons effectué la sélection des composants et défini l'architecture générale pour concevoir le PCB (Printed Circuit Board).
+[Drone_board](https://github.com/Aminekachkach/Drone_Lumineux/tree/main/hardware/Drone_board)
 
 <img src="https://github.com/Aminekachkach/Drone_Lumineux/blob/3178f3a68c79a3d7d2b15b143f99031bccc78226/img/Drone_architecture.PNG" width="400" height="300">
 
