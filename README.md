@@ -14,11 +14,7 @@
 
   <p align="center">
     A magic drone
-    <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
-  </p>
 </div>
-
 
 
 <!-- TABLE OF CONTENTS -->
@@ -26,7 +22,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#Introduction">Introduction</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -89,6 +85,8 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+## Introduction 
 
 
 <!-- GETTING STARTED -->
