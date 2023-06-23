@@ -24,7 +24,7 @@
     <li>
       <a href="#Introduction">Introduction</a>
       <ul>
-        <li><a href="#Organigramme_des_tâches_du_projet">Organigramme des tâches du projet</a </li>
+        <li><a href="#organigramme-des-tâches-du-projet">Organigramme des tâches du projet</a </li>
       </ul>
     </li>
     <li>
