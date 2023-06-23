@@ -1,0 +1,4 @@
+main.c:84:5:main	5
+main.c:225:6:SystemClock_Config	4
+main.c:271:5:init_mpu6050	1
+main.c:283:6:Error_Handler	1

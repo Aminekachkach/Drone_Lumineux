@@ -23,7 +23,8 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include <stdio.h>
+#include <string.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -33,7 +34,17 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
+#define MPU6050_SENSOR_ADDR                 0x68        /*!< Slave address of the mpu6050 sensor */
+#define MPU6050_WHO_AM_I_REG_ADDR           0x75        /*!< Register addresses of the "who am I" register */
 
+#define MPU6050_PWR_MGMT_1_REG_ADDR         0x6B        /*!< Register addresses of the power managment register */
+#define MPU6050_RESET_BIT                   7
+
+#define MPU6050_LOW_PASS_FILTER             0x1A        /* Register adress of the low pass filter*/
+#define MPU6050_LOW_PASS_FILTER_BANDWIDTH   0x05        /* Register adress of the 10Hz bandwidth */
+#define MPU6050_GYRO_CONFIG                 0x1B
+#define MPU6050_500_DEGREE                  0x8
+#define MPU6050_GYRO_MEASURMENT             0x43
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -74,7 +85,9 @@ int main(void)
   HAL_Init();
 
   /* USER CODE BEGIN Init */
-
+  HAL_StatusTypeDef ret;
+uint8_t check;
+uint8_t buf[12];
   /* USER CODE END Init */
 
   /* Configure the system clock */
@@ -89,14 +102,28 @@ int main(void)
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
 
+
+
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+
   while (1)
   {
+<<<<<<< Updated upstream
     HAL_Delay(1000);
     HAL_GPIO_TogglePin(LD3_GPIO_Port,LD3_Pin);
+=======
+
+	  HAL_I2C_Mem_Read(&hi2c3, MPU6050_SENSOR_ADDR, MPU6050_WHO_AM_I_REG_ADDR, 1, &check, 1, 100);
+	  sprintf((char*)buf, "hello %d \r\n", check);
+
+	  HAL_UART_Transmit(&huart2,buf, strlen((char*)buf), HAL_MAX_DELAY);
+	  HAL_Delay(500);
+		  //RCC_HSICALIBRATION_DEFAULT
+>>>>>>> Stashed changes
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -125,7 +152,7 @@ void SystemClock_Config(void)
   */
   RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI;
   RCC_OscInitStruct.HSIState = RCC_HSI_ON;
-  RCC_OscInitStruct.HSICalibrationValue = 16;
+  RCC_OscInitStruct.HSICalibrationValue = RCC_HSICALIBRATION_DEFAULT;
   RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
   RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSI;
   RCC_OscInitStruct.PLL.PLLM = 1;

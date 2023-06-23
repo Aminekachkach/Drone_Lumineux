@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;drone/Core/Src/main_NeoPixel&apos; to &apos;main_NeoPixel.c&apos;" description="Rename resource &apos;main_NeoPixel&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/main_NeoPixel" name="main_NeoPixel.c" stamp="1687546625500" updateReferences="true"/>
+</session>

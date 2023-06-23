@@ -1,0 +1,289 @@
+21:48:15 **** Incremental Build of configuration Debug for project controller ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L412xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Src/main.c:31:
+../Core/Inc/usbh_hid.h:28:10: fatal error: usbh_core.h: No such file or directory
+   28 | #include "usbh_core.h"
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [Core/Src/subdir.mk:46: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+15:29:47 **** Build of configuration Debug for project drone ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/adc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L412xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/adc.d" -MT"Core/Src/adc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/adc.o"
+arm-none-eabi-gcc "../Core/Src/dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L412xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/dma.d" -MT"Core/Src/dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/dma.o"
+arm-none-eabi-gcc "../Core/Src/gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L412xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/gpio.d" -MT"Core/Src/gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/gpio.o"
+arm-none-eabi-gcc "../Core/Src/i2c.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L412xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/i2c.d" -MT"Core/Src/i2c.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/i2c.o"
+arm-none-eabi-gcc "../Core/Src/main_moteur.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L412xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main_moteur.d" -MT"Core/Src/main_moteur.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main_moteur.o"
+arm-none-eabi-gcc "../Core/Src/main_mpu.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L412xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main_mpu.d" -MT"Core/Src/main_mpu.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main_mpu.o"
+arm-none-eabi-gcc "../Core/Src/spi.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L412xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/spi.d" -MT"Core/Src/spi.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/spi.o"
+arm-none-eabi-gcc "../Core/Src/stm32l4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L412xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32l4xx_hal_msp.d" -MT"Core/Src/stm32l4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32l4xx_hal_msp.o"
+../Core/Src/main_moteur.c: In function 'main':
+../Core/Src/main_moteur.c:106:7: warning: unused variable 'a' [-Wunused-variable]
+  106 |   int a=0;
+      |       ^
+../Core/Src/main_moteur.c:105:7: warning: unused variable 'sign' [-Wunused-variable]
+  105 |   int sign = 0;
+      |       ^~~~
+../Core/Src/main_moteur.c:104:7: warning: unused variable 'it' [-Wunused-variable]
+  104 |   int it = Servo_Angle_Min;
+      |       ^~
+arm-none-eabi-gcc "../Core/Src/stm32l4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L412xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32l4xx_it.d" -MT"Core/Src/stm32l4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32l4xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L412xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L412xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32l4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L412xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32l4xx.d" -MT"Core/Src/system_stm32l4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32l4xx.o"
+arm-none-eabi-gcc "../Core/Src/tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L412xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/tim.d" -MT"Core/Src/tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/tim.o"
+arm-none-eabi-gcc "../Core/Src/usart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L412xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usart.d" -MT"Core/Src/usart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usart.o"
+arm-none-eabi-gcc -o "drone.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\amine\Drone_Lumineux\firmware\drone\drone\STM32L412KBUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="drone.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: drone.elf
+ 
+arm-none-eabi-size   drone.elf 
+arm-none-eabi-objdump -h -S  drone.elf  > "drone.list"
+   text	   data	    bss	    dec	    hex	filename
+  37448	    484	   2228	  40160	   9ce0	drone.elf
+Finished building: default.size.stdout
+ 
+Finished building: drone.list
+ 
+15:45:11 **** Incremental Build of configuration Debug for project drone ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main_moteur.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L412xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main_moteur.d" -MT"Core/Src/main_moteur.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main_moteur.o"
+../Core/Src/main_moteur.c: In function 'main':
+../Core/Src/main_moteur.c:106:7: warning: unused variable 'a' [-Wunused-variable]
+  106 |   int a=0;
+      |       ^
+../Core/Src/main_moteur.c:105:7: warning: unused variable 'sign' [-Wunused-variable]
+  105 |   int sign = 0;
+      |       ^~~~
+../Core/Src/main_moteur.c:104:7: warning: unused variable 'it' [-Wunused-variable]
+  104 |   int it = Servo_Angle_Min;
+      |       ^~
+arm-none-eabi-gcc -o "drone.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\amine\Drone_Lumineux\firmware\drone\drone\STM32L412KBUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="drone.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: drone.elf
+ 
+arm-none-eabi-size   drone.elf 
+arm-none-eabi-objdump -h -S  drone.elf  > "drone.list"
+   text	   data	    bss	    dec	    hex	filename
+  37448	    484	   2228	  40160	   9ce0	drone.elf
+Finished building: default.size.stdout
+ 
+Finished building: drone.list
+ 
+15:45:49 **** Incremental Build of configuration Debug for project drone ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main_moteur.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L412xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main_moteur.d" -MT"Core/Src/main_moteur.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main_moteur.o"
+../Core/Src/main_moteur.c: In function 'main':
+../Core/Src/main_moteur.c:106:7: warning: unused variable 'a' [-Wunused-variable]
+  106 |   int a=0;
+      |       ^
+../Core/Src/main_moteur.c:105:7: warning: unused variable 'sign' [-Wunused-variable]
+  105 |   int sign = 0;
+      |       ^~~~
+../Core/Src/main_moteur.c:104:7: warning: unused variable 'it' [-Wunused-variable]
+  104 |   int it = Servo_Angle_Min;
+      |       ^~
+arm-none-eabi-gcc -o "drone.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\amine\Drone_Lumineux\firmware\drone\drone\STM32L412KBUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="drone.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: drone.elf
+ 
+arm-none-eabi-size   drone.elf 
+arm-none-eabi-objdump -h -S  drone.elf  > "drone.list"
+   text	   data	    bss	    dec	    hex	filename
+  37448	    484	   2228	  40160	   9ce0	drone.elf
+Finished building: default.size.stdout
+ 
+Finished building: drone.list
+ 
+19:32:22 **** Incremental Build of configuration Debug for project drone ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main_moteur.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L412xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main_moteur.d" -MT"Core/Src/main_moteur.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main_moteur.o"
+../Core/Src/main_moteur.c: In function 'main':
+../Core/Src/main_moteur.c:106:7: warning: unused variable 'a' [-Wunused-variable]
+  106 |   int a=0;
+      |       ^
+../Core/Src/main_moteur.c:105:7: warning: unused variable 'sign' [-Wunused-variable]
+  105 |   int sign = 0;
+      |       ^~~~
+../Core/Src/main_moteur.c:104:7: warning: unused variable 'it' [-Wunused-variable]
+  104 |   int it = Servo_Angle_Min;
+      |       ^~
+arm-none-eabi-gcc -o "drone.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\amine\Drone_Lumineux\firmware\drone\drone\STM32L412KBUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="drone.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: drone.elf
+ 
+arm-none-eabi-size   drone.elf 
+arm-none-eabi-objdump -h -S  drone.elf  > "drone.list"
+   text	   data	    bss	    dec	    hex	filename
+  37448	    484	   2228	  40160	   9ce0	drone.elf
+Finished building: default.size.stdout
+ 
+Finished building: drone.list
+ 
+19:32:47 **** Incremental Build of configuration Debug for project drone ****
+make -j8 all 
+arm-none-eabi-size   drone.elf 
+   text	   data	    bss	    dec	    hex	filename
+  37448	    484	   2228	  40160	   9ce0	drone.elf
+Finished building: default.size.stdout
+ 
+19:33:10 **** Incremental Build of configuration Debug for project drone ****
+make -j8 all 
+arm-none-eabi-size   drone.elf 
+   text	   data	    bss	    dec	    hex	filename
+  37448	    484	   2228	  40160	   9ce0	drone.elf
+Finished building: default.size.stdout
+ 
+19:33:39 **** Incremental Build of configuration Debug for project drone ****
+make -j8 all 
+arm-none-eabi-size   drone.elf 
+   text	   data	    bss	    dec	    hex	filename
+  37448	    484	   2228	  40160	   9ce0	drone.elf
+Finished building: default.size.stdout
+ 
+19:34:02 **** Incremental Build of configuration Debug for project drone ****
+make -j8 all 
+arm-none-eabi-size   drone.elf 
+   text	   data	    bss	    dec	    hex	filename
+  37448	    484	   2228	  40160	   9ce0	drone.elf
+Finished building: default.size.stdout
+ 
+19:34:56 **** Incremental Build of configuration Debug for project drone ****
+make -j8 all 
+arm-none-eabi-size   drone.elf 
+   text	   data	    bss	    dec	    hex	filename
+  37448	    484	   2228	  40160	   9ce0	drone.elf
+Finished building: default.size.stdout
+ 
+19:52:42 **** Incremental Build of configuration Debug for project drone ****
+make -j8 all 
+arm-none-eabi-size   drone.elf 
+   text	   data	    bss	    dec	    hex	filename
+  37448	    484	   2228	  40160	   9ce0	drone.elf
+Finished building: default.size.stdout
+ 
+19:53:07 **** Incremental Build of configuration Debug for project drone ****
+make -j8 all 
+arm-none-eabi-size   drone.elf 
+   text	   data	    bss	    dec	    hex	filename
+  37448	    484	   2228	  40160	   9ce0	drone.elf
+Finished building: default.size.stdout
+ 
+19:55:03 **** Incremental Build of configuration Debug for project drone ****
+make -j8 all 
+arm-none-eabi-size   drone.elf 
+   text	   data	    bss	    dec	    hex	filename
+  37448	    484	   2228	  40160	   9ce0	drone.elf
+Finished building: default.size.stdout
+ 
+20:00:58 **** Incremental Build of configuration Debug for project drone ****
+make -j8 all 
+arm-none-eabi-size   drone.elf 
+   text	   data	    bss	    dec	    hex	filename
+  37448	    484	   2228	  40160	   9ce0	drone.elf
+Finished building: default.size.stdout
+ 
+20:01:16 **** Incremental Build of configuration Debug for project drone ****
+make -j8 all 
+arm-none-eabi-size   drone.elf 
+   text	   data	    bss	    dec	    hex	filename
+  37448	    484	   2228	  40160	   9ce0	drone.elf
+Finished building: default.size.stdout
+ 
+15:26:38 **** Incremental Build of configuration Debug for project drone ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main_moteur.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L412xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main_moteur.d" -MT"Core/Src/main_moteur.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main_moteur.o"
+../Core/Src/main_moteur.c: In function 'main':
+../Core/Src/main_moteur.c:110:7: warning: unused variable 'a' [-Wunused-variable]
+  110 |   int a=0;
+      |       ^
+../Core/Src/main_moteur.c:109:7: warning: unused variable 'sign' [-Wunused-variable]
+  109 |   int sign = 0;
+      |       ^~~~
+../Core/Src/main_moteur.c:108:7: warning: unused variable 'it' [-Wunused-variable]
+  108 |   int it = Servo_Angle_Min;
+      |       ^~
+arm-none-eabi-gcc -o "drone.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\amine\Drone_Lumineux\firmware\drone\drone\STM32L412KBUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="drone.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: drone.elf
+ 
+arm-none-eabi-size   drone.elf 
+arm-none-eabi-objdump -h -S  drone.elf  > "drone.list"
+   text	   data	    bss	    dec	    hex	filename
+  37520	    484	   2228	  40232	   9d28	drone.elf
+Finished building: default.size.stdout
+ 
+Finished building: drone.list
+ 
+15:27:20 **** Incremental Build of configuration Debug for project drone ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main_moteur.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L412xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main_moteur.d" -MT"Core/Src/main_moteur.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main_moteur.o"
+../Core/Src/main_moteur.c: In function 'main':
+../Core/Src/main_moteur.c:110:7: warning: unused variable 'a' [-Wunused-variable]
+  110 |   int a=0;
+      |       ^
+../Core/Src/main_moteur.c:109:7: warning: unused variable 'sign' [-Wunused-variable]
+  109 |   int sign = 0;
+      |       ^~~~
+../Core/Src/main_moteur.c:108:7: warning: unused variable 'it' [-Wunused-variable]
+  108 |   int it = Servo_Angle_Min;
+      |       ^~
+arm-none-eabi-gcc -o "drone.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\amine\Drone_Lumineux\firmware\drone\drone\STM32L412KBUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="drone.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: drone.elf
+ 
+arm-none-eabi-size   drone.elf 
+arm-none-eabi-objdump -h -S  drone.elf  > "drone.list"
+   text	   data	    bss	    dec	    hex	filename
+  37520	    484	   2228	  40232	   9d28	drone.elf
+Finished building: default.size.stdout
+ 
+Finished building: drone.list
+ 
+16:08:32 **** Incremental Build of configuration Debug for project drone ****
+make -j8 all 
+arm-none-eabi-size   drone.elf 
+   text	   data	    bss	    dec	    hex	filename
+  37520	    484	   2228	  40232	   9d28	drone.elf
+Finished building: default.size.stdout
+ 
+16:09:16 **** Incremental Build of configuration Debug for project drone ****
+make -j8 all 
+arm-none-eabi-size   drone.elf 
+   text	   data	    bss	    dec	    hex	filename
+  37520	    484	   2228	  40232	   9d28	drone.elf
+Finished building: default.size.stdout
+ 
+16:17:40 **** Incremental Build of configuration Debug for project drone ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main_moteur.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L412xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main_moteur.d" -MT"Core/Src/main_moteur.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main_moteur.o"
+../Core/Src/main_moteur.c: In function 'main':
+../Core/Src/main_moteur.c:110:7: warning: unused variable 'a' [-Wunused-variable]
+  110 |   int a=0;
+      |       ^
+../Core/Src/main_moteur.c:109:7: warning: unused variable 'sign' [-Wunused-variable]
+  109 |   int sign = 0;
+      |       ^~~~
+../Core/Src/main_moteur.c:108:7: warning: unused variable 'it' [-Wunused-variable]
+  108 |   int it = Servo_Angle_Min;
+      |       ^~
+arm-none-eabi-gcc -o "drone.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\amine\Drone_Lumineux\firmware\drone\drone\STM32L412KBUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="drone.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: drone.elf
+ 
+arm-none-eabi-size   drone.elf 
+arm-none-eabi-objdump -h -S  drone.elf  > "drone.list"
+   text	   data	    bss	    dec	    hex	filename
+  37520	    484	   2228	  40232	   9d28	drone.elf
+Finished building: default.size.stdout
+ 
+Finished building: drone.list
+ 
+16:22:18 **** Incremental Build of configuration Debug for project drone ****
+make -j8 all 
+arm-none-eabi-size   drone.elf 
+   text	   data	    bss	    dec	    hex	filename
+  37520	    484	   2228	  40232	   9d28	drone.elf
+Finished building: default.size.stdout
+ 
+17:19:19 **** Incremental Build of configuration Debug for project drone ****
+make -j8 all 
+arm-none-eabi-size   drone.elf 
+   text	   data	    bss	    dec	    hex	filename
+  37520	    484	   2228	  40232	   9d28	drone.elf
+Finished building: default.size.stdout
+ 

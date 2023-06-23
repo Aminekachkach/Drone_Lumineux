@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;drone/Core/Src/main.c&apos; to &apos;main_mpû.c&apos;" description="Rename resource &apos;main.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/main.c" name="main_mpû.c" stamp="1686488748412" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;drone/Core/Src/main_mpû.c&apos; to &apos;main_mpu.c&apos;" description="Rename resource &apos;main_mpû.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/main_mpû.c" name="main_mpu.c" stamp="1686489413029" updateReferences="true"/>
+</session>

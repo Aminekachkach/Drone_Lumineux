@@ -1,0 +1,6 @@
+connections/org.eclipse.remote.serial.core.connectionType/nucleo/serial.baudRate=11
+connections/org.eclipse.remote.serial.core.connectionType/nucleo/serial.byteSize=3
+connections/org.eclipse.remote.serial.core.connectionType/nucleo/serial.parity=0
+connections/org.eclipse.remote.serial.core.connectionType/nucleo/serial.portName=COM24
+connections/org.eclipse.remote.serial.core.connectionType/nucleo/serial.stopBits=0
+eclipse.preferences.version=1

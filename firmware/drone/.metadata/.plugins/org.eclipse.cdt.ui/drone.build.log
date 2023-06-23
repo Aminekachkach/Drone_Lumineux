@@ -1,0 +1,10 @@
+17:19:19 **** Incremental Build of configuration Debug for project drone ****
+make -j8 all 
+arm-none-eabi-size   drone.elf 
+   text	   data	    bss	    dec	    hex	filename
+  37520	    484	   2228	  40232	   9d28	drone.elf
+Finished building: default.size.stdout
+ 
+
+17:19:19 Build Finished. 0 errors, 0 warnings. (took 318ms)
+
