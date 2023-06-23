@@ -86,6 +86,8 @@ Pour chaque test unitaire, nous avons une branche dédiée.
 
 ### Neopixel
 
+[Neopixel_branche](https://github.com/Aminekachkach/Drone_Lumineux/tree/Neopixel)
+
 Les LED WS2812  utilisent un protocole de modulation de largeur d'impulsion (Pulse Width Modulation - PWM) pour transmettre les informations de couleur et de luminosité. Dans ce protocole, la valeur d'un bit est déterminée par la durée d'une impulsion.
 
 Pour les deux types de LED, les niveaux de timing à respecter pour encoder un "0" ou un "1" sont généralement les suivants :
@@ -101,6 +103,8 @@ La durée de l'impulsion basse (LOW) est généralement d'environ 0,6 μs.
 
 Pour piloter, le Neopixel, nous avons utiliser un timer et DMA pour faire des déplecement de buffers.
 Le code source provient d'un driver existant.
+
+
 
 <img src="https://github.com/Aminekachkach/Drone_Lumineux/blob/b4e780a0b6354f6479916d1c8b3c014ff12debe8/img/Neopixel.PNG" width="400" height="200">
 
