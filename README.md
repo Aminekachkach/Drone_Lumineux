@@ -1,6 +1,6 @@
 [![Contributors][contributors-shield]][contributors-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-[![LinkedIn][linkedin-shield]][linkedin-url2]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 <!-- PROJECT LOGO -->
@@ -201,8 +201,8 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]:https://img.shields.io/badge/CONTRIBUTORS-2-green
 [contributors-url]: https://github.com/Aminekachkach/Drone_Lumineux/graphs/contributors
-[license-shield2]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url2]: https://www.linkedin.com/in/bilal-marecar/
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/amine-kachkach/
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/amine-kachkach/
 [product-screenshot]: images/screenshot.png
