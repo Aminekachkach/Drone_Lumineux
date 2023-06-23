@@ -53,7 +53,7 @@
 ## Built With
 
 * [![C][C.js]][C-url]
-* [![Cube][C.js][Cube-url]]
+* [![Cube][Cube.js]][Cube-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -75,7 +75,8 @@
 [linkedin-shield2]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url2]: https://www.linkedin.com/in/amine-kachkach/
 [product-screenshot]: images/screenshot.png
-[C.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[C-url]: https://nextjs.org/
-[Cube-url] : https://www.st.com/en/ecosystems/stm32cube.html/
+[C.js]: https://img.shields.io/badge/LanguageC-darkblue
+[C-url]: https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html
+[Cube.js]: https://img.shields.io/badge/STM32Cube-lightblue
+[Cube-url]: https://www.st.com/en/ecosystems/stm32cube.html/
 
