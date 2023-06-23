@@ -47,6 +47,12 @@ Le projet Drone Lumineux vise à concevoir un drone équipé d'un jeu de lumièr
 
 Pour cela,  nous avons établi notre projet en utilisant une approche agile avec Scrum et les concepts d'épique (epic), de fonctionnalité (feature) et d'histoire utilisateur (user story). 
 
+## Built With
+
+* [![C][C.js]][C-url]
+* [![Cube][Cube.js]][Cube-url]
+
+
 ### Organigramme des tâches du projet
 
 <img src="https://github.com/Aminekachkach/Drone_Lumineux/blob/657cf031782364ef576185f705b6a646cfb6faea/img/Epic.PNG" alt="EPIC" width="450" height="250">
@@ -66,10 +72,6 @@ Nous avons effectué la sélection des composants et défini l'architecture gén
 <img src="https://github.com/Aminekachkach/Drone_Lumineux/blob/3178f3a68c79a3d7d2b15b143f99031bccc78226/img/Drone_architecture.PNG" width="400" height="300">
 
 
-## Built With
-
-* [![C][C.js]][C-url]
-* [![Cube][Cube.js]][Cube-url]
 
 
 ## Test Unitaire
