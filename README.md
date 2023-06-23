@@ -79,6 +79,8 @@ Pour chaque test unitaire, nous avons une branche dédiée.
 
 ### ESC
 
+<img src="https://github.com/Aminekachkach/Drone_Lumineux/blob/bf99aa1d844041ec591e66b1d58cae83e2971dcc/img/ESC.PNG">
+
 ### MPU6050
 
 
