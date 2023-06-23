@@ -7,22 +7,15 @@
 <br />
 <div align="center">
   <a href="https://github.com/Aminekachkach/Drone_Lumineux">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="img/logo.jpg" alt="Logo" width="300" height="300">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Drone Luminuex</h3>
 
   <p align="center">
-    project_description
+    A magic drone
     <br />
     <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
   </p>
 </div>
 
