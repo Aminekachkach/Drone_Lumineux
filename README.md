@@ -25,16 +25,17 @@
       <a href="#Introduction">Introduction</a>
       <ul>
         <li><a href="#organigramme-des-tâches-du-projet">Organigramme des tâches du projet</a </li>
+        <li><a href="#architecture-générale">Architecture générale</a </li>
       </ul>
     </li>
     <li>
-      <a href="#Build_with">Build with</a>
+      <a href="#built-with">Build with</a>
       <ul>
         <li><a href="#Logiciel">Logiciel</a></li>
       </ul>
     </li>
     <li>
-      <a href="#Test_Unitaire">Test Unitaire</a>
+      <a href="#test-initaire">Test Unitaire</a>
     <ul>
         </li><a href="#">ESC</a></li>
         <li><a href="#MPU6050">MPU6050</a></li>
@@ -49,7 +50,7 @@
 
 ### Organigramme des tâches du projet
 
-### Built With
+## Built With
 
 * [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
@@ -62,12 +63,6 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-
-
-
-## Introduction 
 
 
 
