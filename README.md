@@ -99,7 +99,7 @@ Pour un "1" logique :
 La durée de l'impulsion haute (HIGH) est généralement d'environ 0,7 μs.
 La durée de l'impulsion basse (LOW) est généralement d'environ 0,6 μs.
 
-Pour puloter, le Neopixel, nous avons utiliser un timer et DMA pour faire des déplecement de buffers.
+Pour piloter, le Neopixel, nous avons utiliser un timer et DMA pour faire des déplecement de buffers.
 Le code source provient d'un driver existant.
 
 <img src="https://github.com/Aminekachkach/Drone_Lumineux/blob/b4e780a0b6354f6479916d1c8b3c014ff12debe8/img/Neopixel.PNG" width="400" height="200">
