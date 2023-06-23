@@ -57,7 +57,9 @@ Pour cela,  nous avons établi notre projet en utilisant une approche agile avec
 
 En utilisant le modèle, nous avons identifié et défini les tâches qui correspondent aux histoires utilisateurs. L'objectif est de fournir rapidement de la valeur à notre produit en travaillant sur ces tâches de manière itérative. 
  
+### Architecture générale
 
+<img src=""
 
 
 ## Built With
