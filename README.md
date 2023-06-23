@@ -75,12 +75,16 @@ Nous avons effectué la sélection des composants et défini l'architecture gén
 
 
 ## Test Unitaire
+Pour chaque test unitaire, nous avons une branche dédiée. 
 
 ### ESC
 
 ### MPU6050
 
+
 ### Neopixel
+
+<img src="https://github.com/Aminekachkach/Drone_Lumineux/blob/b4e780a0b6354f6479916d1c8b3c014ff12debe8/img/Neopixel.PNG">
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
