@@ -10,7 +10,7 @@
     <img src="img/logo.jpg" alt="Logo" width="300" height="300">
   </a>
 
-<h3 align="center">Drone Luminuex</h3>
+<h3 align="center">Drone Lumineux</h3>
 
   <p align="center">
     A magic drone
