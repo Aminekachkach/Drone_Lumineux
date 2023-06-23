@@ -85,8 +85,8 @@ Sur le microcontrôleur Nucleo-STM32L412KB, nous allouons 4 broches qui sont con
 
 Le driver fonctionne en configurant un signal PWM avec une période de 20 ms. Le rapport cyclique est ajusté pour envoyer des signaux de 1 ms pour l'initialisation, 1,5 ms pour une vitesse moyenne et 2 ms pour la vitesse maximale. Cela signifie qu'une variation de 1 ms à 2 ms fera tourner les moteurs de la vitesse minimale à la vitesse maximale.
 
-Dans notre code, nous définissons trois constantes de vitesse : Rapport_cyclique_Min, Rapport_cyclique_securite et Rapport_cyclique_Max. À l'aide d'une boucle for, nous faisons varier la vitesse en utilisant les constantes Rapport_cyclique_Min et Rapport_cyclique_securite pour augmenter progressivement la vitesse des moteurs jusqu'à une vitesse raisonnable.
-
+Dans notre code https://github.com/Aminekachkach/Drone_Lumineux/blob/main/firmware/drone/Core/Src/main_moteur.c, nous définissons trois constantes de vitesse : Rapport_cyclique_Min, Rapport_cyclique_securite et Rapport_cyclique_Max. À l'aide d'une boucle for, nous faisons varier la vitesse en utilisant les constantes Rapport_cyclique_Min et Rapport_cyclique_securite pour augmenter progressivement la vitesse des moteurs jusqu'à une vitesse raisonnable.
+[main](https://github.com/Aminekachkach/Drone_Lumineux/blob/main/firmware/drone/Core/Src/main_moteur.c)
 
 <img src="https://github.com/Aminekachkach/Drone_Lumineux/blob/bf99aa1d844041ec591e66b1d58cae83e2971dcc/img/ESC.PNG">
 
