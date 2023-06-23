@@ -86,7 +86,7 @@ Pour chaque test unitaire, nous avons une branche dédiée.
 
 ### Neopixel
 
-<img src="https://github.com/Aminekachkach/Drone_Lumineux/blob/b4e780a0b6354f6479916d1c8b3c014ff12debe8/img/Neopixel.PNG">
+<img src="https://github.com/Aminekachkach/Drone_Lumineux/blob/b4e780a0b6354f6479916d1c8b3c014ff12debe8/img/Neopixel.PNG" width="400" height="300">
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
