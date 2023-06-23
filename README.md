@@ -1,6 +1,6 @@
 [![Contributors][contributors-shield]][contributors-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+[![LinkedIn2][linkedin-shield2]][linkedin-url2]
 
 
 <!-- PROJECT LOGO -->
@@ -203,8 +203,8 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [contributors-url]: https://github.com/Aminekachkach/Drone_Lumineux/graphs/contributors
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/amine-kachkach/
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/amine-kachkach/
+[linkedin-shield2]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url2]: https://www.linkedin.com/in/amine-kachkach/
 [product-screenshot]: images/screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
