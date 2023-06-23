@@ -79,7 +79,7 @@ Pour chaque test unitaire, nous avons une branche dédiée.
 
 ### ESC
 
-[ESC](https://github.com/Aminekachkach/Drone_Lumineux/blob/main/firmware/drone/Core/Src/main_moteur.c)
+[Main code](https://github.com/Aminekachkach/Drone_Lumineux/blob/main/firmware/drone/Core/Src/main_moteur.c)
 
 Le driver ESC est spécifiquement conçu pour contrôler les moteurs brushless à courant continu (BLDC). Il reçoit en entrée un signal de modulation de largeur d'impulsion (PWM) qui permet de commander les phases du moteur. Dans notre application, nous utilisons des kits ESC+Moteurs fournis par miniplanes.
 
