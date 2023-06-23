@@ -30,9 +30,6 @@
     </li>
     <li>
       <a href="#built-with">Build with</a>
-      <ul>
-        <li><a href="#Logiciel">Logiciel</a></li>
-      </ul>
     </li>
     <li>
       <a href="#test-initaire">Test Unitaire</a>
