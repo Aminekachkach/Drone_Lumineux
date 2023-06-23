@@ -84,6 +84,7 @@ Pour chaque test unitaire, nous avons une branche dédiée.
 Le driver ESC est spécifiquement conçu pour contrôler les moteurs brushless à courant continu (BLDC). Il reçoit en entrée un signal de modulation de largeur d'impulsion (PWM) qui permet de commander les phases du moteur. Dans notre application, nous utilisons des kits ESC+Moteurs fournis par miniplanes.
 
 Sur le microcontrôleur Nucleo-STM32L412KB, nous allouons 4 broches qui sont connectées à la même chaîne PWM1 afin d'assurer la synchronisation. Veuillez consulter la configuration des broches dans le fichier .ioc correspondant.
+<img src="https://github.com/Aminekachkach/Drone_Lumineux/blob/bf99aa1d844041ec591e66b1d58cae83e2971dcc/img/pwm.PNG">
 
 Le driver fonctionne en configurant un signal PWM avec une période de 20 ms. Le rapport cyclique est ajusté pour envoyer des signaux de 1 ms pour l'initialisation, 1,5 ms pour une vitesse moyenne et 2 ms pour la vitesse maximale. Cela signifie qu'une variation de 1 ms à 2 ms fera tourner les moteurs de la vitesse minimale à la vitesse maximale.
 
