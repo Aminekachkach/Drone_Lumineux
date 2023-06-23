@@ -49,14 +49,14 @@ Pour cela,  nous avons établi notre projet en utilisant une approche agile avec
 
 ### Organigramme des tâches du projet
 
-![EPIC](https://github.com/Aminekachkach/Drone_Lumineux/blob/657cf031782364ef576185f705b6a646cfb6faea/img/Drone_architecture.PNG)
+<img src="https://github.com/Aminekachkach/Drone_Lumineux/blob/657cf031782364ef576185f705b6a646cfb6faea/img/Drone_architecture.PNG" alt="EPIC" width="600" height="300">
 
-![FEATURES](https://github.com/Aminekachkach/Drone_Lumineux/blob/5e0647ed3254db6fd831a457342b895aebda767c/img/Features.PNG)
+<img src="https://github.com/Aminekachkach/Drone_Lumineux/blob/5e0647ed3254db6fd831a457342b895aebda767c/img/Features.PNG" alt="FEATURES" width="500" height="300">
 
-![User_story]
-(https://github.com/Aminekachkach/Drone_Lumineux/blob/5e0647ed3254db6fd831a457342b895aebda767c/img/Prioritization.PNG)
+<img src="https://github.com/Aminekachkach/Drone_Lumineux/blob/5e0647ed3254db6fd831a457342b895aebda767c/img/Prioritization.PNG" alt="User_story" width="500" height="300">
 
-En ce basant le modèle, on a défini les tâches coorespondant aux user story afin d'apporter rapidement de la valeur à notre produit.
+En utilisant le modèle, nous avons identifié et défini les tâches qui correspondent aux histoires utilisateurs. L'objectif est de fournir rapidement de la valeur à notre produit en travaillant sur ces tâches de manière itérative.
+ 
 
 
 
