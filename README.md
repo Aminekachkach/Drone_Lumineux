@@ -49,7 +49,16 @@ Pour cela,  nous avons établi notre projet en utilisant une approche agile avec
 
 ### Organigramme des tâches du projet
 
-https://github.com/Aminekachkach/Drone_Lumineux/blob/657cf031782364ef576185f705b6a646cfb6faea/img/Drone_architecture.PNG
+![EPIC](https://github.com/Aminekachkach/Drone_Lumineux/blob/657cf031782364ef576185f705b6a646cfb6faea/img/Drone_architecture.PNG)
+
+![FEATURES](https://github.com/Aminekachkach/Drone_Lumineux/blob/5e0647ed3254db6fd831a457342b895aebda767c/img/Features.PNG)
+
+![User_story]
+(https://github.com/Aminekachkach/Drone_Lumineux/blob/5e0647ed3254db6fd831a457342b895aebda767c/img/Prioritization.PNG)
+
+En ce basant le modèle, on a défini les tâches coorespondant aux user story afin d'apporter rapidement de la valeur à notre produit.
+
+
 
 ## Built With
 
