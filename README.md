@@ -45,7 +45,7 @@
 ## Introduction  
 Le projet Drone Lumineux vise à concevoir un drone équipé d'un jeu de lumières. L'objectif est de créer une expérience visuelle unique en combinant les fonctionnalités d'un drone avec des effets lumineux spectaculaires.
 
-Pour cela,  nous avons établi votre projet en utilisant une approche agile avec Scrum et les concepts d'épique (epic), de fonctionnalité (feature) et d'histoire utilisateur (user story). 
+Pour cela,  nous avons établi notre projet en utilisant une approche agile avec Scrum et les concepts d'épique (epic), de fonctionnalité (feature) et d'histoire utilisateur (user story). 
 
 ### Organigramme des tâches du projet
 
