@@ -85,7 +85,17 @@ Le driver ESC est spécifiquement conçu pour contrôler les moteurs brushless �
 
 Sur le microcontrôleur Nucleo-STM32L412KB, nous allouons 4 broches qui sont connectées à la même chaîne PWM1 afin d'assurer la synchronisation. Veuillez consulter la configuration des broches dans le fichier .ioc correspondant.
 
-<img src="https://github.com/Aminekachkach/Drone_Lumineux/blob/main/img/pwm.png">
++------------+---------------------+
+|  Broche    |  Connexion          |
++============+=====================+
+|  PA8       |  Broche PWM1-1      |
++------------+---------------------+
+|  PA9       |  Broche PWM1-2      |
++------------+---------------------+
+|  PA10      |  Broche PWM1-3      |
++------------+---------------------+
+|  PA11      |  Broche PWM1-4      |
++------------+---------------------+
 
 Le driver fonctionne en configurant un signal PWM avec une période de 20 ms. Le rapport cyclique est ajusté pour envoyer des signaux de 1 ms pour l'initialisation, 1,5 ms pour une vitesse moyenne et 2 ms pour la vitesse maximale. Cela signifie qu'une variation de 1 ms à 2 ms fera tourner les moteurs de la vitesse minimale à la vitesse maximale.
 
