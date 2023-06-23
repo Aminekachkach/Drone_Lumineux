@@ -24,14 +24,14 @@
     <li>
       <a href="#Introduction">Introduction</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#Organigramme des tâches du projet">Organigramme des tâches du projet</a </li>
+        <li><a href="#Prérequis">Prérequis</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#Build_with">Build with</a>
       <ul>
-        <li><a href="#Prerequis">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#Logiciel">Logiciel</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
