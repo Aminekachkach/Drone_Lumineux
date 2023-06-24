@@ -104,22 +104,22 @@ Le MPU6050 est un composant qui combine un gyroscope à trois axes et un accél�
 PA7  ->  Broche SCL
 PB5  ->  Broche SDA
 
-Au niveau du code il existe un subtilité consiste à définir l'adresse du compasant shifté de 1  0x68<<1 sans cela la liaison ve echouer.
+Au niveau du code, il existe une subtilité importante qui consiste à définir l'adresse du composant shiftée de 1 (0x68 << 1). Cela est nécessaire pour assurer une communication réussie entre le module et le microcontrôleur.
 
-nous commençons par interroger le registre Who_am_i à l'adresse 0X75 pour s'assurer que le module communique avec le microcontroleur celui ci nous renvoi 0X68 avant d'entamer la configuration
+Avant de commencer la configuration, nous effectuons une vérification en interrogeant le registre "Who_am_i" à l'adresse 0x75. Cette étape nous permet de nous assurer que le module communique correctement avec le microcontrôleur. Si la communication est établie, le registre renverra la valeur 0x68.
 <img src="https://github.com/Aminekachkach/Drone_Lumineux/blob/main/img/who%20am%20i.png">
 
-Ensuite nous cofigurons une horloge interne à 8MHz à l'aide du registre Power management situé à l'adresse 0X6B à qui nous attribons la valeur 0x00 pour selectionner notre horloge .
+Ensuite, nous procédons à la configuration de l'horloge interne à 8 MHz en utilisant le registre "Power management" situé à l'adresse 0x6B. Nous lui attribuons la valeur 0x00 pour sélectionner notre horloge souhaitée.
 
 <img src="https://github.com/Aminekachkach/Drone_Lumineux/blob/main/img/Clock_select%20(2).png">
 <img src="https://github.com/Aminekachkach/Drone_Lumineux/blob/main/img/Clock_select%20(1).png">
 
-Nous appliquons un filtre pass bas avec une fréquence de coupure à 1kHz pour eliminer les bruits qui perturber le fonctionnement du composant, celui ci se situe à l'adresse 0x1A qui prend comme parametre 0x05 designant une bande passante de 10Hz 
+Nous appliquons également un filtre passe-bas avec une fréquence de coupure de 1 kHz afin d'éliminer les bruits qui pourraient perturber le fonctionnement du composant. Ce filtre est configuré en utilisant le registre situé à l'adresse 0x1A. Nous lui attribuons la valeur 0x05, ce qui correspond à une bande passante de 10 Hz.
 
 <img src="https://github.com/Aminekachkach/Drone_Lumineux/blob/main/img/Lowpass_config.png">
 <img src="https://github.com/Aminekachkach/Drone_Lumineux/blob/main/img/bandwidth.png">
 
-Passons maintenant à la configuration du gyromètre en manipulant le registre "Gyro_Config" du MPU6050, localisé à l'adresse 0x1B. Ce registre nous permet de définir la plage de mesure du gyromètre à ± 500 °/s cela nous donne une projection sur la valeure d'acquisition maximale du ADC.
+Passons maintenant à la configuration du gyromètre en manipulant le registre "Gyro_Config" du MPU6050, situé à l'adresse 0x1B. Ce registre joue un rôle crucial dans la définition de la plage de mesure du gyromètre, qui est fixée à ± 500 °/s. Cette valeur détermine la projection maximale des mesures sur la plage d'acquisition du convertisseur analogique-numérique (ADC).
 
 <img src="https://github.com/Aminekachkach/Drone_Lumineux/blob/main/img/Gyro_config.png">
 <img src="https://github.com/Aminekachkach/Drone_Lumineux/blob/main/img/Screenshot%202023-06-24%20120357.png">
