@@ -75,11 +75,11 @@ Nous avons effectué la sélection des composants et défini l'architecture gén
 
 
 ## Test Unitaire
-Pour chaque test unitaire, nous avons une branche dédiée. 
+Dans notre projet de développement du drone lumineux, nous utilisons des tests unitaires pour vérifier le bon fonctionnement de chaque composant, module et fonctionnalité du code. Les principaux éléments soumis à ces tests sont le driver ESC, le Nopixel et le MPU6050, ainsi que des fonctionnalités spécifiques telles que la configuration des broches PWM et la lecture des données du gyromètre.
 
 ### ESC
 
-[Moteur_branche](https://github.com/Aminekachkach/Drone_Lumineux/blob/main/firmware/drone/Core/Src/main_moteur.c)
+[Code Moteur](https://github.com/Aminekachkach/Drone_Lumineux/blob/main/firmware/drone/Core/Src/main_moteur.c)
 
 Le driver ESC est spécifiquement conçu pour contrôler les moteurs brushless à courant continu (BLDC). Il reçoit en entrée un signal de modulation de largeur d'impulsion (PWM) qui permet de commander les phases du moteur. Dans notre application, nous utilisons des kits ESC+Moteurs fournis par miniplanes.
 
@@ -99,6 +99,8 @@ Dans notre code, nous actions les signaux PWM pour les 4 sorties, nous définiss
 <img src="https://github.com/Aminekachkach/Drone_Lumineux/blob/bf99aa1d844041ec591e66b1d58cae83e2971dcc/img/ESC.PNG">
 
 ### MPU6050
+[Code MPU](https://github.com/Aminekachkach/Drone_Lumineux/blob/main/firmware/drone/Core/Src/main_mpu.c)
+
 Le MPU6050 est un composant qui combine un gyroscope à trois axes et un accéléromètre à trois axes. Il est utilisé pour mesurer l'orientation, la rotation et l'accélération. Il utilise une communication I2C pour interagir avec notre microcontroleur STM32, de la meme maniere nous allouons donc les deux broches suivantes :
 
 PA7  ->  Broche SCL
@@ -140,7 +142,7 @@ Une fois les données du gyromètre acquises, nous devons les ajuster en les div
 
 ### Neopixel
 
-[Neopixel_branche](https://github.com/Aminekachkach/Drone_Lumineux/tree/Neopixel)
+[Code Neopixel](https://github.com/Aminekachkach/Drone_Lumineux/tree/Neopixel)
 
 Les LED WS2812  utilisent un protocole de modulation de largeur d'impulsion (Pulse Width Modulation - PWM) pour transmettre les informations de couleur et de luminosité. Dans ce protocole, la valeur d'un bit est déterminée par la durée d'une impulsion.
 
