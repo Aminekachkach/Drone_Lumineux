@@ -114,6 +114,10 @@ Ensuite nous cofigurons une horloge interne à 8MHz à l'aide du registre Power 
 <img src="https://github.com/Aminekachkach/Drone_Lumineux/blob/main/img/Clock_select%20(2).png">
 <img src="https://github.com/Aminekachkach/Drone_Lumineux/blob/main/img/Clock_select%20(1).png">
 
+Nous appliquons un filtre pass bas pour eliminer les bruits qui perturber le fonctionnement du composant, celui ci se situe à l'adresse 0x1A qui prend comme parametre 0x05 designant une bande passante de 10Hz 
+
+
+
 
 Nous configurons ensuite 
 
