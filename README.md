@@ -99,13 +99,19 @@ Dans notre code, nous actions les signaux PWM pour les 4 sorties, nous définiss
 <img src="https://github.com/Aminekachkach/Drone_Lumineux/blob/bf99aa1d844041ec591e66b1d58cae83e2971dcc/img/ESC.PNG">
 
 ### MPU6050
-Le MPU6050 est un composant qui combine un gyroscope à trois axes et un accéléromètre à trois axes. Il est utilisé pour mesurer l'orientation, la rotation et l'accélération. Il utilise une communication I2C pour interagir avec notre microcontroleur STM32. de la meme maniere nous allouons les deux broches suivantes pour communiquer en liaison i2c :
+Le MPU6050 est un composant qui combine un gyroscope à trois axes et un accéléromètre à trois axes. Il est utilisé pour mesurer l'orientation, la rotation et l'accélération. Il utilise une communication I2C pour interagir avec notre microcontroleur STM32, de la meme maniere nous allouons donc les deux broches suivantes :
 
 PA7  ->  Broche SCL
 PB5  ->  Broche SDA
 
-Au niveau du code nous commençons par interroger le registre Who_am_i pour s'assurer que le module communique avec le microcontroleur
+Au niveau du code il existe un subtilité consiste à définir l'adresse du compasant shifté de 1  0x68<<1 sans cela la liaison ve echouer.
+
+nous commençons par interroger le registre Who_am_i à l'adresse 0X75 pour s'assurer que le module communique avec le microcontroleur celui ci nous renvoi 0X68 avant d'entamer la configuration
 <img src="https://github.com/Aminekachkach/Drone_Lumineux/blob/main/img/who%20am%20i.png">
+Ensuite nous cofigurons une horloge interne à 8MHz à l'aide du registre Power management situé à l'adresse 0X6B à qui nous attribons la valeur 0x00 pour selectionner notre horloge 
+
+
+Nous configurons ensuite 
 
 
 ### Neopixel
