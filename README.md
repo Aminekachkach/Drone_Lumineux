@@ -114,12 +114,14 @@ Ensuite nous cofigurons une horloge interne à 8MHz à l'aide du registre Power 
 <img src="https://github.com/Aminekachkach/Drone_Lumineux/blob/main/img/Clock_select%20(2).png">
 <img src="https://github.com/Aminekachkach/Drone_Lumineux/blob/main/img/Clock_select%20(1).png">
 
-Nous appliquons un filtre pass bas pour eliminer les bruits qui perturber le fonctionnement du composant, celui ci se situe à l'adresse 0x1A qui prend comme parametre 0x05 designant une bande passante de 10Hz 
+Nous appliquons un filtre pass bas avec une fréquence de coupure à 1kHz pour eliminer les bruits qui perturber le fonctionnement du composant, celui ci se situe à l'adresse 0x1A qui prend comme parametre 0x05 designant une bande passante de 10Hz 
 
+<img src="https://github.com/Aminekachkach/Drone_Lumineux/blob/main/img/Lowpass_config.png">
+<img src="https://github.com/Aminekachkach/Drone_Lumineux/blob/main/img/bandwidth.png">
 
-
-
-Nous configurons ensuite 
+Passons maintenant à la configuration du gyromètre en manipulant le registre "Gyro_Config" du MPU6050, localisé à l'adresse 0x1B. Ce registre nous permet de définir la plage de mesure du gyromètre à ± 500 °/s.
+Il convient de prendre en compte la sensibilité du gyromètre, exprimée en LSB (Least Significant Bit) par degré par seconde (°/s). Pour notre plage de mesure de ± 500 °/s, la sensibilité est de 65.5 LSB/°/s.
+Une fois les données du gyromètre acquises, nous devons les ajuster en les divisant par la sensibilité mentionnée précédemment (65.5). Cette étape de correction permet d'obtenir des mesures précises en degrés par seconde, en prenant en considération la sensibilité spécifique du gyromètre.
 
 
 ### Neopixel
