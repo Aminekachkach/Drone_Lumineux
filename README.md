@@ -106,7 +106,7 @@ Dans notre code, nous  générons les signaux PWM pour les 4 sorties, nous défi
 ### MPU6050
 [Code MPU](https://github.com/Aminekachkach/Drone_Lumineux/blob/main/firmware/drone/Core/Src/main_mpu.c)
 
-Le MPU6050 est un composant qui combine un gyroscope et un accéléromètre à trois axes. Il est utilisé pour mesurer l'orientation, la rotation et l'accélération. Il utilise une communication I2C pour interagir avec notre microcontroleur STM32, de la meme maniere nous allouons donc les deux broches suivantes :
+Le MPU6050 est un composant qui combine un gyroscope et un accéléromètre à trois axes. Il est utilisé pour mesurer l'orientation, la rotation et l'accélération. Il utilise une communication I2C pour interagir avec notre microcontroleur STM32, nous allouons deux broches spécifiques pour établir la communication I2C avec les broches suivantes :
 
 PA7  ->  Broche SCL
 
