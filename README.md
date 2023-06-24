@@ -119,9 +119,23 @@ Nous appliquons un filtre pass bas avec une fréquence de coupure à 1kHz pour e
 <img src="https://github.com/Aminekachkach/Drone_Lumineux/blob/main/img/Lowpass_config.png">
 <img src="https://github.com/Aminekachkach/Drone_Lumineux/blob/main/img/bandwidth.png">
 
-Passons maintenant à la configuration du gyromètre en manipulant le registre "Gyro_Config" du MPU6050, localisé à l'adresse 0x1B. Ce registre nous permet de définir la plage de mesure du gyromètre à ± 500 °/s.
-Il convient de prendre en compte la sensibilité du gyromètre, exprimée en LSB (Least Significant Bit) par degré par seconde (°/s). Pour notre plage de mesure de ± 500 °/s, la sensibilité est de 65.5 LSB/°/s.
+Passons maintenant à la configuration du gyromètre en manipulant le registre "Gyro_Config" du MPU6050, localisé à l'adresse 0x1B. Ce registre nous permet de définir la plage de mesure du gyromètre à ± 500 °/s cela nous donne une projection sur la valeure d'acquisition maximale du ADC.
+
+<img src="https://github.com/Aminekachkach/Drone_Lumineux/blob/main/img/Gyro_config.png">
+<img src="https://github.com/Aminekachkach/Drone_Lumineux/blob/main/img/Screenshot%202023-06-24%20120357.png">
+
+En ce qui concerne l'acquisition de données,  il faut prendre en compte la sensibilité du gyromètre, exprimée en LSB (Least Significant Bit) par degré par seconde (°/s). Pour notre plage de mesure de ± 500 °/s, la sensibilité est de 65.5 LSB/°/s comme indiqué sur la figure suivante :
+
+<img src="https://github.com/Aminekachkach/Drone_Lumineux/blob/main/img/LSB_sensitivity.png">
+
+
+Pour acquérir les données du gyromètre sur les trois axes X, Y et Z, nous devons effectuer une lecture de 6 octets consécutifs, commençant à l'adresse 0x43 et se terminant à l'adresse 0x48. Chaque axe nécessite 2 octets, donc en lisant les 6 octets, nous obtenons les mesures pour les trois axes.
+La raison pour laquelle nous lisons ces 6 octets est que les données du gyromètre sont stockées dans des registres consécutifs, un registre pour chaque axe (X, Y et Z). Chaque registre contient 2 octets, qui représentent la valeur de mesure pour cet axe spécifique.
+
+<img src="https://github.com/Aminekachkach/Drone_Lumineux/blob/main/img/read_gyro.png">
+
 Une fois les données du gyromètre acquises, nous devons les ajuster en les divisant par la sensibilité mentionnée précédemment (65.5). Cette étape de correction permet d'obtenir des mesures précises en degrés par seconde, en prenant en considération la sensibilité spécifique du gyromètre.
+
 
 
 ### Neopixel
