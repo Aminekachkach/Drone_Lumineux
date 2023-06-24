@@ -95,6 +95,8 @@ PA10 ->  Broche PWM1-3
 
 PA11 ->  Broche PWM1-4
 
+<img src="https://github.com/Aminekachkach/Drone_Lumineux/blob/main/img/pwm.png">
+
 
 Le driver fonctionne en configurant un signal PWM avec une période de 20 ms. Le rapport cyclique est ajusté pour envoyer des signaux de 1 ms pour l'initialisation, 1,5 ms pour une vitesse moyenne et 2 ms pour la vitesse maximale. Cela signifie qu'une variation de 1 ms à 2 ms fera tourner les moteurs de la vitesse minimale à la vitesse maximale.
 
