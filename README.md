@@ -77,7 +77,7 @@ Cependant, lors du processus de développement, une mauvaise manipulation a entr
 
 
 ## Test Unitaire
-Dans notre projet de développement du drone lumineux, nous utilisons des tests unitaires pour vérifier le bon fonctionnement de chaque composant, module et fonctionnalité du code. Les principaux éléments soumis à ces tests sont le driver ESC, le Nopixel et le MPU6050, ainsi que des fonctionnalités spécifiques telles que la configuration des broches PWM et la lecture des données du gyromètre.
+Dans notre projet, nous utilisons des tests unitaires pour vérifier le bon fonctionnement de chaque composant, module et fonctionnalité du code. Les principaux éléments soumis à ces tests sont le driver ESC, le Nopixel et le MPU6050, ainsi que des fonctionnalités spécifiques telles que la configuration des broches PWM et la lecture des données du gyromètre.
 
 ### ESC
 
