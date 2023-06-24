@@ -108,7 +108,9 @@ Au niveau du code il existe un subtilité consiste à définir l'adresse du comp
 
 nous commençons par interroger le registre Who_am_i à l'adresse 0X75 pour s'assurer que le module communique avec le microcontroleur celui ci nous renvoi 0X68 avant d'entamer la configuration
 <img src="https://github.com/Aminekachkach/Drone_Lumineux/blob/main/img/who%20am%20i.png">
-Ensuite nous cofigurons une horloge interne à 8MHz à l'aide du registre Power management situé à l'adresse 0X6B à qui nous attribons la valeur 0x00 pour selectionner notre horloge 
+Ensuite nous cofigurons une horloge interne à 8MHz à l'aide du registre Power management situé à l'adresse 0X6B à qui nous attribons la valeur 0x00 pour selectionner notre horloge .
+<img src="https://github.com/Aminekachkach/Drone_Lumineux/blob/main/img/Clock_select%20(2).png">
+<img src="https://github.com/Aminekachkach/Drone_Lumineux/blob/main/img/Clock_select%20(1).png">
 
 
 Nous configurons ensuite 
