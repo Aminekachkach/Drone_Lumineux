@@ -86,8 +86,11 @@ Le driver ESC est spécifiquement conçu pour contrôler les moteurs brushless �
 Sur le microcontrôleur Nucleo-STM32L412KB, nous allouons 4 broches qui sont connectées à la même chaîne PWM1 afin d'assurer la synchronisation. Veuillez consulter la configuration des broches dans le fichier .ioc correspondant.
 
 PA8  ->  Broche PWM1-1
+
 PA9  ->  Broche PWM1-2
+
 PA10 ->  Broche PWM1-3
+
 PA11 ->  Broche PWM1-4
 
 
@@ -104,6 +107,7 @@ Dans notre code, nous actions les signaux PWM pour les 4 sorties, nous définiss
 Le MPU6050 est un composant qui combine un gyroscope à trois axes et un accéléromètre à trois axes. Il est utilisé pour mesurer l'orientation, la rotation et l'accélération. Il utilise une communication I2C pour interagir avec notre microcontroleur STM32, de la meme maniere nous allouons donc les deux broches suivantes :
 
 PA7  ->  Broche SCL
+
 PB5  ->  Broche SDA
 
 Au niveau du code, il existe une subtilité importante qui consiste à définir l'adresse du composant shiftée de 1 (0x68 << 1). Cela est nécessaire pour assurer une communication réussie entre le module et le microcontrôleur.
