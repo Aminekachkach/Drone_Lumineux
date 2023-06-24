@@ -66,8 +66,10 @@ En utilisant le modèle, nous avons identifié et défini les tâches qui corres
  
 ### Architecture générale
 
-Nous avons effectué la sélection des composants et défini l'architecture générale pour concevoir le PCB (Printed Circuit Board).  
-[Drone_board_PCB](https://github.com/Aminekachkach/Drone_Lumineux/tree/main/hardware/Drone_board)
+Après avoir effectué la sélection des composants et défini l'architecture générale de notre PCB (Printed Circuit Board), nous avons choisi d'utiliser deux contrôleurs différents : le microcontrôleur Nucleo STM32L412KB et le SoC QuickLogic Quick Feather EOS S3. L'objectif était de déterminer le contrôleur qui serait le plus adapté à notre configuration spécifique.
+Cependant, lors du processus de développement, une mauvaise manipulation a entraîné un dysfonctionnement du bootloader du SoC, le rendant inutilisable (brické). Cette situation a nécessité d'abandonner l'utilisation du SoC Quick Feather EOS S3 pour notre projet.
+
+[Drone_board_STM32_PCB](https://github.com/Aminekachkach/Drone_Lumineux/tree/main/hardware/Drone_board)
 
 <img src="https://github.com/Aminekachkach/Drone_Lumineux/blob/3178f3a68c79a3d7d2b15b143f99031bccc78226/img/Drone_architecture.PNG" width="400" height="300">
 
