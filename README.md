@@ -178,9 +178,9 @@ Le code source provient d'un driver existant.
 [contributors-shield]:https://img.shields.io/badge/CONTRIBUTORS-2-green
 [contributors-url]: https://github.com/Aminekachkach/Drone_Lumineux/graphs/contributors
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/bilal-marecar/
+[linkedin-url]: https://www.linkedin.com/in/amine-kachkach/
 [linkedin-shield2]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url2]: https://www.linkedin.com/in/amine-kachkach/
+[linkedin-url2]: https://www.linkedin.com/in/bilal-marecar/
 [product-screenshot]: images/screenshot.png
 [C.js]: https://img.shields.io/badge/LanguageC-darkblue
 [C-url]: https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html
